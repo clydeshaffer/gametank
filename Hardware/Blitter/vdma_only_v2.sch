@@ -7309,6 +7309,9 @@ or will meet your specific requirements.&lt;p&gt;
 <part name="C37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1"/>
 <part name="IC21" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*00" device="N" package3d_urn="urn:adsk.eagle:package:16407/2"/>
 <part name="C38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1"/>
+<part name="IC33" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*00" device="N" package3d_urn="urn:adsk.eagle:package:16407/2"/>
+<part name="C41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1"/>
+<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7366,9 +7369,9 @@ to fill destination with color register value instead of GRAM value</text>
 <text x="-55.88" y="-327.66" size="1.778" layer="97">COLORFILL high
 NAND
 DMA-ENABLED high</text>
-<text x="375.92" y="165.1" size="1.778" layer="97">When TRANSEN is high, an FF byte
+<text x="373.38" y="162.56" size="1.778" layer="97">When TRANSEN is low, an FF byte
 inhibits the VRAM write cycle</text>
-<text x="472.44" y="185.42" size="1.778" layer="97">this gate "inverts" DMACLK
+<text x="462.28" y="170.18" size="1.778" layer="97">this gate "inverts" DMACLK
 when _DMACLK is high then VRAM is being written</text>
 <wire x1="551.18" y1="228.6" x2="556.26" y2="228.6" width="0.1524" layer="97"/>
 <wire x1="556.26" y1="228.6" x2="556.26" y2="220.98" width="0.1524" layer="97"/>
@@ -7626,9 +7629,9 @@ when _DMACLK is high then VRAM is being written</text>
 <attribute name="VALUE" x="-27.94" y="-307.34" size="1.778" layer="96"/>
 </instance>
 <instance part="GND3" gate="1" x="337.82" y="144.78" smashed="yes"/>
-<instance part="IC31" gate="A" x="464.82" y="195.58" smashed="yes">
-<attribute name="NAME" x="457.2" y="201.295" size="1.778" layer="95"/>
-<attribute name="VALUE" x="457.2" y="187.96" size="1.778" layer="96"/>
+<instance part="IC31" gate="A" x="464.82" y="182.88" smashed="yes">
+<attribute name="NAME" x="457.2" y="188.595" size="1.778" layer="95"/>
+<attribute name="VALUE" x="457.2" y="175.26" size="1.778" layer="96"/>
 </instance>
 <instance part="P+3" gate="VCC" x="261.62" y="269.24" smashed="yes" rot="R90"/>
 <instance part="P+4" gate="VCC" x="261.62" y="40.64" smashed="yes" rot="R90"/>
@@ -7709,10 +7712,6 @@ when _DMACLK is high then VRAM is being written</text>
 <attribute name="VALUE" x="12.7" y="-259.08" size="1.778" layer="96"/>
 </instance>
 <instance part="P+12" gate="VCC" x="5.08" y="-254" smashed="yes" rot="R90"/>
-<instance part="IC32" gate="A" x="81.28" y="-256.54" smashed="yes">
-<attribute name="NAME" x="73.66" y="-250.825" size="1.778" layer="95"/>
-<attribute name="VALUE" x="73.66" y="-264.16" size="1.778" layer="96"/>
-</instance>
 <instance part="IC32" gate="D" x="-17.78" y="-93.98" smashed="yes">
 <attribute name="NAME" x="-25.4" y="-88.265" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-25.4" y="-101.6" size="1.778" layer="96"/>
@@ -7728,14 +7727,6 @@ when _DMACLK is high then VRAM is being written</text>
 <instance part="IC20" gate="A" x="368.3" y="187.96" smashed="yes">
 <attribute name="NAME" x="363.22" y="193.675" size="1.778" layer="95"/>
 <attribute name="VALUE" x="363.22" y="180.34" size="1.778" layer="96"/>
-</instance>
-<instance part="IC31" gate="C" x="414.02" y="185.42" smashed="yes">
-<attribute name="NAME" x="406.4" y="191.135" size="1.778" layer="95"/>
-<attribute name="VALUE" x="406.4" y="177.8" size="1.778" layer="96"/>
-</instance>
-<instance part="IC53" gate="D" x="391.16" y="187.96" smashed="yes">
-<attribute name="NAME" x="393.7" y="191.135" size="1.778" layer="95"/>
-<attribute name="VALUE" x="393.7" y="182.88" size="1.778" layer="96"/>
 </instance>
 <instance part="IC18" gate="B" x="38.1" y="513.08" smashed="yes" rot="R270">
 <attribute name="NAME" x="43.815" y="520.7" size="1.778" layer="95" rot="R270"/>
@@ -7780,10 +7771,6 @@ when _DMACLK is high then VRAM is being written</text>
 <attribute name="NAME" x="6.985" y="541.02" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="12.7" y="538.48" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="IC53" gate="B" x="60.96" y="-269.24" smashed="yes" rot="R90">
-<attribute name="NAME" x="57.785" y="-266.7" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="66.04" y="-266.7" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="IC1" gate="B" x="2.54" y="-322.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="10.16" y="-328.295" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="10.16" y="-314.96" size="1.778" layer="96" rot="R180"/>
@@ -7800,9 +7787,9 @@ when _DMACLK is high then VRAM is being written</text>
 <attribute name="NAME" x="93.98" y="536.575" size="1.778" layer="95"/>
 <attribute name="VALUE" x="93.98" y="523.24" size="1.778" layer="96"/>
 </instance>
-<instance part="IC1" gate="C" x="439.42" y="203.2" smashed="yes">
-<attribute name="NAME" x="431.8" y="208.915" size="1.778" layer="95"/>
-<attribute name="VALUE" x="431.8" y="195.58" size="1.778" layer="96"/>
+<instance part="IC1" gate="C" x="436.88" y="162.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="431.165" y="154.94" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="444.5" y="154.94" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="IC2" gate="A" x="106.68" y="83.82" smashed="yes">
 <attribute name="NAME" x="99.06" y="97.155" size="1.778" layer="95"/>
@@ -7919,6 +7906,45 @@ when _DMACLK is high then VRAM is being written</text>
 <instance part="IC21" gate="C" x="492.76" y="251.46" smashed="yes" rot="R180">
 <attribute name="NAME" x="500.38" y="245.745" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="500.38" y="259.08" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="IC21" gate="D" x="81.28" y="-246.38" smashed="yes">
+<attribute name="NAME" x="73.66" y="-240.665" size="1.778" layer="95"/>
+<attribute name="VALUE" x="73.66" y="-254" size="1.778" layer="96"/>
+</instance>
+<instance part="IC33" gate="A" x="15.24" y="-45.72" smashed="yes">
+<attribute name="NAME" x="7.62" y="-40.005" size="1.778" layer="95"/>
+<attribute name="VALUE" x="7.62" y="-53.34" size="1.778" layer="96"/>
+</instance>
+<instance part="IC33" gate="B" x="15.24" y="-63.5" smashed="yes">
+<attribute name="NAME" x="7.62" y="-57.785" size="1.778" layer="95"/>
+<attribute name="VALUE" x="7.62" y="-71.12" size="1.778" layer="96"/>
+</instance>
+<instance part="IC33" gate="C" x="96.52" y="-66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="90.805" y="-73.66" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="104.14" y="-73.66" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="IC33" gate="D" x="83.82" y="-78.74" smashed="yes" rot="R270">
+<attribute name="NAME" x="89.535" y="-71.12" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="76.2" y="-71.12" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="IC32" gate="A" x="414.02" y="185.42" smashed="yes">
+<attribute name="NAME" x="406.4" y="191.135" size="1.778" layer="95"/>
+<attribute name="VALUE" x="406.4" y="177.8" size="1.778" layer="96"/>
+</instance>
+<instance part="IC31" gate="C" x="568.96" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="563.245" y="60.96" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="576.58" y="60.96" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="IC53" gate="B" x="586.74" y="66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="583.565" y="68.58" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="591.82" y="68.58" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="IC53" gate="D" x="601.98" y="66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="598.805" y="68.58" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="607.06" y="68.58" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND12" gate="1" x="581.66" y="53.34" smashed="yes">
+<attribute name="VALUE" x="579.12" y="50.8" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -8220,14 +8246,13 @@ when _DMACLK is high then VRAM is being written</text>
 </net>
 <net name="!XRELOAD" class="0">
 <segment>
-<wire x1="63.5" y1="-66.04" x2="63.5" y2="35.56" width="0.1524" layer="91"/>
 <label x="63.5" y="309.88" size="1.778" layer="95" rot="R90"/>
 <label x="63.5" y="63.5" size="1.778" layer="95" rot="R90"/>
+<wire x1="63.5" y1="-53.34" x2="63.5" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="35.56" x2="63.5" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="73.66" x2="63.5" y2="340.36" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="340.36" x2="63.5" y2="378.46" width="0.1524" layer="91"/>
-<label x="63.5" y="-58.42" size="1.778" layer="95" rot="R90"/>
-<pinref part="IC1" gate="A" pin="O"/>
+<label x="66.04" y="-53.34" size="1.778" layer="95" rot="R90"/>
 <wire x1="63.5" y1="378.46" x2="93.98" y2="378.46" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="340.36" x2="63.5" y2="340.36" width="0.1524" layer="91"/>
 <junction x="63.5" y="340.36"/>
@@ -8241,6 +8266,8 @@ when _DMACLK is high then VRAM is being written</text>
 <label x="68.58" y="340.36" size="1.778" layer="95"/>
 <pinref part="IC12" gate="A" pin="LD"/>
 <pinref part="IC13" gate="A" pin="LD"/>
+<pinref part="IC33" gate="C" pin="O"/>
+<wire x1="63.5" y1="-53.34" x2="96.52" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!COPYDONE" class="0">
@@ -8691,16 +8718,17 @@ when _DMACLK is high then VRAM is being written</text>
 <pinref part="IC12" gate="A" pin="D"/>
 </segment>
 </net>
-<net name="DMACLK/!IDLE!" class="0">
+<net name="XCLK" class="0">
 <segment>
 <wire x1="55.88" y1="309.88" x2="55.88" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="81.28" x2="55.88" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="5.08" x2="55.88" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="5.08" x2="55.88" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="-45.72" x2="27.94" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="386.08" x2="55.88" y2="386.08" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="386.08" x2="55.88" y2="309.88" width="0.1524" layer="91"/>
 <label x="63.5" y="386.08" size="1.778" layer="95"/>
 <label x="78.74" y="309.88" size="1.778" layer="95"/>
-<label x="58.42" y="-53.34" size="1.778" layer="95" rot="R90"/>
+<label x="55.88" y="-33.02" size="1.778" layer="95" rot="R90"/>
 <pinref part="IC10" gate="A" pin="CLK"/>
 <wire x1="93.98" y1="5.08" x2="55.88" y2="5.08" width="0.1524" layer="91"/>
 <junction x="55.88" y="5.08"/>
@@ -8711,9 +8739,7 @@ when _DMACLK is high then VRAM is being written</text>
 <pinref part="IC14" gate="A" pin="CLK"/>
 <wire x1="93.98" y1="309.88" x2="55.88" y2="309.88" width="0.1524" layer="91"/>
 <junction x="55.88" y="309.88"/>
-<pinref part="IC1" gate="D" pin="O"/>
-<wire x1="-5.08" y1="-78.74" x2="55.88" y2="-78.74" width="0.1524" layer="91"/>
-<label x="-2.54" y="-78.74" size="1.778" layer="95"/>
+<pinref part="IC33" gate="A" pin="O"/>
 </segment>
 </net>
 <net name="D0" class="0">
@@ -9802,6 +9828,20 @@ when _DMACLK is high then VRAM is being written</text>
 <pinref part="IC11" gate="A" pin="D"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="IC31" gate="C" pin="I0"/>
+<pinref part="IC53" gate="D" pin="I"/>
+<wire x1="566.42" y1="55.88" x2="571.5" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="IC31" gate="C" pin="I1"/>
+<wire x1="571.5" y1="55.88" x2="581.66" y2="55.88" width="0.1524" layer="91"/>
+<junction x="571.5" y="55.88"/>
+<pinref part="IC53" gate="B" pin="I"/>
+<wire x1="581.66" y1="55.88" x2="586.74" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="586.74" y1="55.88" x2="601.98" y2="55.88" width="0.1524" layer="91"/>
+<junction x="586.74" y="55.88"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<junction x="581.66" y="55.88"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -10116,21 +10156,6 @@ when _DMACLK is high then VRAM is being written</text>
 <wire x1="-200.66" y1="-299.72" x2="-33.02" y2="-299.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="!DMAIRQEN" class="0">
-<segment>
-<pinref part="IC32" gate="A" pin="I1"/>
-<wire x1="60.96" y1="-259.08" x2="68.58" y2="-259.08" width="0.1524" layer="91"/>
-<label x="71.12" y="-256.54" size="1.9304" layer="95" rot="R180"/>
-<pinref part="IC53" gate="B" pin="O"/>
-</segment>
-</net>
-<net name="N$100" class="0">
-<segment>
-<pinref part="IC9" gate="B" pin="!Q"/>
-<pinref part="IC32" gate="A" pin="I0"/>
-<wire x1="33.02" y1="-254" x2="68.58" y2="-254" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="!DMA-ENABLED" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="TE"/>
@@ -10171,19 +10196,18 @@ when _DMACLK is high then VRAM is being written</text>
 <label x="27.94" y="-101.6" size="1.9304" layer="95"/>
 <label x="27.94" y="-154.94" size="1.778" layer="95" rot="R90"/>
 <pinref part="IC53" gate="E" pin="O"/>
-<wire x1="27.94" y1="-101.6" x2="431.8" y2="-101.6" width="0.1524" layer="91"/>
-<wire x1="431.8" y1="-101.6" x2="431.8" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-101.6" x2="439.42" y2="-101.6" width="0.1524" layer="91"/>
+<wire x1="439.42" y1="-101.6" x2="439.42" y2="149.86" width="0.1524" layer="91"/>
 <junction x="27.94" y="-101.6"/>
-<pinref part="IC31" gate="A" pin="I1"/>
-<wire x1="431.8" y1="193.04" x2="452.12" y2="193.04" width="0.1524" layer="91"/>
-<label x="434.34" y="190.5" size="1.778" layer="95"/>
+<label x="441.96" y="119.38" size="1.778" layer="95" rot="R270"/>
+<pinref part="IC1" gate="C" pin="I1"/>
 </segment>
 </net>
 <net name="TRANSEN" class="0">
 <segment>
 <label x="401.32" y="175.26" size="1.9304" layer="95" rot="R180"/>
-<pinref part="IC31" gate="C" pin="I1"/>
 <wire x1="401.32" y1="175.26" x2="401.32" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="IC32" gate="A" pin="I1"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="A" pin="8Q"/>
@@ -10193,14 +10217,14 @@ when _DMACLK is high then VRAM is being written</text>
 </net>
 <net name="!DMAIRQ" class="0">
 <segment>
-<pinref part="IC32" gate="A" pin="O"/>
-<wire x1="93.98" y1="-256.54" x2="195.58" y2="-256.54" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="-256.54" x2="195.58" y2="495.3" width="0.1524" layer="91"/>
-<label x="104.14" y="-256.54" size="1.9304" layer="95"/>
+<wire x1="93.98" y1="-246.38" x2="195.58" y2="-246.38" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="-246.38" x2="195.58" y2="495.3" width="0.1524" layer="91"/>
+<label x="96.52" y="-248.92" size="1.9304" layer="95"/>
 <label x="109.22" y="495.3" size="1.9304" layer="95" rot="MR0"/>
 <wire x1="20.32" y1="523.24" x2="20.32" y2="495.3" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="495.3" x2="195.58" y2="495.3" width="0.1524" layer="91"/>
 <pinref part="IC54" gate="A" pin="I"/>
+<pinref part="IC21" gate="D" pin="O"/>
 </segment>
 </net>
 <net name="DMAMODE" class="0">
@@ -10223,18 +10247,6 @@ when _DMACLK is high then VRAM is being written</text>
 <wire x1="88.9" y1="535.94" x2="88.9" y2="533.4" width="0.1524" layer="91"/>
 <junction x="50.8" y="535.94"/>
 <junction x="88.9" y="533.4"/>
-</segment>
-</net>
-<net name="N$213" class="0">
-<segment>
-<pinref part="IC20" gate="A" pin="O"/>
-<pinref part="IC53" gate="D" pin="I"/>
-</segment>
-</net>
-<net name="N$214" class="0">
-<segment>
-<pinref part="IC53" gate="D" pin="O"/>
-<pinref part="IC31" gate="C" pin="I0"/>
 </segment>
 </net>
 <net name="!DIRECT-SELECT" class="0">
@@ -10397,9 +10409,9 @@ when _DMACLK is high then VRAM is being written</text>
 </net>
 <net name="DMAIRQEN" class="0">
 <segment>
-<pinref part="IC53" gate="B" pin="I"/>
-<wire x1="60.96" y1="-279.4" x2="60.96" y2="-284.48" width="0.1524" layer="91"/>
-<label x="60.96" y="-284.48" size="1.778" layer="95"/>
+<label x="68.58" y="-284.48" size="1.778" layer="95"/>
+<pinref part="IC21" gate="D" pin="I1"/>
+<wire x1="68.58" y1="-248.92" x2="68.58" y2="-284.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="A" pin="7Q"/>
@@ -10477,20 +10489,6 @@ when _DMACLK is high then VRAM is being written</text>
 <wire x1="259.08" y1="530.86" x2="259.08" y2="373.38" width="0.1524" layer="91"/>
 <junction x="259.08" y="373.38"/>
 <label x="116.84" y="533.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="IC31" gate="C" pin="O"/>
-<pinref part="IC1" gate="C" pin="I1"/>
-<wire x1="426.72" y1="185.42" x2="426.72" y2="200.66" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$39" class="0">
-<segment>
-<pinref part="IC1" gate="C" pin="O"/>
-<pinref part="IC31" gate="A" pin="I0"/>
-<wire x1="452.12" y1="203.2" x2="452.12" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$42" class="0">
@@ -10607,8 +10605,8 @@ when _DMACLK is high then VRAM is being written</text>
 </segment>
 <segment>
 <pinref part="IC1" gate="C" pin="I0"/>
-<wire x1="426.72" y1="205.74" x2="419.1" y2="205.74" width="0.1524" layer="91"/>
-<label x="419.1" y="208.28" size="1.778" layer="95" rot="R180"/>
+<wire x1="434.34" y1="149.86" x2="434.34" y2="142.24" width="0.1524" layer="91"/>
+<label x="431.8" y="142.24" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="CLK7" class="0">
@@ -10686,7 +10684,7 @@ when _DMACLK is high then VRAM is being written</text>
 <segment>
 <pinref part="IC31" gate="A" pin="O"/>
 <pinref part="IC18" gate="D" pin="I0"/>
-<wire x1="477.52" y1="195.58" x2="477.52" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="477.52" y1="182.88" x2="477.52" y2="246.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!WRAP_X" class="0">
@@ -10711,6 +10709,86 @@ when _DMACLK is high then VRAM is being written</text>
 <pinref part="IC17" gate="A" pin="8Q"/>
 <wire x1="-7.62" y1="304.8" x2="-7.62" y2="292.1" width="0.1524" layer="91"/>
 <label x="-7.62" y="292.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$47" class="0">
+<segment>
+<pinref part="IC1" gate="A" pin="O"/>
+<pinref part="IC33" gate="D" pin="I0"/>
+<wire x1="63.5" y1="-66.04" x2="81.28" y2="-66.04" width="0.1524" layer="91"/>
+<pinref part="IC33" gate="D" pin="I1"/>
+<wire x1="81.28" y1="-66.04" x2="86.36" y2="-66.04" width="0.1524" layer="91"/>
+<junction x="81.28" y="-66.04"/>
+<wire x1="63.5" y1="-66.04" x2="25.4" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-66.04" x2="25.4" y2="-73.66" width="0.1524" layer="91"/>
+<junction x="63.5" y="-66.04"/>
+<pinref part="IC33" gate="B" pin="I1"/>
+<wire x1="25.4" y1="-73.66" x2="2.54" y2="-73.66" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-73.66" x2="2.54" y2="-66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$48" class="0">
+<segment>
+<pinref part="IC33" gate="D" pin="O"/>
+<pinref part="IC33" gate="C" pin="I0"/>
+<wire x1="83.82" y1="-91.44" x2="93.98" y2="-91.44" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="-91.44" x2="93.98" y2="-78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DMACLK/!IDLE!" class="0">
+<segment>
+<pinref part="IC1" gate="D" pin="O"/>
+<wire x1="-5.08" y1="-78.74" x2="20.32" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="-93.98" x2="20.32" y2="-78.74" width="0.1524" layer="91"/>
+<pinref part="IC33" gate="C" pin="I1"/>
+<wire x1="99.06" y1="-78.74" x2="99.06" y2="-93.98" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="-93.98" x2="20.32" y2="-93.98" width="0.1524" layer="91"/>
+<label x="-2.54" y="-78.74" size="1.778" layer="95"/>
+<pinref part="IC33" gate="B" pin="I0"/>
+<wire x1="2.54" y1="-60.96" x2="-5.08" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="-60.96" x2="-5.08" y2="-78.74" width="0.1524" layer="91"/>
+<junction x="-5.08" y="-78.74"/>
+</segment>
+</net>
+<net name="N$49" class="0">
+<segment>
+<pinref part="IC33" gate="B" pin="O"/>
+<wire x1="27.94" y1="-63.5" x2="27.94" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-55.88" x2="2.54" y2="-55.88" width="0.1524" layer="91"/>
+<pinref part="IC33" gate="A" pin="I0"/>
+<wire x1="2.54" y1="-55.88" x2="2.54" y2="-48.26" width="0.1524" layer="91"/>
+<pinref part="IC33" gate="A" pin="I1"/>
+<wire x1="2.54" y1="-48.26" x2="2.54" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="2.54" y="-48.26"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="IC31" gate="A" pin="I0"/>
+<wire x1="426.72" y1="185.42" x2="452.12" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="IC32" gate="A" pin="O"/>
+</segment>
+</net>
+<net name="N$39" class="0">
+<segment>
+<pinref part="IC1" gate="C" pin="O"/>
+<pinref part="IC31" gate="A" pin="I1"/>
+<wire x1="436.88" y1="175.26" x2="436.88" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="436.88" y1="180.34" x2="452.12" y2="180.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$58" class="0">
+<segment>
+<pinref part="IC9" gate="B" pin="Q"/>
+<pinref part="IC21" gate="D" pin="I0"/>
+<wire x1="33.02" y1="-243.84" x2="68.58" y2="-243.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$66" class="0">
+<segment>
+<pinref part="IC20" gate="A" pin="O"/>
+<pinref part="IC32" gate="A" pin="I0"/>
+<wire x1="381" y1="187.96" x2="401.32" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -10890,6 +10968,10 @@ when _DMACLK is high then VRAM is being written</text>
 <attribute name="NAME" x="74.676" y="84.455" size="1.778" layer="95"/>
 <attribute name="VALUE" x="74.676" y="79.629" size="1.778" layer="96"/>
 </instance>
+<instance part="C41" gate="G$1" x="91.44" y="83.82" smashed="yes">
+<attribute name="NAME" x="92.456" y="84.455" size="1.778" layer="95"/>
+<attribute name="VALUE" x="92.456" y="79.629" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11022,8 +11104,12 @@ when _DMACLK is high then VRAM is being written</text>
 <wire x1="83.82" y1="78.74" x2="86.36" y2="78.74" width="0.1524" layer="91"/>
 <junction x="99.06" y="78.74"/>
 <pinref part="C38" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="78.74" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="78.74" x2="91.44" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="78.74" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="78.74" x2="83.82" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="C41" gate="G$1" pin="2"/>
+<junction x="91.44" y="78.74"/>
+<junction x="83.82" y="78.74"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -11147,7 +11233,8 @@ when _DMACLK is high then VRAM is being written</text>
 <wire x1="60.96" y1="86.36" x2="73.66" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="C45" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="86.36" x2="83.82" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="86.36" x2="99.06" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="86.36" x2="91.44" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="86.36" x2="99.06" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="76.2" x2="60.96" y2="86.36" width="0.1524" layer="91"/>
 <junction x="60.96" y="76.2"/>
 <junction x="60.96" y="86.36"/>
@@ -11157,6 +11244,8 @@ when _DMACLK is high then VRAM is being written</text>
 <junction x="83.82" y="86.36"/>
 <pinref part="C38" gate="G$1" pin="1"/>
 <junction x="73.66" y="86.36"/>
+<pinref part="C41" gate="G$1" pin="1"/>
+<junction x="91.44" y="86.36"/>
 </segment>
 </net>
 </nets>
