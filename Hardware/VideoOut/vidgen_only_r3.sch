@@ -463,7 +463,7 @@ Based on the following sources:
 <pin name="GND" x="0" y="-10.16" visible="pad" direction="pwr" rot="R90"/>
 <pin name="VCC" x="0" y="10.16" visible="pad" direction="pwr" rot="R270"/>
 </symbol>
-<symbol name="74563" urn="urn:adsk.eagle:symbol:2809/1" library_version="3">
+<symbol name="74564" urn="urn:adsk.eagle:symbol:2810/1" library_version="3">
 <wire x1="-7.62" y1="-15.24" x2="7.62" y2="-15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.4064" layer="94"/>
 <wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.4064" layer="94"/>
@@ -479,7 +479,7 @@ Based on the following sources:
 <pin name="6D" x="-12.7" y="0" length="middle" direction="in"/>
 <pin name="7D" x="-12.7" y="-2.54" length="middle" direction="in"/>
 <pin name="8D" x="-12.7" y="-5.08" length="middle" direction="in"/>
-<pin name="C" x="-12.7" y="-12.7" length="middle" direction="in"/>
+<pin name="CLK" x="-12.7" y="-12.7" length="middle" direction="in" function="clk"/>
 <pin name="8Q" x="12.7" y="-5.08" length="middle" direction="hiz" function="dot" rot="R180"/>
 <pin name="7Q" x="12.7" y="-2.54" length="middle" direction="hiz" function="dot" rot="R180"/>
 <pin name="6Q" x="12.7" y="0" length="middle" direction="hiz" function="dot" rot="R180"/>
@@ -632,10 +632,10 @@ Based on the following sources:
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="74*563" urn="urn:adsk.eagle:component:3214/3" prefix="IC" library_version="3">
-<description>Inverting 8-bit D type &lt;b&gt;LATCH&lt;/b&gt;</description>
+<deviceset name="74*564" urn="urn:adsk.eagle:component:3215/3" prefix="IC" library_version="3">
+<description>Inverting 8-bit D type &lt;b&gt;FLIP FLOP&lt;/b&gt;</description>
 <gates>
-<gate name="A" symbol="74563" x="20.32" y="0"/>
+<gate name="A" symbol="74564" x="20.32" y="0"/>
 <gate name="P" symbol="PWRN" x="-5.08" y="0" addlevel="request"/>
 </gates>
 <devices>
@@ -657,7 +657,7 @@ Based on the following sources:
 <connect gate="A" pin="7Q" pad="13"/>
 <connect gate="A" pin="8D" pad="9"/>
 <connect gate="A" pin="8Q" pad="12"/>
-<connect gate="A" pin="C" pad="11"/>
+<connect gate="A" pin="CLK" pad="11"/>
 <connect gate="A" pin="OC" pad="1"/>
 <connect gate="P" pin="GND" pad="10"/>
 <connect gate="P" pin="VCC" pad="20"/>
@@ -19722,7 +19722,7 @@ Source: DCJ0202.pdf</description>
 <part name="IC47" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*257" device="N" package3d_urn="urn:adsk.eagle:package:922/2" technology="S"/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC48" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*563" device="N" package3d_urn="urn:adsk.eagle:package:16429/2" technology="HC"/>
+<part name="IC48" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*564" device="N" package3d_urn="urn:adsk.eagle:package:16429/2" technology="HC"/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC49" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*08" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
 <part name="IC50" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*08" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
@@ -21437,13 +21437,9 @@ STOP MESSING WITH IT</text>
 <pinref part="U$7" gate="G$1" pin="LD"/>
 <wire x1="27.94" y1="269.24" x2="-12.7" y2="269.24" width="0.1524" layer="91"/>
 <junction x="-12.7" y="269.24"/>
-<pinref part="IC48" gate="A" pin="C"/>
 <pinref part="IC51" gate="A" pin="P1"/>
-<wire x1="109.22" y1="414.02" x2="27.94" y2="414.02" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="414.02" x2="27.94" y2="406.4" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="269.24" x2="-12.7" y2="406.4" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="406.4" x2="27.94" y2="406.4" width="0.1524" layer="91"/>
-<junction x="27.94" y="406.4"/>
 <label x="17.78" y="406.4" size="1.778" layer="95"/>
 <label x="-10.16" y="269.24" size="1.778" layer="95"/>
 </segment>
@@ -21945,6 +21941,14 @@ STOP MESSING WITH IT</text>
 <pinref part="IC51" gate="A" pin="Q2"/>
 <pinref part="V.RAM." gate="G$2" pin="A0"/>
 <wire x1="53.34" y1="403.86" x2="76.2" y2="403.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="IC51" gate="A" pin="Q1"/>
+<pinref part="IC48" gate="A" pin="CLK"/>
+<wire x1="53.34" y1="406.4" x2="60.96" y2="414.02" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="414.02" x2="109.22" y2="414.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

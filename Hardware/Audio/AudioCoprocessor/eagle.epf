@@ -184,6 +184,7 @@ UsedLibraryUrn="urn:adsk.eagle:library:419"
 UsedLibraryUrn="urn:adsk.eagle:library:527439"
 UsedLibraryUrn="urn:adsk.eagle:library:116"
 UsedLibraryUrn="urn:adsk.eagle:library:529"
+UsedLibraryUrn="urn:adsk.eagle:library:509"
 UsedLibraryUrn="urn:adsk.eagle:library:117"
 UsedLibraryUrn="urn:adsk.eagle:library:118"
 UsedLibraryUrn="urn:adsk.eagle:library:119"
@@ -364,5 +365,5 @@ Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="3840 1654"
+Screen="4560 1654"
 Window="Win_1"

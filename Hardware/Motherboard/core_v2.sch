@@ -13018,13 +13018,10 @@ Default shape</description>
 <sheets>
 <sheet>
 <plain>
-<text x="-200.66" y="287.02" size="5.08" layer="94">oscillator</text>
 <text x="-121.92" y="142.24" size="5.08" layer="94">address decoding</text>
 <text x="144.78" y="48.26" size="2.54" layer="94">phi2-gated read and write</text>
 <text x="-58.42" y="7.62" size="1.778" layer="91" rot="R180">HIGH write pulses</text>
 <text x="-86.36" y="7.62" size="1.778" layer="91" rot="R180">LOW read pulses</text>
-<text x="-99.06" y="358.14" size="6.4516" layer="97">VIDEO PORT</text>
-<text x="73.66" y="358.14" size="6.4516" layer="97">AUDIO PORT</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="53.34" y="60.96" smashed="yes">
@@ -13143,86 +13140,24 @@ Default shape</description>
 <attribute name="NAME" x="126.365" y="35.56" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="139.7" y="35.56" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$5" gate="G$1" x="-200.66" y="269.24" smashed="yes">
-<attribute name="NAME" x="-205.74" y="281.94" size="1.27" layer="95"/>
-<attribute name="VALUE" x="-205.74" y="279.4" size="1.27" layer="96"/>
-</instance>
-<instance part="IC5" gate="A" x="-160.02" y="261.62" smashed="yes">
-<attribute name="NAME" x="-167.64" y="277.495" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-167.64" y="241.3" size="1.778" layer="96"/>
-</instance>
-<instance part="GND14" gate="1" x="-187.96" y="261.62" smashed="yes">
-<attribute name="VALUE" x="-190.5" y="259.08" size="1.778" layer="96"/>
-</instance>
-<instance part="GND15" gate="1" x="-180.34" y="243.84" smashed="yes">
-<attribute name="VALUE" x="-182.88" y="241.3" size="1.778" layer="96"/>
-</instance>
-<instance part="P+16" gate="VCC" x="-215.9" y="274.32" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-213.36" y="271.78" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="IC1" gate="B" x="-127" y="271.78" smashed="yes">
-<attribute name="NAME" x="-124.46" y="274.955" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-124.46" y="266.7" size="1.778" layer="96"/>
-</instance>
 <instance part="IC7" gate="A" x="142.24" y="-10.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="149.86" y="-15.875" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="149.86" y="-2.54" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="VIDEOSLOT" gate="A" x="-22.86" y="381" smashed="yes" rot="R270">
-<attribute name="NAME" x="-17.5514" y="376.8344" size="2.0828" layer="95" ratio="6" rot="SR270"/>
-</instance>
-<instance part="P+5" gate="VCC" x="-22.86" y="393.7" smashed="yes">
-<attribute name="VALUE" x="-25.4" y="391.16" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND3" gate="1" x="-25.4" y="386.08" smashed="yes" rot="R180">
-<attribute name="VALUE" x="-22.86" y="388.62" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="AUDIOSLOT" gate="A" x="147.32" y="381" smashed="yes" rot="R270">
-<attribute name="NAME" x="152.6286" y="376.8344" size="2.0828" layer="95" ratio="6" rot="SR270"/>
-</instance>
-<instance part="P+11" gate="VCC" x="147.32" y="398.78" smashed="yes">
-<attribute name="VALUE" x="144.78" y="396.24" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND1" gate="1" x="144.78" y="391.16" smashed="yes" rot="R180">
-<attribute name="VALUE" x="147.32" y="393.7" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="U$2" gate="A" x="60.96" y="251.46" smashed="yes"/>
-<instance part="GND2" gate="1" x="314.96" y="160.02" smashed="yes">
-<attribute name="VALUE" x="312.42" y="157.48" size="1.778" layer="96"/>
-</instance>
-<instance part="R16" gate="G$1" x="302.26" y="218.44" smashed="yes">
-<attribute name="NAME" x="298.45" y="219.9386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="298.45" y="215.138" size="1.778" layer="96"/>
-</instance>
-<instance part="P+18" gate="VCC" x="294.64" y="218.44" smashed="yes" rot="R90">
-<attribute name="VALUE" x="297.18" y="215.9" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="RESET_SW" gate="G$1" x="15.24" y="-15.24" smashed="yes">
 <attribute name="NAME" x="10.16" y="-12.7" size="1.778" layer="95"/>
 <attribute name="VALUE" x="10.16" y="-17.78" size="1.778" layer="96"/>
 </instance>
-<instance part="RESET_SW" gate="LED" x="312.42" y="218.44" smashed="yes">
-<attribute name="NAME" x="307.34" y="223.52" size="1.778" layer="95"/>
-<attribute name="VALUE" x="307.34" y="220.98" size="1.778" layer="96"/>
+<instance part="JP3" gate="A" x="238.76" y="187.96" smashed="yes">
+<attribute name="NAME" x="232.41" y="206.375" size="1.778" layer="95"/>
+<attribute name="VALUE" x="232.41" y="165.1" size="1.778" layer="96"/>
 </instance>
-<instance part="IC5" gate="P" x="-160.02" y="223.52" smashed="yes">
-<attribute name="NAME" x="-161.29" y="222.885" size="1.778" layer="95"/>
+<instance part="GND9" gate="1" x="231.14" y="203.2" smashed="yes" rot="R270">
+<attribute name="VALUE" x="228.6" y="205.74" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="P+23" gate="VCC" x="-160.02" y="233.68" smashed="yes">
-<attribute name="VALUE" x="-162.56" y="231.14" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="GND6" gate="1" x="-160.02" y="213.36" smashed="yes">
-<attribute name="VALUE" x="-162.56" y="210.82" size="1.778" layer="96"/>
-</instance>
-<instance part="JP3" gate="A" x="248.92" y="187.96" smashed="yes">
-<attribute name="NAME" x="242.57" y="206.375" size="1.778" layer="95"/>
-<attribute name="VALUE" x="242.57" y="165.1" size="1.778" layer="96"/>
-</instance>
-<instance part="GND9" gate="1" x="241.3" y="203.2" smashed="yes" rot="R270">
-<attribute name="VALUE" x="238.76" y="205.74" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="GND12" gate="1" x="241.3" y="170.18" smashed="yes" rot="R270">
-<attribute name="VALUE" x="238.76" y="172.72" size="1.778" layer="96" rot="R270"/>
+<instance part="GND12" gate="1" x="231.14" y="170.18" smashed="yes" rot="R270">
+<attribute name="VALUE" x="228.6" y="172.72" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -13245,16 +13180,6 @@ Default shape</description>
 <label x="86.36" y="271.78" size="1.778" layer="95"/>
 <pinref part="U$2" gate="A" pin="D0"/>
 </segment>
-<segment>
-<wire x1="-121.92" y1="411.48" x2="-121.92" y2="381" width="0.1524" layer="91"/>
-<pinref part="VIDEOSLOT" gate="A" pin="40"/>
-<label x="-121.92" y="411.48" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="48.26" y1="416.56" x2="48.26" y2="381" width="0.1524" layer="91"/>
-<label x="48.26" y="416.56" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="40"/>
-</segment>
 </net>
 <net name="D1" class="0">
 <segment>
@@ -13272,16 +13197,6 @@ Default shape</description>
 <junction x="88.9" y="205.74"/>
 <label x="88.9" y="269.24" size="1.778" layer="95"/>
 <pinref part="U$2" gate="A" pin="D1"/>
-</segment>
-<segment>
-<wire x1="-119.38" y1="408.94" x2="-119.38" y2="381" width="0.1524" layer="91"/>
-<pinref part="VIDEOSLOT" gate="A" pin="39"/>
-<label x="-119.38" y="408.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="50.8" y1="414.02" x2="50.8" y2="381" width="0.1524" layer="91"/>
-<label x="50.8" y="414.02" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="39"/>
 </segment>
 </net>
 <net name="D2" class="0">
@@ -13301,16 +13216,6 @@ Default shape</description>
 <label x="91.44" y="266.7" size="1.778" layer="95"/>
 <pinref part="U$2" gate="A" pin="D2"/>
 </segment>
-<segment>
-<wire x1="-116.84" y1="406.4" x2="-116.84" y2="381" width="0.1524" layer="91"/>
-<pinref part="VIDEOSLOT" gate="A" pin="38"/>
-<label x="-116.84" y="406.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="53.34" y1="411.48" x2="53.34" y2="381" width="0.1524" layer="91"/>
-<label x="53.34" y="411.48" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="38"/>
-</segment>
 </net>
 <net name="D3" class="0">
 <segment>
@@ -13328,16 +13233,6 @@ Default shape</description>
 <junction x="93.98" y="200.66"/>
 <label x="93.98" y="264.16" size="1.778" layer="95"/>
 <pinref part="U$2" gate="A" pin="D3"/>
-</segment>
-<segment>
-<wire x1="-114.3" y1="403.86" x2="-114.3" y2="381" width="0.1524" layer="91"/>
-<pinref part="VIDEOSLOT" gate="A" pin="37"/>
-<label x="-114.3" y="403.86" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="55.88" y1="408.94" x2="55.88" y2="381" width="0.1524" layer="91"/>
-<label x="55.88" y="408.94" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="37"/>
 </segment>
 </net>
 <net name="D4" class="0">
@@ -13357,16 +13252,6 @@ Default shape</description>
 <label x="96.52" y="261.62" size="1.778" layer="95"/>
 <pinref part="U$2" gate="A" pin="D4"/>
 </segment>
-<segment>
-<wire x1="-111.76" y1="401.32" x2="-111.76" y2="381" width="0.1524" layer="91"/>
-<pinref part="VIDEOSLOT" gate="A" pin="36"/>
-<label x="-111.76" y="401.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="58.42" y1="406.4" x2="58.42" y2="381" width="0.1524" layer="91"/>
-<label x="58.42" y="406.4" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="36"/>
-</segment>
 </net>
 <net name="D5" class="0">
 <segment>
@@ -13384,16 +13269,6 @@ Default shape</description>
 <junction x="99.06" y="195.58"/>
 <label x="99.06" y="259.08" size="1.778" layer="95"/>
 <pinref part="U$2" gate="A" pin="D5"/>
-</segment>
-<segment>
-<wire x1="-109.22" y1="398.78" x2="-109.22" y2="381" width="0.1524" layer="91"/>
-<pinref part="VIDEOSLOT" gate="A" pin="35"/>
-<label x="-109.22" y="398.78" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="60.96" y1="403.86" x2="60.96" y2="381" width="0.1524" layer="91"/>
-<label x="60.96" y="403.86" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="35"/>
 </segment>
 </net>
 <net name="D6" class="0">
@@ -13413,16 +13288,6 @@ Default shape</description>
 <label x="101.6" y="256.54" size="1.778" layer="95"/>
 <pinref part="U$2" gate="A" pin="D6"/>
 </segment>
-<segment>
-<wire x1="-106.68" y1="396.24" x2="-106.68" y2="381" width="0.1524" layer="91"/>
-<pinref part="VIDEOSLOT" gate="A" pin="34"/>
-<label x="-106.68" y="396.24" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="63.5" y1="401.32" x2="63.5" y2="381" width="0.1524" layer="91"/>
-<label x="63.5" y="401.32" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="34"/>
-</segment>
 </net>
 <net name="D7" class="0">
 <segment>
@@ -13440,16 +13305,6 @@ Default shape</description>
 <junction x="104.14" y="190.5"/>
 <label x="104.14" y="254" size="1.778" layer="95"/>
 <pinref part="U$2" gate="A" pin="D7"/>
-</segment>
-<segment>
-<wire x1="-104.14" y1="393.7" x2="-104.14" y2="381" width="0.1524" layer="91"/>
-<pinref part="VIDEOSLOT" gate="A" pin="33"/>
-<label x="-104.14" y="393.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="66.04" y1="398.78" x2="66.04" y2="381" width="0.1524" layer="91"/>
-<label x="66.04" y="398.78" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="33"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -13480,16 +13335,6 @@ Default shape</description>
 <label x="-86.36" y="76.2" size="1.778" layer="95" rot="R90"/>
 <pinref part="U$2" gate="A" pin="A0"/>
 </segment>
-<segment>
-<pinref part="VIDEOSLOT" gate="A" pin="32"/>
-<wire x1="-101.6" y1="381" x2="-101.6" y2="426.72" width="0.1524" layer="91"/>
-<label x="-101.6" y="426.72" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="68.58" y1="381" x2="68.58" y2="431.8" width="0.1524" layer="91"/>
-<label x="68.58" y="431.8" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="32"/>
-</segment>
 </net>
 <net name="A1" class="0">
 <segment>
@@ -13518,16 +13363,6 @@ Default shape</description>
 <label x="-60.96" y="73.66" size="1.778" layer="95" rot="R90"/>
 <label x="-88.9" y="78.74" size="1.778" layer="95" rot="R90"/>
 <pinref part="U$2" gate="A" pin="A1"/>
-</segment>
-<segment>
-<pinref part="VIDEOSLOT" gate="A" pin="31"/>
-<wire x1="-99.06" y1="381" x2="-99.06" y2="424.18" width="0.1524" layer="91"/>
-<label x="-99.06" y="424.18" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="71.12" y1="381" x2="71.12" y2="429.26" width="0.1524" layer="91"/>
-<label x="71.12" y="429.26" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="31"/>
 </segment>
 </net>
 <net name="A2" class="0">
@@ -13558,16 +13393,6 @@ Default shape</description>
 <label x="-91.44" y="81.28" size="1.778" layer="95" rot="R90"/>
 <pinref part="U$2" gate="A" pin="A2"/>
 </segment>
-<segment>
-<pinref part="VIDEOSLOT" gate="A" pin="30"/>
-<wire x1="-96.52" y1="381" x2="-96.52" y2="421.64" width="0.1524" layer="91"/>
-<label x="-96.52" y="421.64" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="73.66" y1="381" x2="73.66" y2="426.72" width="0.1524" layer="91"/>
-<label x="73.66" y="426.72" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="30"/>
-</segment>
 </net>
 <net name="A4" class="0">
 <segment>
@@ -13581,16 +13406,6 @@ Default shape</description>
 <junction x="10.16" y="127"/>
 <label x="10.16" y="261.62" size="1.778" layer="95"/>
 <pinref part="U$2" gate="A" pin="A4"/>
-</segment>
-<segment>
-<pinref part="VIDEOSLOT" gate="A" pin="28"/>
-<wire x1="-91.44" y1="381" x2="-91.44" y2="416.56" width="0.1524" layer="91"/>
-<label x="-91.44" y="416.56" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="78.74" y1="381" x2="78.74" y2="421.64" width="0.1524" layer="91"/>
-<label x="78.74" y="421.64" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="28"/>
 </segment>
 </net>
 <net name="A5" class="0">
@@ -13606,16 +13421,6 @@ Default shape</description>
 <label x="7.62" y="259.08" size="1.778" layer="95"/>
 <pinref part="U$2" gate="A" pin="A5"/>
 </segment>
-<segment>
-<pinref part="VIDEOSLOT" gate="A" pin="27"/>
-<wire x1="-88.9" y1="381" x2="-88.9" y2="414.02" width="0.1524" layer="91"/>
-<label x="-88.9" y="414.02" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="81.28" y1="381" x2="81.28" y2="419.1" width="0.1524" layer="91"/>
-<label x="81.28" y="419.1" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="27"/>
-</segment>
 </net>
 <net name="A6" class="0">
 <segment>
@@ -13629,16 +13434,6 @@ Default shape</description>
 <junction x="5.08" y="121.92"/>
 <label x="5.08" y="256.54" size="1.778" layer="95"/>
 <pinref part="U$2" gate="A" pin="A6"/>
-</segment>
-<segment>
-<pinref part="VIDEOSLOT" gate="A" pin="26"/>
-<wire x1="-86.36" y1="381" x2="-86.36" y2="411.48" width="0.1524" layer="91"/>
-<label x="-86.36" y="411.48" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="83.82" y1="381" x2="83.82" y2="416.56" width="0.1524" layer="91"/>
-<label x="83.82" y="416.56" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="26"/>
 </segment>
 </net>
 <net name="A7" class="0">
@@ -13654,16 +13449,6 @@ Default shape</description>
 <label x="2.54" y="254" size="1.778" layer="95"/>
 <pinref part="U$2" gate="A" pin="A7"/>
 </segment>
-<segment>
-<pinref part="VIDEOSLOT" gate="A" pin="25"/>
-<wire x1="-83.82" y1="381" x2="-83.82" y2="408.94" width="0.1524" layer="91"/>
-<label x="-83.82" y="408.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="86.36" y1="381" x2="86.36" y2="414.02" width="0.1524" layer="91"/>
-<label x="86.36" y="414.02" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="25"/>
-</segment>
 </net>
 <net name="A8" class="0">
 <segment>
@@ -13677,16 +13462,6 @@ Default shape</description>
 <junction x="0" y="116.84"/>
 <label x="0" y="251.46" size="1.778" layer="95"/>
 <pinref part="U$2" gate="A" pin="A8"/>
-</segment>
-<segment>
-<pinref part="VIDEOSLOT" gate="A" pin="24"/>
-<wire x1="-81.28" y1="381" x2="-81.28" y2="406.4" width="0.1524" layer="91"/>
-<label x="-81.28" y="406.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="88.9" y1="381" x2="88.9" y2="411.48" width="0.1524" layer="91"/>
-<label x="88.9" y="411.48" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="24"/>
 </segment>
 </net>
 <net name="A9" class="0">
@@ -13702,16 +13477,6 @@ Default shape</description>
 <label x="-2.54" y="248.92" size="1.778" layer="95"/>
 <pinref part="U$2" gate="A" pin="A9"/>
 </segment>
-<segment>
-<pinref part="VIDEOSLOT" gate="A" pin="23"/>
-<wire x1="-78.74" y1="381" x2="-78.74" y2="403.86" width="0.1524" layer="91"/>
-<label x="-78.74" y="403.86" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="91.44" y1="381" x2="91.44" y2="408.94" width="0.1524" layer="91"/>
-<label x="91.44" y="408.94" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="23"/>
-</segment>
 </net>
 <net name="A10" class="0">
 <segment>
@@ -13725,16 +13490,6 @@ Default shape</description>
 <junction x="-5.08" y="111.76"/>
 <label x="-5.08" y="246.38" size="1.778" layer="95"/>
 <pinref part="U$2" gate="A" pin="A10"/>
-</segment>
-<segment>
-<pinref part="VIDEOSLOT" gate="A" pin="22"/>
-<wire x1="-76.2" y1="381" x2="-76.2" y2="401.32" width="0.1524" layer="91"/>
-<label x="-76.2" y="401.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="93.98" y1="381" x2="93.98" y2="406.4" width="0.1524" layer="91"/>
-<label x="93.98" y="406.4" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="22"/>
 </segment>
 </net>
 <net name="A11" class="0">
@@ -13756,16 +13511,6 @@ Default shape</description>
 <label x="-50.8" y="152.4" size="1.778" layer="95" rot="R90"/>
 <pinref part="U$2" gate="A" pin="A11"/>
 </segment>
-<segment>
-<pinref part="VIDEOSLOT" gate="A" pin="21"/>
-<wire x1="-73.66" y1="381" x2="-73.66" y2="398.78" width="0.1524" layer="91"/>
-<label x="-73.66" y="398.78" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="96.52" y1="381" x2="96.52" y2="403.86" width="0.1524" layer="91"/>
-<label x="96.52" y="403.86" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="21"/>
-</segment>
 </net>
 <net name="A12" class="0">
 <segment>
@@ -13786,16 +13531,6 @@ Default shape</description>
 <label x="-53.34" y="152.4" size="1.778" layer="95" rot="R90"/>
 <pinref part="U$2" gate="A" pin="A12"/>
 </segment>
-<segment>
-<pinref part="VIDEOSLOT" gate="A" pin="20"/>
-<wire x1="-71.12" y1="381" x2="-71.12" y2="396.24" width="0.1524" layer="91"/>
-<label x="-71.12" y="396.24" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="99.06" y1="381" x2="99.06" y2="401.32" width="0.1524" layer="91"/>
-<label x="99.06" y="401.32" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="20"/>
-</segment>
 </net>
 <net name="A13" class="0">
 <segment>
@@ -13809,16 +13544,6 @@ Default shape</description>
 <junction x="-12.7" y="200.66"/>
 <label x="-12.7" y="238.76" size="1.778" layer="95"/>
 <pinref part="U$2" gate="A" pin="A13"/>
-</segment>
-<segment>
-<pinref part="VIDEOSLOT" gate="A" pin="19"/>
-<wire x1="-68.58" y1="381" x2="-68.58" y2="393.7" width="0.1524" layer="91"/>
-<label x="-68.58" y="393.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="101.6" y1="381" x2="101.6" y2="398.78" width="0.1524" layer="91"/>
-<label x="101.6" y="398.78" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="19"/>
 </segment>
 </net>
 <net name="A14" class="0">
@@ -13848,9 +13573,7 @@ Default shape</description>
 <net name="!WE2" class="0">
 <segment>
 <wire x1="45.72" y1="223.52" x2="30.48" y2="223.52" width="0.1524" layer="91"/>
-<junction x="30.48" y="223.52"/>
 <label x="30.48" y="208.28" size="1.778" layer="95"/>
-<wire x1="30.48" y1="302.26" x2="30.48" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="91.44" x2="73.66" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="_WE"/>
 <wire x1="73.66" y1="109.22" x2="66.04" y2="109.22" width="0.1524" layer="91"/>
@@ -13863,16 +13586,6 @@ Default shape</description>
 <label x="114.3" y="86.36" size="1.778" layer="95"/>
 <pinref part="U$2" gate="A" pin="_WE"/>
 </segment>
-<segment>
-<pinref part="VIDEOSLOT" gate="A" pin="12"/>
-<wire x1="-50.8" y1="381" x2="-50.8" y2="403.86" width="0.1524" layer="91"/>
-<label x="-50.8" y="403.86" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="119.38" y1="381" x2="119.38" y2="391.16" width="0.1524" layer="91"/>
-<label x="119.38" y="391.16" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="12"/>
-</segment>
 </net>
 <net name="!RESET" class="0">
 <segment>
@@ -13880,10 +13593,8 @@ Default shape</description>
 <wire x1="27.94" y1="226.06" x2="45.72" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="RESB"/>
 <wire x1="172.72" y1="172.72" x2="27.94" y2="172.72" width="0.1524" layer="91"/>
-<junction x="27.94" y="226.06"/>
 <label x="27.94" y="210.82" size="1.778" layer="95"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="302.26" x2="27.94" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="35.56" x2="12.7" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="RESB"/>
 <wire x1="38.1" y1="35.56" x2="27.94" y2="35.56" width="0.1524" layer="91"/>
@@ -13905,14 +13616,12 @@ Default shape</description>
 <wire x1="45.72" y1="220.98" x2="33.02" y2="220.98" width="0.1524" layer="91"/>
 <label x="33.02" y="205.74" size="1.778" layer="95"/>
 <pinref part="U1" gate="G$1" pin="RDY"/>
-<wire x1="33.02" y1="302.26" x2="33.02" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="38.1" x2="33.02" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="38.1" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="15.24" x2="7.62" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="38.1" x2="33.02" y2="220.98" width="0.1524" layer="91"/>
 <junction x="33.02" y="38.1"/>
-<junction x="33.02" y="220.98"/>
 <pinref part="U$2" gate="A" pin="READY"/>
 </segment>
 </net>
@@ -13935,42 +13644,14 @@ Default shape</description>
 <wire x1="10.16" y1="-22.86" x2="22.86" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="GND"/>
-<pinref part="GND14" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="A" pin="RES"/>
-<pinref part="GND15" gate="1" pin="GND"/>
-<wire x1="-172.72" y1="246.38" x2="-180.34" y2="246.38" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="VIDEOSLOT" gate="A" pin="2"/>
-<wire x1="-25.4" y1="381" x2="-25.4" y2="383.54" width="0.1524" layer="91"/>
-<pinref part="GND3" gate="1" pin="GND"/>
-</segment>
-<segment>
-<wire x1="144.78" y1="381" x2="144.78" y2="388.62" width="0.1524" layer="91"/>
-<pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="AUDIOSLOT" gate="A" pin="2"/>
-</segment>
-<segment>
-<pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="314.96" y1="218.44" x2="314.96" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="RESET_SW" gate="LED" pin="C"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="P" pin="VSS"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="GND9" gate="1" pin="GND"/>
 <pinref part="JP3" gate="A" pin="1"/>
-<wire x1="243.84" y1="203.2" x2="246.38" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="203.2" x2="236.22" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
 <pinref part="JP3" gate="A" pin="14"/>
-<wire x1="243.84" y1="170.18" x2="246.38" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="170.18" x2="236.22" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -14015,28 +13696,6 @@ Default shape</description>
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="P+13" gate="VCC" pin="VCC"/>
 </segment>
-<segment>
-<pinref part="U$5" gate="G$1" pin="VDD"/>
-<pinref part="P+16" gate="VCC" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="VIDEOSLOT" gate="A" pin="1"/>
-<wire x1="-22.86" y1="381" x2="-22.86" y2="391.16" width="0.1524" layer="91"/>
-<pinref part="P+5" gate="VCC" pin="VCC"/>
-</segment>
-<segment>
-<wire x1="147.32" y1="381" x2="147.32" y2="396.24" width="0.1524" layer="91"/>
-<pinref part="P+11" gate="VCC" pin="VCC"/>
-<pinref part="AUDIOSLOT" gate="A" pin="1"/>
-</segment>
-<segment>
-<pinref part="R16" gate="G$1" pin="1"/>
-<pinref part="P+18" gate="VCC" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="P" pin="VDD"/>
-<pinref part="P+23" gate="VCC" pin="VCC"/>
-</segment>
 </net>
 <net name="!RAMSEL" class="0">
 <segment>
@@ -14070,14 +13729,9 @@ Default shape</description>
 </net>
 <net name="!VID_SEL" class="0">
 <segment>
-<wire x1="-86.36" y1="167.64" x2="-127" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="167.64" x2="-101.6" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="B" pin="O"/>
-<label x="-99.06" y="167.64" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="VIDEOSLOT" gate="A" pin="18"/>
-<wire x1="-66.04" y1="381" x2="-66.04" y2="436.88" width="0.1524" layer="91"/>
-<label x="-66.04" y="436.88" size="1.778" layer="95"/>
+<label x="-101.6" y="167.64" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="N$39" class="0">
@@ -14110,10 +13764,10 @@ Default shape</description>
 <segment>
 <pinref part="IC3" gate="B" pin="Y1"/>
 <wire x1="-53.34" y1="127" x2="-53.34" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="99.06" x2="223.52" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="99.06" x2="223.52" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="99.06" x2="208.28" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="99.06" x2="208.28" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="CS2B"/>
-<wire x1="223.52" y1="144.78" x2="203.2" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="144.78" x2="203.2" y2="144.78" width="0.1524" layer="91"/>
 <label x="-53.34" y="106.68" size="1.778" layer="95"/>
 <label x="223.52" y="144.78" size="1.778" layer="95"/>
 </segment>
@@ -14162,16 +13816,6 @@ Default shape</description>
 <label x="-99.06" y="83.82" size="1.778" layer="95" rot="R90"/>
 <pinref part="U$2" gate="A" pin="A3"/>
 </segment>
-<segment>
-<pinref part="VIDEOSLOT" gate="A" pin="29"/>
-<wire x1="-93.98" y1="381" x2="-93.98" y2="419.1" width="0.1524" layer="91"/>
-<label x="-93.98" y="419.1" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="76.2" y1="381" x2="76.2" y2="424.18" width="0.1524" layer="91"/>
-<label x="76.2" y="424.18" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="29"/>
-</segment>
 </net>
 <net name="AUD_SQ1_N" class="0">
 <segment>
@@ -14179,11 +13823,6 @@ Default shape</description>
 <pinref part="U$4" gate="G$2" pin="Y0"/>
 <wire x1="-58.42" y1="17.78" x2="-58.42" y2="43.18" width="0.1524" layer="91"/>
 <label x="-58.42" y="40.64" size="1.778" layer="95" rot="R270"/>
-</segment>
-<segment>
-<pinref part="AUDIOSLOT" gate="A" pin="17"/>
-<wire x1="106.68" y1="381" x2="106.68" y2="416.56" width="0.1524" layer="91"/>
-<label x="106.68" y="416.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AUD_SQ1_X" class="0">
@@ -14193,11 +13832,6 @@ Default shape</description>
 <wire x1="-60.96" y1="17.78" x2="-60.96" y2="43.18" width="0.1524" layer="91"/>
 <label x="-60.96" y="40.64" size="1.778" layer="95" rot="R270"/>
 </segment>
-<segment>
-<pinref part="AUDIOSLOT" gate="A" pin="16"/>
-<wire x1="109.22" y1="381" x2="109.22" y2="414.02" width="0.1524" layer="91"/>
-<label x="109.22" y="414.02" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="AUD_SQ2_N" class="0">
 <segment>
@@ -14205,11 +13839,6 @@ Default shape</description>
 <pinref part="JP1" gate="A" pin="3"/>
 <wire x1="-63.5" y1="43.18" x2="-63.5" y2="17.78" width="0.1524" layer="91"/>
 <label x="-63.5" y="40.64" size="1.778" layer="95" rot="R270"/>
-</segment>
-<segment>
-<pinref part="AUDIOSLOT" gate="A" pin="15"/>
-<wire x1="111.76" y1="381" x2="111.76" y2="408.94" width="0.1524" layer="91"/>
-<label x="111.76" y="408.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AUD_SQ2_X" class="0">
@@ -14219,11 +13848,6 @@ Default shape</description>
 <wire x1="-66.04" y1="43.18" x2="-66.04" y2="17.78" width="0.1524" layer="91"/>
 <label x="-66.04" y="40.64" size="1.778" layer="95" rot="R270"/>
 </segment>
-<segment>
-<pinref part="AUDIOSLOT" gate="A" pin="14"/>
-<wire x1="114.3" y1="381" x2="114.3" y2="406.4" width="0.1524" layer="91"/>
-<label x="114.3" y="406.4" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="AUD_LFSR_X" class="0">
 <segment>
@@ -14231,11 +13855,6 @@ Default shape</description>
 <pinref part="U$4" gate="G$2" pin="Y4"/>
 <wire x1="-68.58" y1="17.78" x2="-68.58" y2="43.18" width="0.1524" layer="91"/>
 <label x="-68.58" y="40.64" size="1.778" layer="95" rot="R270"/>
-</segment>
-<segment>
-<pinref part="AUDIOSLOT" gate="A" pin="9"/>
-<wire x1="127" y1="381" x2="127" y2="436.88" width="0.1524" layer="91"/>
-<label x="127" y="436.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AUD_WAVE_N" class="0">
@@ -14245,11 +13864,6 @@ Default shape</description>
 <wire x1="-71.12" y1="43.18" x2="-71.12" y2="17.78" width="0.1524" layer="91"/>
 <label x="-71.12" y="40.64" size="1.778" layer="95" rot="R270"/>
 </segment>
-<segment>
-<pinref part="AUDIOSLOT" gate="A" pin="8"/>
-<wire x1="129.54" y1="381" x2="129.54" y2="431.8" width="0.1524" layer="91"/>
-<label x="129.54" y="431.8" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="AUD_WAVE_X" class="0">
 <segment>
@@ -14258,11 +13872,6 @@ Default shape</description>
 <wire x1="-73.66" y1="17.78" x2="-73.66" y2="43.18" width="0.1524" layer="91"/>
 <label x="-73.66" y="40.64" size="1.778" layer="95" rot="R270"/>
 </segment>
-<segment>
-<pinref part="AUDIOSLOT" gate="A" pin="7"/>
-<wire x1="132.08" y1="381" x2="132.08" y2="426.72" width="0.1524" layer="91"/>
-<label x="132.08" y="426.72" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="VIDFLAGS" class="0">
 <segment>
@@ -14270,11 +13879,6 @@ Default shape</description>
 <pinref part="JP1" gate="A" pin="8"/>
 <wire x1="-76.2" y1="43.18" x2="-76.2" y2="17.78" width="0.1524" layer="91"/>
 <label x="-76.2" y="40.64" size="1.778" layer="95" rot="R270"/>
-</segment>
-<segment>
-<pinref part="VIDEOSLOT" gate="A" pin="17"/>
-<wire x1="-63.5" y1="381" x2="-63.5" y2="431.8" width="0.1524" layer="91"/>
-<label x="-63.5" y="431.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="!GAMEPAD1R" class="0">
@@ -14338,20 +13942,15 @@ Default shape</description>
 <net name="!WAV_SEL" class="0">
 <segment>
 <pinref part="IC2" gate="A" pin="O"/>
-<wire x1="-86.36" y1="121.92" x2="-124.46" y2="121.92" width="0.1524" layer="91"/>
-<label x="-101.6" y="121.92" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="AUDIOSLOT" gate="A" pin="18"/>
-<wire x1="104.14" y1="381" x2="104.14" y2="421.64" width="0.1524" layer="91"/>
-<label x="104.14" y="421.64" size="1.778" layer="95"/>
+<wire x1="-86.36" y1="121.92" x2="-104.14" y2="121.92" width="0.1524" layer="91"/>
+<label x="-104.14" y="121.92" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="SPI_CLK" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PA0"/>
-<wire x1="220.98" y1="208.28" x2="203.2" y2="208.28" width="0.1524" layer="91"/>
-<label x="205.74" y="208.28" size="1.778" layer="95"/>
+<wire x1="213.36" y1="215.9" x2="203.2" y2="208.28" width="0.1524" layer="91"/>
+<label x="213.36" y="215.9" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="A" pin="SPI_CLK"/>
@@ -14362,8 +13961,8 @@ Default shape</description>
 <net name="SPI_MOSI" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PA1"/>
-<wire x1="220.98" y1="205.74" x2="203.2" y2="205.74" width="0.1524" layer="91"/>
-<label x="205.74" y="205.74" size="1.778" layer="95"/>
+<wire x1="213.36" y1="213.36" x2="203.2" y2="205.74" width="0.1524" layer="91"/>
+<label x="213.36" y="213.36" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="A" pin="SPI_MOSI"/>
@@ -14374,8 +13973,8 @@ Default shape</description>
 <net name="!SPI_CS" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PA2"/>
-<wire x1="220.98" y1="203.2" x2="203.2" y2="203.2" width="0.1524" layer="91"/>
-<label x="205.74" y="203.2" size="1.778" layer="95"/>
+<wire x1="213.36" y1="210.82" x2="203.2" y2="203.2" width="0.1524" layer="91"/>
+<label x="213.36" y="210.82" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="A" pin="!SPI_CS"/>
@@ -14417,24 +14016,9 @@ Default shape</description>
 <pinref part="U$2" gate="A" pin="CLK"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="A" pin="Q3"/>
-<wire x1="-147.32" y1="269.24" x2="-144.78" y2="269.24" width="0.1524" layer="91"/>
-<label x="-144.78" y="269.24" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC7" gate="A" pin="I0"/>
 <wire x1="154.94" y1="-12.7" x2="162.56" y2="-12.7" width="0.1524" layer="91"/>
 <label x="162.56" y="-12.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="VIDEOSLOT" gate="A" pin="6"/>
-<wire x1="-35.56" y1="381" x2="-35.56" y2="411.48" width="0.1524" layer="91"/>
-<label x="-35.56" y="411.48" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="134.62" y1="381" x2="134.62" y2="416.56" width="0.1524" layer="91"/>
-<label x="134.62" y="416.56" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="6"/>
 </segment>
 </net>
 <net name="W/!R!" class="0">
@@ -14496,8 +14080,6 @@ Default shape</description>
 <junction x="66.04" y="106.68"/>
 <wire x1="38.1" y1="101.6" x2="38.1" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="228.6" x2="45.72" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="228.6" x2="38.1" y2="302.26" width="0.1524" layer="91"/>
-<junction x="38.1" y="228.6"/>
 <label x="132.08" y="86.36" size="1.778" layer="95"/>
 <pinref part="U$2" gate="A" pin="_OE"/>
 <label x="38.1" y="200.66" size="1.778" layer="95"/>
@@ -14507,16 +14089,6 @@ Default shape</description>
 <wire x1="-104.14" y1="68.58" x2="-104.14" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="81.28" x2="-109.22" y2="86.36" width="0.1524" layer="91"/>
 <label x="-109.22" y="86.36" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="VIDEOSLOT" gate="A" pin="13"/>
-<wire x1="-53.34" y1="381" x2="-53.34" y2="406.4" width="0.1524" layer="91"/>
-<label x="-53.34" y="406.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="116.84" y1="381" x2="116.84" y2="393.7" width="0.1524" layer="91"/>
-<label x="116.84" y="393.7" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="13"/>
 </segment>
 </net>
 <net name="A15" class="0">
@@ -14535,65 +14107,7 @@ Default shape</description>
 <junction x="-22.86" y="193.04"/>
 </segment>
 </net>
-<net name="CLK28" class="0">
-<segment>
-<pinref part="U$5" gate="G$1" pin="OUT"/>
-<pinref part="IC5" gate="A" pin="P1"/>
-<wire x1="-187.96" y1="274.32" x2="-172.72" y2="274.32" width="0.1524" layer="91"/>
-<label x="-185.42" y="274.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="VIDEOSLOT" gate="A" pin="3"/>
-<wire x1="-27.94" y1="381" x2="-27.94" y2="403.86" width="0.1524" layer="91"/>
-<label x="-27.94" y="403.86" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="142.24" y1="381" x2="142.24" y2="408.94" width="0.1524" layer="91"/>
-<label x="142.24" y="408.94" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="3"/>
-</segment>
-</net>
-<net name="CLK14" class="0">
-<segment>
-<pinref part="IC5" gate="A" pin="Q1"/>
-<wire x1="-147.32" y1="274.32" x2="-144.78" y2="274.32" width="0.1524" layer="91"/>
-<label x="-144.78" y="274.32" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="VIDEOSLOT" gate="A" pin="4"/>
-<wire x1="-30.48" y1="381" x2="-30.48" y2="406.4" width="0.1524" layer="91"/>
-<label x="-30.48" y="406.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="139.7" y1="381" x2="139.7" y2="411.48" width="0.1524" layer="91"/>
-<label x="139.7" y="411.48" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="4"/>
-</segment>
-</net>
-<net name="CLK7" class="0">
-<segment>
-<pinref part="IC5" gate="A" pin="Q2"/>
-<wire x1="-147.32" y1="271.78" x2="-137.16" y2="271.78" width="0.1524" layer="91"/>
-<label x="-144.78" y="271.78" size="1.778" layer="95"/>
-<pinref part="IC1" gate="B" pin="I"/>
-</segment>
-<segment>
-<pinref part="VIDEOSLOT" gate="A" pin="5"/>
-<wire x1="-33.02" y1="381" x2="-33.02" y2="408.94" width="0.1524" layer="91"/>
-<label x="-33.02" y="408.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="137.16" y1="381" x2="137.16" y2="414.02" width="0.1524" layer="91"/>
-<label x="137.16" y="414.02" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="5"/>
-</segment>
-</net>
 <net name="!CLK7" class="0">
-<segment>
-<pinref part="IC1" gate="B" pin="O"/>
-<wire x1="-116.84" y1="271.78" x2="-114.3" y2="271.78" width="0.1524" layer="91"/>
-<label x="-114.3" y="271.78" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="IC7" gate="A" pin="I1"/>
 <wire x1="154.94" y1="-7.62" x2="162.56" y2="-7.62" width="0.1524" layer="91"/>
@@ -14613,11 +14127,6 @@ Default shape</description>
 </net>
 <net name="!IRQ" class="0">
 <segment>
-<pinref part="VIDEOSLOT" gate="A" pin="11"/>
-<wire x1="-48.26" y1="381" x2="-48.26" y2="401.32" width="0.1524" layer="91"/>
-<label x="-48.26" y="401.32" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="IRQB"/>
 <wire x1="38.1" y1="30.48" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="30.48" x2="35.56" y2="170.18" width="0.1524" layer="91"/>
@@ -14626,8 +14135,6 @@ Default shape</description>
 <pinref part="U2" gate="G$1" pin="IRQB"/>
 <junction x="35.56" y="170.18"/>
 <wire x1="172.72" y1="170.18" x2="35.56" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="218.44" x2="35.56" y2="302.26" width="0.1524" layer="91"/>
-<junction x="35.56" y="218.44"/>
 <wire x1="35.56" y1="30.48" x2="22.86" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="30.48" x2="22.86" y2="7.62" width="0.1524" layer="91"/>
 <junction x="35.56" y="30.48"/>
@@ -14635,121 +14142,97 @@ Default shape</description>
 <label x="35.56" y="203.2" size="1.778" layer="95"/>
 <pinref part="U$2" gate="A" pin="_IRQ"/>
 </segment>
-<segment>
-<wire x1="121.92" y1="381" x2="121.92" y2="388.62" width="0.1524" layer="91"/>
-<label x="121.92" y="388.62" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="11"/>
-</segment>
 </net>
 <net name="!NMI" class="0">
 <segment>
-<pinref part="VIDEOSLOT" gate="A" pin="10"/>
-<wire x1="-45.72" y1="381" x2="-45.72" y2="398.78" width="0.1524" layer="91"/>
-<label x="-45.72" y="398.78" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="NMIB"/>
-<wire x1="38.1" y1="33.02" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="33.02" x2="25.4" y2="302.26" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="33.02" x2="17.78" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="33.02" x2="17.78" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="33.02" x2="17.78" y2="10.16" width="0.1524" layer="91"/>
-<junction x="25.4" y="33.02"/>
-<label x="25.4" y="213.36" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="124.46" y1="381" x2="124.46" y2="386.08" width="0.1524" layer="91"/>
-<label x="124.46" y="386.08" size="1.778" layer="95"/>
-<pinref part="AUDIOSLOT" gate="A" pin="10"/>
+<label x="17.78" y="17.78" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PB0"/>
-<wire x1="203.2" y1="185.42" x2="246.38" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="185.42" x2="236.22" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="A" pin="6"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PB1"/>
-<wire x1="203.2" y1="182.88" x2="246.38" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="182.88" x2="236.22" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="A" pin="7"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PB4"/>
-<wire x1="203.2" y1="175.26" x2="246.38" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="175.26" x2="236.22" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="A" pin="10"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PB5"/>
-<wire x1="203.2" y1="172.72" x2="246.38" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="172.72" x2="236.22" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="A" pin="11"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PB6"/>
-<wire x1="246.38" y1="175.26" x2="203.2" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="175.26" x2="203.2" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="A" pin="12"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PB7"/>
-<wire x1="203.2" y1="167.64" x2="246.38" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="167.64" x2="236.22" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="A" pin="13"/>
-</segment>
-</net>
-<net name="N$44" class="0">
-<segment>
-<pinref part="R16" gate="G$1" pin="2"/>
-<pinref part="RESET_SW" gate="LED" pin="A"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PB2"/>
-<wire x1="203.2" y1="180.34" x2="246.38" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="180.34" x2="236.22" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="A" pin="8"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PB3"/>
-<wire x1="203.2" y1="177.8" x2="246.38" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="177.8" x2="236.22" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="A" pin="9"/>
 </segment>
 </net>
 <net name="N$34" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PA3"/>
-<wire x1="203.2" y1="200.66" x2="246.38" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="200.66" x2="236.22" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="N$35" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PA4"/>
-<wire x1="203.2" y1="198.12" x2="246.38" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="198.12" x2="236.22" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="N$41" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PA5"/>
-<wire x1="203.2" y1="195.58" x2="246.38" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="195.58" x2="236.22" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="A" pin="4"/>
 </segment>
 </net>
 <net name="N$42" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PA6"/>
-<wire x1="203.2" y1="193.04" x2="246.38" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="193.04" x2="236.22" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="A" pin="5"/>
 </segment>
 </net>
@@ -14847,6 +14330,29 @@ Default shape</description>
 <attribute name="NAME" x="176.276" y="92.075" size="1.778" layer="95"/>
 <attribute name="VALUE" x="176.276" y="87.249" size="1.778" layer="96"/>
 </instance>
+<instance part="GND2" gate="1" x="91.44" y="43.18" smashed="yes">
+<attribute name="VALUE" x="88.9" y="40.64" size="1.778" layer="96"/>
+</instance>
+<instance part="R16" gate="G$1" x="78.74" y="50.8" smashed="yes">
+<attribute name="NAME" x="74.93" y="52.2986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="74.93" y="47.498" size="1.778" layer="96"/>
+</instance>
+<instance part="P+18" gate="VCC" x="71.12" y="50.8" smashed="yes" rot="R90">
+<attribute name="VALUE" x="73.66" y="48.26" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="RESET_SW" gate="LED" x="88.9" y="50.8" smashed="yes">
+<attribute name="NAME" x="83.82" y="55.88" size="1.778" layer="95"/>
+<attribute name="VALUE" x="83.82" y="53.34" size="1.778" layer="96"/>
+</instance>
+<instance part="IC5" gate="P" x="137.16" y="53.34" smashed="yes">
+<attribute name="NAME" x="135.89" y="52.705" size="1.778" layer="95"/>
+</instance>
+<instance part="P+23" gate="VCC" x="137.16" y="63.5" smashed="yes">
+<attribute name="VALUE" x="134.62" y="60.96" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND6" gate="1" x="137.16" y="43.18" smashed="yes">
+<attribute name="VALUE" x="134.62" y="40.64" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14909,6 +14415,15 @@ Default shape</description>
 <pinref part="J1" gate="G$1" pin="1"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="91.44" y1="50.8" x2="91.44" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="RESET_SW" gate="LED" pin="C"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="P" pin="VSS"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -14962,6 +14477,14 @@ Default shape</description>
 <wire x1="27.94" y1="60.96" x2="27.94" y2="66.04" width="0.1524" layer="91"/>
 <junction x="27.94" y="60.96"/>
 </segment>
+<segment>
+<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="P+18" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="P" pin="VDD"/>
+<pinref part="P+23" gate="VCC" pin="VCC"/>
+</segment>
 </net>
 <net name="N$4" class="0">
 <segment>
@@ -14972,6 +14495,12 @@ Default shape</description>
 <wire x1="7.62" y1="58.42" x2="7.62" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="0" y1="58.42" x2="7.62" y2="58.42" width="0.1524" layer="91"/>
 <junction x="7.62" y="58.42"/>
+</segment>
+</net>
+<net name="N$44" class="0">
+<segment>
+<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="RESET_SW" gate="LED" pin="A"/>
 </segment>
 </net>
 </nets>
@@ -15400,6 +14929,576 @@ December 2019</text>
 <wire x1="17.78" y1="10.16" x2="17.78" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="-17.78" x2="27.94" y2="-17.78" width="0.1524" layer="91"/>
 <label x="22.86" y="-17.78" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+<text x="-109.22" y="-15.24" size="6.4516" layer="97">VIDEO PORT</text>
+<text x="63.5" y="-15.24" size="6.4516" layer="97">AUDIO PORT</text>
+</plain>
+<instances>
+<instance part="VIDEOSLOT" gate="A" x="-33.02" y="7.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="-27.7114" y="3.4544" size="2.0828" layer="95" ratio="6" rot="SR270"/>
+</instance>
+<instance part="P+5" gate="VCC" x="-33.02" y="20.32" smashed="yes">
+<attribute name="VALUE" x="-35.56" y="17.78" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND3" gate="1" x="-35.56" y="12.7" smashed="yes" rot="R180">
+<attribute name="VALUE" x="-33.02" y="15.24" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="AUDIOSLOT" gate="A" x="137.16" y="7.62" smashed="yes" rot="R270">
+<attribute name="NAME" x="142.4686" y="3.4544" size="2.0828" layer="95" ratio="6" rot="SR270"/>
+</instance>
+<instance part="P+11" gate="VCC" x="137.16" y="25.4" smashed="yes">
+<attribute name="VALUE" x="134.62" y="22.86" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND1" gate="1" x="134.62" y="17.78" smashed="yes" rot="R180">
+<attribute name="VALUE" x="137.16" y="20.32" size="1.778" layer="96" rot="R180"/>
+</instance>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="D0" class="0">
+<segment>
+<wire x1="-132.08" y1="38.1" x2="-132.08" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="VIDEOSLOT" gate="A" pin="40"/>
+<label x="-132.08" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="38.1" y1="43.18" x2="38.1" y2="7.62" width="0.1524" layer="91"/>
+<label x="38.1" y="43.18" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="40"/>
+</segment>
+</net>
+<net name="D1" class="0">
+<segment>
+<wire x1="-129.54" y1="35.56" x2="-129.54" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="VIDEOSLOT" gate="A" pin="39"/>
+<label x="-129.54" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="40.64" y1="40.64" x2="40.64" y2="7.62" width="0.1524" layer="91"/>
+<label x="40.64" y="40.64" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="39"/>
+</segment>
+</net>
+<net name="D2" class="0">
+<segment>
+<wire x1="-127" y1="33.02" x2="-127" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="VIDEOSLOT" gate="A" pin="38"/>
+<label x="-127" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="43.18" y1="38.1" x2="43.18" y2="7.62" width="0.1524" layer="91"/>
+<label x="43.18" y="38.1" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="38"/>
+</segment>
+</net>
+<net name="D3" class="0">
+<segment>
+<wire x1="-124.46" y1="30.48" x2="-124.46" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="VIDEOSLOT" gate="A" pin="37"/>
+<label x="-124.46" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="45.72" y1="35.56" x2="45.72" y2="7.62" width="0.1524" layer="91"/>
+<label x="45.72" y="35.56" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="37"/>
+</segment>
+</net>
+<net name="D4" class="0">
+<segment>
+<wire x1="-121.92" y1="27.94" x2="-121.92" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="VIDEOSLOT" gate="A" pin="36"/>
+<label x="-121.92" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="48.26" y1="33.02" x2="48.26" y2="7.62" width="0.1524" layer="91"/>
+<label x="48.26" y="33.02" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="36"/>
+</segment>
+</net>
+<net name="D5" class="0">
+<segment>
+<wire x1="-119.38" y1="25.4" x2="-119.38" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="VIDEOSLOT" gate="A" pin="35"/>
+<label x="-119.38" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="50.8" y1="30.48" x2="50.8" y2="7.62" width="0.1524" layer="91"/>
+<label x="50.8" y="30.48" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="35"/>
+</segment>
+</net>
+<net name="D6" class="0">
+<segment>
+<wire x1="-116.84" y1="22.86" x2="-116.84" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="VIDEOSLOT" gate="A" pin="34"/>
+<label x="-116.84" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="53.34" y1="27.94" x2="53.34" y2="7.62" width="0.1524" layer="91"/>
+<label x="53.34" y="27.94" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="34"/>
+</segment>
+</net>
+<net name="D7" class="0">
+<segment>
+<wire x1="-114.3" y1="20.32" x2="-114.3" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="VIDEOSLOT" gate="A" pin="33"/>
+<label x="-114.3" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="55.88" y1="25.4" x2="55.88" y2="7.62" width="0.1524" layer="91"/>
+<label x="55.88" y="25.4" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="33"/>
+</segment>
+</net>
+<net name="A0" class="0">
+<segment>
+<pinref part="VIDEOSLOT" gate="A" pin="32"/>
+<wire x1="-111.76" y1="7.62" x2="-111.76" y2="53.34" width="0.1524" layer="91"/>
+<label x="-111.76" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="58.42" y1="7.62" x2="58.42" y2="58.42" width="0.1524" layer="91"/>
+<label x="58.42" y="58.42" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="32"/>
+</segment>
+</net>
+<net name="A1" class="0">
+<segment>
+<pinref part="VIDEOSLOT" gate="A" pin="31"/>
+<wire x1="-109.22" y1="7.62" x2="-109.22" y2="50.8" width="0.1524" layer="91"/>
+<label x="-109.22" y="50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="60.96" y1="7.62" x2="60.96" y2="55.88" width="0.1524" layer="91"/>
+<label x="60.96" y="55.88" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="31"/>
+</segment>
+</net>
+<net name="A2" class="0">
+<segment>
+<pinref part="VIDEOSLOT" gate="A" pin="30"/>
+<wire x1="-106.68" y1="7.62" x2="-106.68" y2="48.26" width="0.1524" layer="91"/>
+<label x="-106.68" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="63.5" y1="7.62" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
+<label x="63.5" y="53.34" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="30"/>
+</segment>
+</net>
+<net name="A4" class="0">
+<segment>
+<pinref part="VIDEOSLOT" gate="A" pin="28"/>
+<wire x1="-101.6" y1="7.62" x2="-101.6" y2="43.18" width="0.1524" layer="91"/>
+<label x="-101.6" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="68.58" y1="7.62" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
+<label x="68.58" y="48.26" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="28"/>
+</segment>
+</net>
+<net name="A5" class="0">
+<segment>
+<pinref part="VIDEOSLOT" gate="A" pin="27"/>
+<wire x1="-99.06" y1="7.62" x2="-99.06" y2="40.64" width="0.1524" layer="91"/>
+<label x="-99.06" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="71.12" y1="7.62" x2="71.12" y2="45.72" width="0.1524" layer="91"/>
+<label x="71.12" y="45.72" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="27"/>
+</segment>
+</net>
+<net name="A6" class="0">
+<segment>
+<pinref part="VIDEOSLOT" gate="A" pin="26"/>
+<wire x1="-96.52" y1="7.62" x2="-96.52" y2="38.1" width="0.1524" layer="91"/>
+<label x="-96.52" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="73.66" y1="7.62" x2="73.66" y2="43.18" width="0.1524" layer="91"/>
+<label x="73.66" y="43.18" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="26"/>
+</segment>
+</net>
+<net name="A7" class="0">
+<segment>
+<pinref part="VIDEOSLOT" gate="A" pin="25"/>
+<wire x1="-93.98" y1="7.62" x2="-93.98" y2="35.56" width="0.1524" layer="91"/>
+<label x="-93.98" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="76.2" y1="7.62" x2="76.2" y2="40.64" width="0.1524" layer="91"/>
+<label x="76.2" y="40.64" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="25"/>
+</segment>
+</net>
+<net name="A8" class="0">
+<segment>
+<pinref part="VIDEOSLOT" gate="A" pin="24"/>
+<wire x1="-91.44" y1="7.62" x2="-91.44" y2="33.02" width="0.1524" layer="91"/>
+<label x="-91.44" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="78.74" y1="7.62" x2="78.74" y2="38.1" width="0.1524" layer="91"/>
+<label x="78.74" y="38.1" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="24"/>
+</segment>
+</net>
+<net name="A9" class="0">
+<segment>
+<pinref part="VIDEOSLOT" gate="A" pin="23"/>
+<wire x1="-88.9" y1="7.62" x2="-88.9" y2="30.48" width="0.1524" layer="91"/>
+<label x="-88.9" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="81.28" y1="7.62" x2="81.28" y2="35.56" width="0.1524" layer="91"/>
+<label x="81.28" y="35.56" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="23"/>
+</segment>
+</net>
+<net name="A10" class="0">
+<segment>
+<pinref part="VIDEOSLOT" gate="A" pin="22"/>
+<wire x1="-86.36" y1="7.62" x2="-86.36" y2="27.94" width="0.1524" layer="91"/>
+<label x="-86.36" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="83.82" y1="7.62" x2="83.82" y2="33.02" width="0.1524" layer="91"/>
+<label x="83.82" y="33.02" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="22"/>
+</segment>
+</net>
+<net name="A11" class="0">
+<segment>
+<pinref part="VIDEOSLOT" gate="A" pin="21"/>
+<wire x1="-83.82" y1="7.62" x2="-83.82" y2="25.4" width="0.1524" layer="91"/>
+<label x="-83.82" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="86.36" y1="7.62" x2="86.36" y2="30.48" width="0.1524" layer="91"/>
+<label x="86.36" y="30.48" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="21"/>
+</segment>
+</net>
+<net name="A12" class="0">
+<segment>
+<pinref part="VIDEOSLOT" gate="A" pin="20"/>
+<wire x1="-81.28" y1="7.62" x2="-81.28" y2="22.86" width="0.1524" layer="91"/>
+<label x="-81.28" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="88.9" y1="7.62" x2="88.9" y2="27.94" width="0.1524" layer="91"/>
+<label x="88.9" y="27.94" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="20"/>
+</segment>
+</net>
+<net name="A13" class="0">
+<segment>
+<pinref part="VIDEOSLOT" gate="A" pin="19"/>
+<wire x1="-78.74" y1="7.62" x2="-78.74" y2="20.32" width="0.1524" layer="91"/>
+<label x="-78.74" y="20.32" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="91.44" y1="7.62" x2="91.44" y2="25.4" width="0.1524" layer="91"/>
+<label x="91.44" y="25.4" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="19"/>
+</segment>
+</net>
+<net name="!WE2" class="0">
+<segment>
+<pinref part="VIDEOSLOT" gate="A" pin="12"/>
+<wire x1="-60.96" y1="7.62" x2="-60.96" y2="30.48" width="0.1524" layer="91"/>
+<label x="-60.96" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="109.22" y1="7.62" x2="109.22" y2="17.78" width="0.1524" layer="91"/>
+<label x="109.22" y="17.78" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="12"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="VIDEOSLOT" gate="A" pin="2"/>
+<wire x1="-35.56" y1="7.62" x2="-35.56" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+</segment>
+<segment>
+<wire x1="134.62" y1="7.62" x2="134.62" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="AUDIOSLOT" gate="A" pin="2"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<pinref part="VIDEOSLOT" gate="A" pin="1"/>
+<wire x1="-33.02" y1="7.62" x2="-33.02" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="P+5" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<wire x1="137.16" y1="7.62" x2="137.16" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="P+11" gate="VCC" pin="VCC"/>
+<pinref part="AUDIOSLOT" gate="A" pin="1"/>
+</segment>
+</net>
+<net name="!VID_SEL" class="0">
+<segment>
+<pinref part="VIDEOSLOT" gate="A" pin="18"/>
+<wire x1="-76.2" y1="7.62" x2="-76.2" y2="63.5" width="0.1524" layer="91"/>
+<label x="-76.2" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A3" class="0">
+<segment>
+<pinref part="VIDEOSLOT" gate="A" pin="29"/>
+<wire x1="-104.14" y1="7.62" x2="-104.14" y2="45.72" width="0.1524" layer="91"/>
+<label x="-104.14" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="66.04" y1="7.62" x2="66.04" y2="50.8" width="0.1524" layer="91"/>
+<label x="66.04" y="50.8" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="29"/>
+</segment>
+</net>
+<net name="AUD_SQ1_N" class="0">
+<segment>
+<pinref part="AUDIOSLOT" gate="A" pin="17"/>
+<wire x1="96.52" y1="7.62" x2="96.52" y2="43.18" width="0.1524" layer="91"/>
+<label x="96.52" y="43.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AUD_SQ1_X" class="0">
+<segment>
+<pinref part="AUDIOSLOT" gate="A" pin="16"/>
+<wire x1="99.06" y1="7.62" x2="99.06" y2="40.64" width="0.1524" layer="91"/>
+<label x="99.06" y="40.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AUD_SQ2_N" class="0">
+<segment>
+<pinref part="AUDIOSLOT" gate="A" pin="15"/>
+<wire x1="101.6" y1="7.62" x2="101.6" y2="35.56" width="0.1524" layer="91"/>
+<label x="101.6" y="35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AUD_SQ2_X" class="0">
+<segment>
+<pinref part="AUDIOSLOT" gate="A" pin="14"/>
+<wire x1="104.14" y1="7.62" x2="104.14" y2="33.02" width="0.1524" layer="91"/>
+<label x="104.14" y="33.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AUD_LFSR_X" class="0">
+<segment>
+<pinref part="AUDIOSLOT" gate="A" pin="9"/>
+<wire x1="116.84" y1="7.62" x2="116.84" y2="63.5" width="0.1524" layer="91"/>
+<label x="116.84" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AUD_WAVE_N" class="0">
+<segment>
+<pinref part="AUDIOSLOT" gate="A" pin="8"/>
+<wire x1="119.38" y1="7.62" x2="119.38" y2="58.42" width="0.1524" layer="91"/>
+<label x="119.38" y="58.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AUD_WAVE_X" class="0">
+<segment>
+<pinref part="AUDIOSLOT" gate="A" pin="7"/>
+<wire x1="121.92" y1="7.62" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
+<label x="121.92" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VIDFLAGS" class="0">
+<segment>
+<pinref part="VIDEOSLOT" gate="A" pin="17"/>
+<wire x1="-73.66" y1="7.62" x2="-73.66" y2="58.42" width="0.1524" layer="91"/>
+<label x="-73.66" y="58.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="!WAV_SEL" class="0">
+<segment>
+<pinref part="AUDIOSLOT" gate="A" pin="18"/>
+<wire x1="93.98" y1="7.62" x2="93.98" y2="48.26" width="0.1524" layer="91"/>
+<label x="93.98" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLK3_5" class="0">
+<segment>
+<pinref part="VIDEOSLOT" gate="A" pin="6"/>
+<wire x1="-45.72" y1="7.62" x2="-45.72" y2="38.1" width="0.1524" layer="91"/>
+<label x="-45.72" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="124.46" y1="7.62" x2="124.46" y2="43.18" width="0.1524" layer="91"/>
+<label x="124.46" y="43.18" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="6"/>
+</segment>
+</net>
+<net name="!RE2" class="0">
+<segment>
+<pinref part="VIDEOSLOT" gate="A" pin="13"/>
+<wire x1="-63.5" y1="7.62" x2="-63.5" y2="33.02" width="0.1524" layer="91"/>
+<label x="-63.5" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="106.68" y1="7.62" x2="106.68" y2="20.32" width="0.1524" layer="91"/>
+<label x="106.68" y="20.32" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="13"/>
+</segment>
+</net>
+<net name="CLK28" class="0">
+<segment>
+<pinref part="VIDEOSLOT" gate="A" pin="3"/>
+<wire x1="-38.1" y1="7.62" x2="-38.1" y2="30.48" width="0.1524" layer="91"/>
+<label x="-38.1" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="132.08" y1="7.62" x2="132.08" y2="35.56" width="0.1524" layer="91"/>
+<label x="132.08" y="35.56" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="3"/>
+</segment>
+</net>
+<net name="CLK14" class="0">
+<segment>
+<pinref part="VIDEOSLOT" gate="A" pin="4"/>
+<wire x1="-40.64" y1="7.62" x2="-40.64" y2="33.02" width="0.1524" layer="91"/>
+<label x="-40.64" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="129.54" y1="7.62" x2="129.54" y2="38.1" width="0.1524" layer="91"/>
+<label x="129.54" y="38.1" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="4"/>
+</segment>
+</net>
+<net name="CLK7" class="0">
+<segment>
+<pinref part="VIDEOSLOT" gate="A" pin="5"/>
+<wire x1="-43.18" y1="7.62" x2="-43.18" y2="35.56" width="0.1524" layer="91"/>
+<label x="-43.18" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="127" y1="7.62" x2="127" y2="40.64" width="0.1524" layer="91"/>
+<label x="127" y="40.64" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="5"/>
+</segment>
+</net>
+<net name="!IRQ" class="0">
+<segment>
+<pinref part="VIDEOSLOT" gate="A" pin="11"/>
+<wire x1="-58.42" y1="7.62" x2="-58.42" y2="27.94" width="0.1524" layer="91"/>
+<label x="-58.42" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="111.76" y1="7.62" x2="111.76" y2="15.24" width="0.1524" layer="91"/>
+<label x="111.76" y="15.24" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="11"/>
+</segment>
+</net>
+<net name="!NMI" class="0">
+<segment>
+<pinref part="VIDEOSLOT" gate="A" pin="10"/>
+<wire x1="-55.88" y1="7.62" x2="-55.88" y2="25.4" width="0.1524" layer="91"/>
+<label x="-55.88" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="114.3" y1="7.62" x2="114.3" y2="12.7" width="0.1524" layer="91"/>
+<label x="114.3" y="12.7" size="1.778" layer="95"/>
+<pinref part="AUDIOSLOT" gate="A" pin="10"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+<text x="12.7" y="53.34" size="5.08" layer="94">oscillator</text>
+</plain>
+<instances>
+<instance part="U$5" gate="G$1" x="12.7" y="35.56" smashed="yes">
+<attribute name="NAME" x="7.62" y="48.26" size="1.27" layer="95"/>
+<attribute name="VALUE" x="7.62" y="45.72" size="1.27" layer="96"/>
+</instance>
+<instance part="IC5" gate="A" x="53.34" y="27.94" smashed="yes">
+<attribute name="NAME" x="45.72" y="43.815" size="1.778" layer="95"/>
+<attribute name="VALUE" x="45.72" y="7.62" size="1.778" layer="96"/>
+</instance>
+<instance part="GND14" gate="1" x="25.4" y="27.94" smashed="yes">
+<attribute name="VALUE" x="22.86" y="25.4" size="1.778" layer="96"/>
+</instance>
+<instance part="GND15" gate="1" x="33.02" y="10.16" smashed="yes">
+<attribute name="VALUE" x="30.48" y="7.62" size="1.778" layer="96"/>
+</instance>
+<instance part="P+16" gate="VCC" x="-2.54" y="40.64" smashed="yes" rot="R90">
+<attribute name="VALUE" x="0" y="38.1" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="IC1" gate="B" x="86.36" y="38.1" smashed="yes">
+<attribute name="NAME" x="88.9" y="41.275" size="1.778" layer="95"/>
+<attribute name="VALUE" x="88.9" y="33.02" size="1.778" layer="96"/>
+</instance>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="GND" class="0">
+<segment>
+<pinref part="U$5" gate="G$1" pin="GND"/>
+<pinref part="GND14" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="A" pin="RES"/>
+<pinref part="GND15" gate="1" pin="GND"/>
+<wire x1="40.64" y1="12.7" x2="33.02" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<pinref part="U$5" gate="G$1" pin="VDD"/>
+<pinref part="P+16" gate="VCC" pin="VCC"/>
+</segment>
+</net>
+<net name="CLK3_5" class="0">
+<segment>
+<pinref part="IC5" gate="A" pin="Q3"/>
+<wire x1="66.04" y1="35.56" x2="68.58" y2="35.56" width="0.1524" layer="91"/>
+<label x="68.326" y="35.814" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLK28" class="0">
+<segment>
+<pinref part="U$5" gate="G$1" pin="OUT"/>
+<pinref part="IC5" gate="A" pin="P1"/>
+<wire x1="25.4" y1="40.64" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
+<label x="28.702" y="41.148" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLK14" class="0">
+<segment>
+<pinref part="IC5" gate="A" pin="Q1"/>
+<wire x1="66.04" y1="40.64" x2="68.58" y2="40.64" width="0.1524" layer="91"/>
+<label x="68.326" y="40.894" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLK7" class="0">
+<segment>
+<pinref part="IC5" gate="A" pin="Q2"/>
+<wire x1="66.04" y1="38.1" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
+<label x="68.58" y="38.354" size="1.778" layer="95"/>
+<pinref part="IC1" gate="B" pin="I"/>
+</segment>
+</net>
+<net name="!CLK7" class="0">
+<segment>
+<pinref part="IC1" gate="B" pin="O"/>
+<wire x1="96.52" y1="38.1" x2="99.06" y2="38.1" width="0.1524" layer="91"/>
+<label x="99.06" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

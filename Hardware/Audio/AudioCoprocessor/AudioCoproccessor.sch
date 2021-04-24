@@ -10729,13 +10729,23 @@ Source: DCJ0202.pdf</description>
 <sheet>
 <plain>
 <text x="254" y="160.02" size="1.778" layer="97">or TLC7524</text>
-<text x="165.1" y="193.04" size="1.778" layer="95">DAC gets updated from latch when interrupt is triggered
+<text x="139.7" y="195.58" size="2.54" layer="95">DAC gets updated from latch when interrupt is triggered
 this gives the APU flexibility wrt when it updates the output</text>
+<text x="297.18" y="127" size="1.778" layer="97">op amp power pins</text>
+<text x="271.78" y="58.42" size="1.778" layer="97">unused, left unconnected in case needed for bodge work</text>
+<text x="322.58" y="203.2" size="2.54" layer="97">reconstruction filter</text>
+<text x="5.08" y="96.52" size="2.54" layer="97">dual ported SRAM</text>
+<text x="25.4" y="-38.1" size="2.54" layer="97">IRQ-generating counter</text>
+<text x="-78.74" y="10.16" size="2.54" layer="97">clock speed jumper</text>
+<text x="185.42" y="66.04" size="2.54" layer="97">DAC selected when:
+A15 high
+PHI2 high
+RWB low</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="129.54" y="68.58" smashed="yes">
 <attribute name="PART" x="119.38" y="96.52" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="119.38" y="27.94" size="1.778" layer="95"/>
+<attribute name="VALUE" x="119.38" y="27.94" size="2.54" layer="95"/>
 </instance>
 <instance part="MOTHERBOARD" gate="A" x="-116.84" y="124.46" smashed="yes" rot="R90">
 <attribute name="NAME" x="-122.1486" y="128.6256" size="2.0828" layer="95" ratio="6" rot="SR90"/>
@@ -10784,9 +10794,9 @@ this gives the APU flexibility wrt when it updates the output</text>
 <attribute name="NAME" x="172.085" y="93.98" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="185.42" y="93.98" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="IC2" gate="D" x="2.54" y="200.66" smashed="yes" rot="R90">
-<attribute name="NAME" x="-3.175" y="193.04" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="10.16" y="193.04" size="1.778" layer="96" rot="R90"/>
+<instance part="IC2" gate="D" x="276.86" y="76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="271.145" y="68.58" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="284.48" y="66.04" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND5" gate="1" x="5.08" y="25.4" smashed="yes">
 <attribute name="VALUE" x="2.54" y="22.86" size="1.778" layer="96"/>
@@ -11646,10 +11656,10 @@ this gives the APU flexibility wrt when it updates the output</text>
 <pinref part="U$2" gate="G$1" pin="TC"/>
 <wire x1="55.88" y1="-10.16" x2="58.42" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-10.16" x2="109.22" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="-10.16" x2="215.9" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="-10.16" x2="215.9" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="-10.16" x2="220.98" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="-10.16" x2="220.98" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="!WR"/>
-<wire x1="215.9" y1="190.5" x2="248.92" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="190.5" x2="248.92" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="IRQB"/>
 <wire x1="114.3" y1="38.1" x2="109.22" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="38.1" x2="109.22" y2="-10.16" width="0.1524" layer="91"/>
