@@ -596,6 +596,21 @@ Based on the following sources:
 <pin name="I1" x="-12.7" y="-2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
 <pin name="O" x="12.7" y="0" visible="pad" length="middle" direction="out" rot="R180"/>
 </symbol>
+<symbol name="7486" urn="urn:adsk.eagle:symbol:2721/1" library_version="3">
+<wire x1="-1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="-5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-6.35" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-6.35" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.2446" y1="-5.0678" x2="7.5439" y2="0.0507" width="0.4064" layer="94" curve="60.147106" cap="flat"/>
+<wire x1="-1.2446" y1="5.0678" x2="7.5442" y2="-0.0505" width="0.4064" layer="94" curve="-60.148802" cap="flat"/>
+<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94" curve="-77.319617"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.4064" layer="94" curve="-77.319617" cap="flat"/>
+<text x="-7.62" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="I0" x="-12.7" y="2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
+<pin name="I1" x="-12.7" y="-2.54" visible="pad" length="middle" direction="in" swaplevel="1"/>
+<pin name="O" x="12.7" y="0" visible="pad" length="middle" direction="out" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="74*573" urn="urn:adsk.eagle:component:3216/3" prefix="IC" library_version="3">
@@ -1487,6 +1502,108 @@ Based on the following sources:
 <technology name="AS">
 <attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
+<technology name="LS">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+<technology name="S">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="74*86" urn="urn:adsk.eagle:component:3004/3" prefix="IC" library_version="3">
+<description>Quad 2-input &lt;b&gt;EXCLUSIV-OR (XOR)&lt;/b&gt; gate</description>
+<gates>
+<gate name="A" symbol="7486" x="15.24" y="10.16" swaplevel="1"/>
+<gate name="B" symbol="7486" x="15.24" y="-2.54" swaplevel="1"/>
+<gate name="C" symbol="7486" x="45.72" y="10.16" swaplevel="1"/>
+<gate name="D" symbol="7486" x="45.72" y="-2.54" swaplevel="1"/>
+<gate name="P" symbol="PWRN" x="-5.08" y="2.54" addlevel="request"/>
+</gates>
+<devices>
+<device name="N" package="DIL14">
+<connects>
+<connect gate="A" pin="I0" pad="1"/>
+<connect gate="A" pin="I1" pad="2"/>
+<connect gate="A" pin="O" pad="3"/>
+<connect gate="B" pin="I0" pad="4"/>
+<connect gate="B" pin="I1" pad="5"/>
+<connect gate="B" pin="O" pad="6"/>
+<connect gate="C" pin="I0" pad="9"/>
+<connect gate="C" pin="I1" pad="10"/>
+<connect gate="C" pin="O" pad="8"/>
+<connect gate="D" pin="I0" pad="12"/>
+<connect gate="D" pin="I1" pad="13"/>
+<connect gate="D" pin="O" pad="11"/>
+<connect gate="P" pin="GND" pad="7"/>
+<connect gate="P" pin="VCC" pad="14"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16407/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+<technology name="LS">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+<technology name="S">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="D" package="SO14">
+<connects>
+<connect gate="A" pin="I0" pad="1"/>
+<connect gate="A" pin="I1" pad="2"/>
+<connect gate="A" pin="O" pad="3"/>
+<connect gate="B" pin="I0" pad="4"/>
+<connect gate="B" pin="I1" pad="5"/>
+<connect gate="B" pin="O" pad="6"/>
+<connect gate="C" pin="I0" pad="9"/>
+<connect gate="C" pin="I1" pad="10"/>
+<connect gate="C" pin="O" pad="8"/>
+<connect gate="D" pin="I0" pad="12"/>
+<connect gate="D" pin="I1" pad="13"/>
+<connect gate="D" pin="O" pad="11"/>
+<connect gate="P" pin="GND" pad="7"/>
+<connect gate="P" pin="VCC" pad="14"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2917/1"/>
+</package3dinstances>
+<technologies>
+<technology name="LS">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+<technology name="S">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="FK" package="LCC20">
+<connects>
+<connect gate="A" pin="I0" pad="2"/>
+<connect gate="A" pin="I1" pad="3"/>
+<connect gate="A" pin="O" pad="4"/>
+<connect gate="B" pin="I0" pad="6"/>
+<connect gate="B" pin="I1" pad="8"/>
+<connect gate="B" pin="O" pad="9"/>
+<connect gate="C" pin="I0" pad="13"/>
+<connect gate="C" pin="I1" pad="14"/>
+<connect gate="C" pin="O" pad="12"/>
+<connect gate="D" pin="I0" pad="18"/>
+<connect gate="D" pin="I1" pad="19"/>
+<connect gate="D" pin="O" pad="16"/>
+<connect gate="P" pin="GND" pad="10"/>
+<connect gate="P" pin="VCC" pad="20"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2919/1"/>
+</package3dinstances>
+<technologies>
 <technology name="LS">
 <attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
@@ -7256,6 +7373,130 @@ or will meet your specific requirements.&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="jumper" urn="urn:adsk.eagle:library:252">
+<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SJ_2W" urn="urn:adsk.eagle:footprint:15438/1" library_version="2">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="3.175" y1="-1.524" x2="-3.175" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.524" x2="3.429" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.429" y1="1.27" x2="-3.175" y2="1.524" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.429" y1="-1.27" x2="-3.175" y2="-1.524" width="0.1524" layer="21" curve="90"/>
+<wire x1="3.175" y1="-1.524" x2="3.429" y2="-1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="3.429" y1="-1.27" x2="3.429" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.429" y1="-1.27" x2="-3.429" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.524" x2="3.175" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="0" x2="3.302" y2="0" width="0.1524" layer="51"/>
+<wire x1="-2.794" y1="0" x2="-3.302" y2="0" width="0.1524" layer="51"/>
+<wire x1="0" y1="0.762" x2="0" y2="1.397" width="0.1524" layer="51"/>
+<wire x1="0" y1="-1.397" x2="0" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="0.127" x2="2.032" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="-2.032" y1="-0.127" x2="-2.032" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="-2.54" y="0" dx="1.27" dy="2.54" layer="1"/>
+<smd name="2" x="0" y="0" dx="1.27" dy="2.54" layer="1"/>
+<smd name="3" x="2.54" y="0" dx="1.27" dy="2.54" layer="1"/>
+<text x="-3.429" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.508" y1="-0.762" x2="0.508" y2="0.762" layer="51"/>
+</package>
+<package name="SJ_2" urn="urn:adsk.eagle:footprint:15439/1" library_version="2">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="2.159" y1="-1.016" x2="-2.159" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="2.159" y1="1.016" x2="2.413" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.413" y1="0.762" x2="-2.159" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.413" y1="-0.762" x2="-2.159" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.159" y1="-1.016" x2="2.413" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.413" y1="-0.762" x2="2.413" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="-0.762" x2="-2.413" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="1.016" x2="2.159" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="0" x2="2.286" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.778" y1="0" x2="-2.286" y2="0" width="0.1524" layer="51"/>
+<wire x1="0" y1="0.762" x2="0" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="0" y1="-1.016" x2="0" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="1.016" y1="0.127" x2="1.016" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="-1.016" y1="-0.127" x2="-1.016" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="-1.524" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<smd name="2" x="0" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<smd name="3" x="1.524" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<text x="-2.413" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.508" y1="-0.762" x2="0.508" y2="0.762" layer="51"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SJ_2W" urn="urn:adsk.eagle:package:15476/1" type="box" library_version="2">
+<description>Solder jumper</description>
+<packageinstances>
+<packageinstance name="SJ_2W"/>
+</packageinstances>
+</package3d>
+<package3d name="SJ_2" urn="urn:adsk.eagle:package:15474/1" type="box" library_version="2">
+<description>Solder jumper</description>
+<packageinstances>
+<packageinstance name="SJ_2"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="SJ_2" urn="urn:adsk.eagle:symbol:15437/1" library_version="2">
+<wire x1="-0.635" y1="-1.397" x2="0.635" y2="-1.397" width="1.27" layer="94" curve="180" cap="flat"/>
+<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<text x="2.54" y="0.381" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-1.905" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-1.27" y1="-0.635" x2="1.27" y2="0.635" layer="94"/>
+<pin name="3" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="1" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SJ2W" urn="urn:adsk.eagle:component:15505/2" prefix="SJ" uservalue="yes" library_version="2">
+<description>SMD solder &lt;b&gt;JUMPER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="SJ_2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="W" package="SJ_2W">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15476/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="SJ_2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15474/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="7" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7415,6 +7656,15 @@ or will meet your specific requirements.&lt;p&gt;
 <part name="C43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1"/>
 <part name="C44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1"/>
 <part name="C46" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1"/>
+<part name="IC3" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*86" device="N" package3d_urn="urn:adsk.eagle:package:16407/2" technology="LS"/>
+<part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="P+24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="SJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ2W" device="" package3d_urn="urn:adsk.eagle:package:15474/1"/>
+<part name="SJ2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ2W" device="" package3d_urn="urn:adsk.eagle:package:15474/1"/>
+<part name="SJ3" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ2W" device="" package3d_urn="urn:adsk.eagle:package:15474/1"/>
+<part name="P+25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7997,37 +8247,21 @@ when _DMACLK is high then VRAM is being written</text>
 <attribute name="VALUE" x="-25.4" y="-243.84" size="1.778" layer="96"/>
 </instance>
 <instance part="P+23" gate="VCC" x="-33.02" y="-226.06" smashed="yes"/>
-<instance part="CLK.SEQ" gate="A" x="-228.6" y="551.18" smashed="yes">
-<attribute name="NAME" x="-236.22" y="556.895" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-236.22" y="543.56" size="1.778" layer="96"/>
+<instance part="CLK.SEQ" gate="A" x="-297.18" y="469.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="-291.465" y="477.52" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-304.8" y="477.52" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="CLK.SEQ" gate="B" x="-228.6" y="530.86" smashed="yes">
-<attribute name="NAME" x="-236.22" y="536.575" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-236.22" y="523.24" size="1.778" layer="96"/>
+<instance part="CLK.SEQ" gate="B" x="-317.5" y="469.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="-311.785" y="477.52" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-325.12" y="477.52" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="IC2" gate="B" x="-264.16" y="513.08" smashed="yes">
-<attribute name="NAME" x="-261.62" y="516.255" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-261.62" y="508" size="1.778" layer="96"/>
+<instance part="CLK.SEQ" gate="C" x="-337.82" y="469.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="-332.105" y="477.52" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-345.44" y="477.52" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="IC2" gate="C" x="-264.16" y="487.68" smashed="yes">
-<attribute name="NAME" x="-266.7" y="490.855" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-269.24" y="482.6" size="1.778" layer="96"/>
-</instance>
-<instance part="IC2" gate="D" x="-251.46" y="492.76" smashed="yes">
-<attribute name="NAME" x="-254" y="495.935" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-254" y="490.22" size="1.778" layer="96"/>
-</instance>
-<instance part="CLK.SEQ" gate="C" x="-228.6" y="510.54" smashed="yes">
-<attribute name="NAME" x="-236.22" y="516.255" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-236.22" y="502.92" size="1.778" layer="96"/>
-</instance>
-<instance part="CLK.SEQ" gate="D" x="-228.6" y="490.22" smashed="yes">
-<attribute name="NAME" x="-236.22" y="495.935" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-236.22" y="482.6" size="1.778" layer="96"/>
-</instance>
-<instance part="IC2" gate="A" x="-264.16" y="528.32" smashed="yes">
-<attribute name="NAME" x="-261.62" y="531.495" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-261.62" y="523.24" size="1.778" layer="96"/>
+<instance part="CLK.SEQ" gate="D" x="-358.14" y="469.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="-352.425" y="477.52" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-365.76" y="477.52" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND12" gate="1" x="-63.5" y="-238.76" smashed="yes"/>
 <instance part="IC53" gate="F" x="139.7" y="45.72" smashed="yes" rot="R90">
@@ -8052,6 +8286,49 @@ when _DMACLK is high then VRAM is being written</text>
 <instance part="IC5" gate="A" x="17.78" y="-93.98" smashed="yes" rot="R270">
 <attribute name="NAME" x="23.495" y="-86.36" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="10.16" y="-86.36" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="IC3" gate="A" x="-391.16" y="551.18" smashed="yes">
+<attribute name="NAME" x="-398.78" y="556.895" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-398.78" y="543.56" size="1.778" layer="96"/>
+</instance>
+<instance part="IC3" gate="B" x="-391.16" y="530.86" smashed="yes">
+<attribute name="NAME" x="-398.78" y="536.575" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-398.78" y="523.24" size="1.778" layer="96"/>
+</instance>
+<instance part="IC3" gate="C" x="-391.16" y="510.54" smashed="yes">
+<attribute name="NAME" x="-398.78" y="516.255" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-398.78" y="502.92" size="1.778" layer="96"/>
+</instance>
+<instance part="IC3" gate="D" x="-391.16" y="490.22" smashed="yes">
+<attribute name="NAME" x="-398.78" y="495.935" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-398.78" y="482.6" size="1.778" layer="96"/>
+</instance>
+<instance part="GND16" gate="1" x="-403.86" y="543.56" smashed="yes"/>
+<instance part="GND17" gate="1" x="-403.86" y="523.24" smashed="yes"/>
+<instance part="P+12" gate="VCC" x="-403.86" y="518.16" smashed="yes"/>
+<instance part="P+24" gate="VCC" x="-403.86" y="497.84" smashed="yes"/>
+<instance part="IC1" gate="D" x="-340.36" y="419.1" smashed="yes" rot="R270">
+<attribute name="NAME" x="-334.645" y="426.72" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-347.98" y="426.72" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SJ1" gate="G$1" x="-447.04" y="520.7" smashed="yes">
+<attribute name="NAME" x="-444.5" y="521.081" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-444.5" y="518.795" size="1.778" layer="96"/>
+</instance>
+<instance part="SJ2" gate="G$1" x="-416.56" y="520.7" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-419.1" y="521.081" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="-419.1" y="518.795" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="IC53" gate="E" x="-368.3" y="431.8" smashed="yes">
+<attribute name="NAME" x="-365.76" y="434.975" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-365.76" y="426.72" size="1.778" layer="96"/>
+</instance>
+<instance part="SJ3" gate="G$1" x="-350.52" y="436.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="-353.06" y="436.499" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-353.06" y="438.785" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="P+25" gate="VCC" x="-350.52" y="444.5" smashed="yes">
+<attribute name="VALUE" x="-353.06" y="441.96" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -9894,6 +10171,16 @@ when _DMACLK is high then VRAM is being written</text>
 <wire x1="5.08" y1="-266.7" x2="7.62" y2="-266.7" width="0.1524" layer="91"/>
 <junction x="7.62" y="-266.7"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="A" pin="I1"/>
+<pinref part="GND16" gate="1" pin="GND"/>
+<wire x1="-403.86" y1="548.64" x2="-403.86" y2="546.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="B" pin="I1"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<wire x1="-403.86" y1="528.32" x2="-403.86" y2="525.78" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -9991,6 +10278,20 @@ when _DMACLK is high then VRAM is being written</text>
 <pinref part="CTR.H" gate="G$1" pin="PL"/>
 <pinref part="P+11" gate="VCC" pin="VCC"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="C" pin="I0"/>
+<pinref part="P+12" gate="VCC" pin="VCC"/>
+<wire x1="-403.86" y1="513.08" x2="-403.86" y2="515.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+24" gate="VCC" pin="VCC"/>
+<pinref part="IC3" gate="D" pin="I0"/>
+<wire x1="-403.86" y1="495.3" x2="-403.86" y2="492.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SJ3" gate="G$1" pin="3"/>
+<pinref part="P+25" gate="VCC" pin="VCC"/>
+</segment>
 </net>
 <net name="N$15" class="0">
 <segment>
@@ -10013,22 +10314,9 @@ when _DMACLK is high then VRAM is being written</text>
 <label x="-17.78" y="670.56" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="-289.56" y1="558.8" x2="-289.56" y2="553.72" width="0.1524" layer="91"/>
-<wire x1="-289.56" y1="553.72" x2="-289.56" y2="533.4" width="0.1524" layer="91"/>
-<label x="-289.56" y="558.8" size="1.778" layer="95" rot="R90"/>
-<pinref part="CLK.SEQ" gate="A" pin="I0"/>
-<wire x1="-289.56" y1="533.4" x2="-289.56" y2="513.08" width="0.1524" layer="91"/>
-<wire x1="-289.56" y1="513.08" x2="-289.56" y2="492.76" width="0.1524" layer="91"/>
-<wire x1="-241.3" y1="553.72" x2="-289.56" y2="553.72" width="0.1524" layer="91"/>
-<junction x="-289.56" y="553.72"/>
-<junction x="-289.56" y="533.4"/>
-<pinref part="CLK.SEQ" gate="B" pin="I0"/>
-<wire x1="-241.3" y1="533.4" x2="-289.56" y2="533.4" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="B" pin="I"/>
-<wire x1="-274.32" y1="513.08" x2="-289.56" y2="513.08" width="0.1524" layer="91"/>
-<junction x="-289.56" y="513.08"/>
-<pinref part="IC2" gate="D" pin="I"/>
-<wire x1="-261.62" y1="492.76" x2="-289.56" y2="492.76" width="0.1524" layer="91"/>
+<pinref part="SJ2" gate="G$1" pin="3"/>
+<wire x1="-416.56" y1="515.62" x2="-416.56" y2="513.08" width="0.1524" layer="91"/>
+<label x="-416.56" y="513.08" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="N$50" class="0">
@@ -10545,22 +10833,9 @@ when _DMACLK is high then VRAM is being written</text>
 <label x="-15.24" y="673.1" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="-279.4" y1="558.8" x2="-279.4" y2="548.64" width="0.1524" layer="91"/>
-<label x="-279.4" y="558.8" size="1.778" layer="95" rot="R90"/>
-<pinref part="CLK.SEQ" gate="A" pin="I1"/>
-<wire x1="-279.4" y1="548.64" x2="-279.4" y2="528.32" width="0.1524" layer="91"/>
-<wire x1="-279.4" y1="528.32" x2="-279.4" y2="508" width="0.1524" layer="91"/>
-<wire x1="-279.4" y1="508" x2="-279.4" y2="487.68" width="0.1524" layer="91"/>
-<wire x1="-241.3" y1="548.64" x2="-279.4" y2="548.64" width="0.1524" layer="91"/>
-<junction x="-279.4" y="548.64"/>
-<pinref part="IC2" gate="A" pin="I"/>
-<wire x1="-274.32" y1="528.32" x2="-279.4" y2="528.32" width="0.1524" layer="91"/>
-<junction x="-279.4" y="528.32"/>
-<pinref part="CLK.SEQ" gate="C" pin="I1"/>
-<wire x1="-241.3" y1="508" x2="-279.4" y2="508" width="0.1524" layer="91"/>
-<junction x="-279.4" y="508"/>
-<pinref part="IC2" gate="C" pin="I"/>
-<wire x1="-274.32" y1="487.68" x2="-279.4" y2="487.68" width="0.1524" layer="91"/>
+<pinref part="IC53" gate="E" pin="I"/>
+<wire x1="-378.46" y1="431.8" x2="-386.08" y2="431.8" width="0.1524" layer="91"/>
+<label x="-386.08" y="431.8" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="!NMI" class="0">
@@ -10598,6 +10873,16 @@ when _DMACLK is high then VRAM is being written</text>
 <wire x1="-20.32" y1="652.78" x2="-20.32" y2="668.02" width="0.1524" layer="91"/>
 <label x="-20.32" y="668.02" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="SJ2" gate="G$1" pin="1"/>
+<wire x1="-416.56" y1="525.78" x2="-416.56" y2="528.32" width="0.1524" layer="91"/>
+<label x="-416.56" y="528.32" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="SJ1" gate="G$1" pin="3"/>
+<wire x1="-447.04" y1="515.62" x2="-447.04" y2="513.08" width="0.1524" layer="91"/>
+<label x="-447.04" y="513.08" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CLK3_5" class="0">
 <segment>
@@ -10609,6 +10894,11 @@ when _DMACLK is high then VRAM is being written</text>
 <pinref part="J1" gate="A" pin="6"/>
 <wire x1="-22.86" y1="652.78" x2="-22.86" y2="665.48" width="0.1524" layer="91"/>
 <label x="-22.86" y="665.48" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="SJ1" gate="G$1" pin="1"/>
+<wire x1="-447.04" y1="525.78" x2="-447.04" y2="528.32" width="0.1524" layer="91"/>
+<label x="-447.04" y="528.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OFFSCR_X" class="0">
@@ -10886,38 +11176,11 @@ when _DMACLK is high then VRAM is being written</text>
 <wire x1="-35.56" y1="-231.14" x2="-30.48" y2="-231.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$83" class="0">
-<segment>
-<pinref part="CLK.SEQ" gate="D" pin="I1"/>
-<pinref part="IC2" gate="C" pin="O"/>
-<wire x1="-241.3" y1="487.68" x2="-254" y2="487.68" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$84" class="0">
-<segment>
-<pinref part="CLK.SEQ" gate="D" pin="I0"/>
-<pinref part="IC2" gate="D" pin="O"/>
-</segment>
-</net>
-<net name="N$85" class="0">
-<segment>
-<pinref part="CLK.SEQ" gate="B" pin="I1"/>
-<pinref part="IC2" gate="A" pin="O"/>
-<wire x1="-241.3" y1="528.32" x2="-254" y2="528.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$86" class="0">
-<segment>
-<pinref part="CLK.SEQ" gate="C" pin="I0"/>
-<pinref part="IC2" gate="B" pin="O"/>
-<wire x1="-241.3" y1="513.08" x2="-254" y2="513.08" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="P0" class="0">
 <segment>
 <pinref part="CLK.SEQ" gate="D" pin="O"/>
-<wire x1="-215.9" y1="490.22" x2="-210.82" y2="490.22" width="0.1524" layer="91"/>
-<label x="-210.82" y="490.22" size="1.778" layer="95"/>
+<wire x1="-358.14" y1="457.2" x2="-358.14" y2="452.12" width="0.1524" layer="91"/>
+<label x="-358.14" y="452.12" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
 <pinref part="CTR.W" gate="G$1" pin="CP"/>
@@ -10926,11 +11189,6 @@ when _DMACLK is high then VRAM is being written</text>
 </segment>
 </net>
 <net name="P1" class="0">
-<segment>
-<pinref part="CLK.SEQ" gate="C" pin="O"/>
-<wire x1="-215.9" y1="510.54" x2="-210.82" y2="510.54" width="0.1524" layer="91"/>
-<label x="-210.82" y="510.54" size="1.778" layer="95"/>
-</segment>
 <segment>
 <wire x1="55.88" y1="297.18" x2="55.88" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="259.08" x2="55.88" y2="68.58" width="0.1524" layer="91"/>
@@ -10969,12 +11227,17 @@ when _DMACLK is high then VRAM is being written</text>
 <wire x1="50.8" y1="-154.94" x2="50.8" y2="-152.4" width="0.1524" layer="91"/>
 <label x="50.8" y="-152.4" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="D" pin="O"/>
+<wire x1="-340.36" y1="406.4" x2="-340.36" y2="401.32" width="0.1524" layer="91"/>
+<label x="-340.36" y="401.32" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="P2" class="0">
 <segment>
 <pinref part="CLK.SEQ" gate="B" pin="O"/>
-<wire x1="-215.9" y1="530.86" x2="-210.82" y2="530.86" width="0.1524" layer="91"/>
-<label x="-210.82" y="530.86" size="1.778" layer="95"/>
+<wire x1="-317.5" y1="457.2" x2="-317.5" y2="452.12" width="0.1524" layer="91"/>
+<label x="-317.5" y="452.12" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
 <wire x1="20.32" y1="-81.28" x2="22.86" y2="-78.74" width="0.1524" layer="91"/>
@@ -10990,8 +11253,8 @@ when _DMACLK is high then VRAM is being written</text>
 <net name="P3" class="0">
 <segment>
 <pinref part="CLK.SEQ" gate="A" pin="O"/>
-<wire x1="-215.9" y1="551.18" x2="-210.82" y2="551.18" width="0.1524" layer="91"/>
-<label x="-210.82" y="551.18" size="1.778" layer="95"/>
+<wire x1="-297.18" y1="457.2" x2="-297.18" y2="452.12" width="0.1524" layer="91"/>
+<label x="-297.18" y="452.12" size="1.778" layer="95" rot="R270"/>
 </segment>
 <segment>
 <pinref part="TRIGGER.INIT" gate="B" pin="CLK"/>
@@ -11097,6 +11360,105 @@ when _DMACLK is high then VRAM is being written</text>
 <wire x1="50.8" y1="-114.3" x2="17.78" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="-114.3" x2="17.78" y2="-106.68" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="A" pin="O"/>
+</segment>
+</net>
+<net name="N$89" class="0">
+<segment>
+<pinref part="IC3" gate="A" pin="I0"/>
+<wire x1="-403.86" y1="553.72" x2="-452.12" y2="553.72" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="D" pin="I1"/>
+<wire x1="-403.86" y1="487.68" x2="-452.12" y2="487.68" width="0.1524" layer="91"/>
+<wire x1="-452.12" y1="487.68" x2="-452.12" y2="520.7" width="0.1524" layer="91"/>
+<pinref part="SJ1" gate="G$1" pin="2"/>
+<wire x1="-452.12" y1="520.7" x2="-452.12" y2="553.72" width="0.1524" layer="91"/>
+<junction x="-452.12" y="520.7"/>
+</segment>
+</net>
+<net name="SEQGEN_LOW" class="0">
+<segment>
+<pinref part="IC3" gate="A" pin="O"/>
+<label x="-378.46" y="553.72" size="1.778" layer="95"/>
+<pinref part="CLK.SEQ" gate="A" pin="I0"/>
+<wire x1="-294.64" y1="482.6" x2="-294.64" y2="551.18" width="0.1524" layer="91"/>
+<wire x1="-294.64" y1="551.18" x2="-314.96" y2="551.18" width="0.1524" layer="91"/>
+<pinref part="CLK.SEQ" gate="B" pin="I0"/>
+<wire x1="-314.96" y1="551.18" x2="-378.46" y2="551.18" width="0.1524" layer="91"/>
+<wire x1="-314.96" y1="482.6" x2="-314.96" y2="551.18" width="0.1524" layer="91"/>
+<junction x="-314.96" y="551.18"/>
+</segment>
+</net>
+<net name="SEQGEN_HIGH" class="0">
+<segment>
+<pinref part="IC3" gate="B" pin="O"/>
+<label x="-375.92" y="533.4" size="1.778" layer="95"/>
+<pinref part="CLK.SEQ" gate="A" pin="I1"/>
+<wire x1="-299.72" y1="482.6" x2="-299.72" y2="530.86" width="0.1524" layer="91"/>
+<wire x1="-299.72" y1="530.86" x2="-335.28" y2="530.86" width="0.1524" layer="91"/>
+<pinref part="CLK.SEQ" gate="C" pin="I0"/>
+<wire x1="-335.28" y1="530.86" x2="-378.46" y2="530.86" width="0.1524" layer="91"/>
+<wire x1="-335.28" y1="482.6" x2="-335.28" y2="530.86" width="0.1524" layer="91"/>
+<junction x="-335.28" y="530.86"/>
+</segment>
+</net>
+<net name="!SEQGEN_HIGH" class="0">
+<segment>
+<pinref part="IC3" gate="C" pin="O"/>
+<label x="-378.46" y="513.08" size="1.778" layer="95"/>
+<pinref part="CLK.SEQ" gate="B" pin="I1"/>
+<wire x1="-320.04" y1="482.6" x2="-320.04" y2="510.54" width="0.1524" layer="91"/>
+<wire x1="-320.04" y1="510.54" x2="-355.6" y2="510.54" width="0.1524" layer="91"/>
+<pinref part="CLK.SEQ" gate="D" pin="I0"/>
+<wire x1="-355.6" y1="510.54" x2="-378.46" y2="510.54" width="0.1524" layer="91"/>
+<wire x1="-355.6" y1="482.6" x2="-355.6" y2="510.54" width="0.1524" layer="91"/>
+<junction x="-355.6" y="510.54"/>
+</segment>
+</net>
+<net name="!SEQGEN_LOW" class="0">
+<segment>
+<pinref part="IC3" gate="D" pin="O"/>
+<label x="-375.92" y="492.76" size="1.778" layer="95"/>
+<pinref part="CLK.SEQ" gate="D" pin="I1"/>
+<wire x1="-360.68" y1="482.6" x2="-360.68" y2="490.22" width="0.1524" layer="91"/>
+<wire x1="-360.68" y1="490.22" x2="-378.46" y2="490.22" width="0.1524" layer="91"/>
+<pinref part="CLK.SEQ" gate="C" pin="I1"/>
+<wire x1="-340.36" y1="482.6" x2="-340.36" y2="490.22" width="0.1524" layer="91"/>
+<wire x1="-340.36" y1="490.22" x2="-360.68" y2="490.22" width="0.1524" layer="91"/>
+<junction x="-360.68" y="490.22"/>
+</segment>
+</net>
+<net name="N$83" class="0">
+<segment>
+<pinref part="IC3" gate="B" pin="I0"/>
+<wire x1="-403.86" y1="533.4" x2="-411.48" y2="533.4" width="0.1524" layer="91"/>
+<wire x1="-411.48" y1="533.4" x2="-411.48" y2="520.7" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="C" pin="I1"/>
+<wire x1="-411.48" y1="520.7" x2="-411.48" y2="508" width="0.1524" layer="91"/>
+<wire x1="-411.48" y1="508" x2="-403.86" y2="508" width="0.1524" layer="91"/>
+<pinref part="SJ2" gate="G$1" pin="2"/>
+<junction x="-411.48" y="520.7"/>
+</segment>
+</net>
+<net name="P1LONG" class="0">
+<segment>
+<pinref part="CLK.SEQ" gate="C" pin="O"/>
+<label x="-337.82" y="452.12" size="1.778" layer="95" rot="R270"/>
+<pinref part="IC1" gate="D" pin="I0"/>
+<wire x1="-337.82" y1="431.8" x2="-337.82" y2="457.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$84" class="0">
+<segment>
+<pinref part="IC53" gate="E" pin="O"/>
+<pinref part="SJ3" gate="G$1" pin="1"/>
+<wire x1="-358.14" y1="431.8" x2="-350.52" y2="431.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$85" class="0">
+<segment>
+<pinref part="SJ3" gate="G$1" pin="2"/>
+<pinref part="IC1" gate="D" pin="I1"/>
+<wire x1="-345.44" y1="436.88" x2="-342.9" y2="436.88" width="0.1524" layer="91"/>
+<wire x1="-342.9" y1="436.88" x2="-342.9" y2="431.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
