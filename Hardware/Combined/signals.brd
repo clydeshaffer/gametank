@@ -12035,9 +12035,6 @@ design rules under a new name.</description>
 <signal name="AUD_REG4">
 <contactref element="MOTHERBOARD" pad="9"/>
 </signal>
-<signal name="AUD_REG5">
-<contactref element="MOTHERBOARD" pad="8"/>
-</signal>
 <signal name="AUD_REG6">
 <contactref element="MOTHERBOARD" pad="7"/>
 <contactref element="AUD_FLAGS" pad="11"/>

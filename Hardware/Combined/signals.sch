@@ -25111,13 +25111,6 @@ RWB low</text>
 <label x="-96.52" y="81.28" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
-<net name="AUD_REG5" class="0">
-<segment>
-<pinref part="MOTHERBOARD" gate="A" pin="8"/>
-<wire x1="-99.06" y1="124.46" x2="-99.06" y2="81.28" width="0.1524" layer="91"/>
-<label x="-99.06" y="81.28" size="1.778" layer="95" rot="R270"/>
-</segment>
-</net>
 <net name="AUD_REG6" class="0">
 <segment>
 <pinref part="MOTHERBOARD" gate="A" pin="7"/>
