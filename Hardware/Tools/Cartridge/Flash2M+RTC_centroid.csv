@@ -1,0 +1,28 @@
+Screaming Circuits SMD component position file.
+Created by Centroid_ScreamingCircuits_smd.ulp 1.2.0.
+
+Centroid Data for pc board: "Flash2M+RTC.brd" as of: 4/19/2022 4:40 AM
+Measurements are in inches. Comma delimited
+Only surface mount components included
+
+RefDes,Layer,LocationX,LocationY,Rotation
+C1,Top,0.900,0.850,180
+C2,Top,0.750,1.050,0
+C3,Top,1.300,1.550,180
+C4,Top,1.500,1.800,0
+C5,Top,0.900,1.450,0
+IC1,Top,1.450,0.850,0
+IC2,Top,0.600,0.800,270
+IC3,Top,1.650,1.400,270
+IC4,Top,1.300,1.750,270
+IC5,Top,0.700,1.400,315
+R1,Top,0.300,0.650,180
+R2,Top,0.300,0.800,180
+TP1,Top,0.900,1.800,0
+TP2,Top,1.050,1.750,0
+TP3,Top,0.900,1.650,0
+TP4,Top,1.050,1.600,0
+TP5,Top,0.500,0.500,0
+TP6,Top,1.945,0.440,180
+U$1,Top,0.150,0.150,0
+U$3,Top,0.400,1.400,90

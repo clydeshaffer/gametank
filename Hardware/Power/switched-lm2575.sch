@@ -14143,16 +14143,15 @@ manufacturer Siemens</description>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="GND" gate="1" x="5.08" y="60.96" smashed="yes">
-<attribute name="NAME" x="3.683" y="61.6458" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="3.937" y="57.658" size="1.778" layer="96"/>
+<instance part="GND" gate="1" x="-10.16" y="60.96" smashed="yes">
+<attribute name="NAME" x="-11.557" y="61.6458" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-11.303" y="57.658" size="1.778" layer="96"/>
 </instance>
 <instance part="5V" gate="1" x="83.82" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="81.9658" y="75.057" size="1.778" layer="95" rot="R90"/>
@@ -14162,19 +14161,19 @@ manufacturer Siemens</description>
 <attribute name="NAME" x="30.48" y="87.63" size="1.778" layer="95"/>
 <attribute name="VALUE" x="40.64" y="87.63" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="1" x="7.62" y="55.88" smashed="yes">
-<attribute name="VALUE" x="5.08" y="53.34" size="1.778" layer="96"/>
+<instance part="GND1" gate="1" x="-7.62" y="55.88" smashed="yes">
+<attribute name="VALUE" x="-10.16" y="53.34" size="1.778" layer="96"/>
 </instance>
 <instance part="P+1" gate="VCC" x="83.82" y="83.82" smashed="yes">
 <attribute name="VALUE" x="81.28" y="81.28" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="J1" gate="G$1" x="2.54" y="81.28" smashed="yes">
-<attribute name="NAME" x="-5.08" y="86.36" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-5.08" y="76.2" size="1.778" layer="96"/>
+<instance part="J1" gate="G$1" x="-12.7" y="81.28" smashed="yes">
+<attribute name="NAME" x="-20.32" y="86.36" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-20.32" y="76.2" size="1.778" layer="96"/>
 </instance>
-<instance part="C1" gate="G$1" x="15.24" y="81.28" smashed="yes">
-<attribute name="NAME" x="16.256" y="81.915" size="1.778" layer="95"/>
-<attribute name="VALUE" x="16.256" y="77.089" size="1.778" layer="96"/>
+<instance part="C1" gate="G$1" x="0" y="81.28" smashed="yes">
+<attribute name="NAME" x="1.016" y="81.915" size="1.778" layer="95"/>
+<attribute name="VALUE" x="1.016" y="77.089" size="1.778" layer="96"/>
 </instance>
 <instance part="C2" gate="G$1" x="71.12" y="76.2" smashed="yes">
 <attribute name="NAME" x="72.136" y="76.835" size="1.778" layer="95"/>
@@ -14193,8 +14192,8 @@ manufacturer Siemens</description>
 <instance part="GND3" gate="1" x="38.1" y="68.58" smashed="yes">
 <attribute name="VALUE" x="35.56" y="66.04" size="1.778" layer="96"/>
 </instance>
-<instance part="GND4" gate="1" x="15.24" y="73.66" smashed="yes">
-<attribute name="VALUE" x="12.7" y="71.12" size="1.778" layer="96"/>
+<instance part="GND4" gate="1" x="0" y="73.66" smashed="yes">
+<attribute name="VALUE" x="-2.54" y="71.12" size="1.778" layer="96"/>
 </instance>
 <instance part="GND6" gate="1" x="71.12" y="68.58" smashed="yes">
 <attribute name="VALUE" x="68.58" y="66.04" size="1.778" layer="96"/>
@@ -14209,9 +14208,6 @@ manufacturer Siemens</description>
 </instance>
 <instance part="GND5" gate="1" x="38.1" y="60.96" smashed="yes">
 <attribute name="VALUE" x="35.56" y="58.42" size="1.778" layer="96"/>
-</instance>
-<instance part="P+2" gate="VCC" x="30.48" y="45.72" smashed="yes">
-<attribute name="VALUE" x="30.48" y="40.64" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -14231,22 +14227,15 @@ manufacturer Siemens</description>
 <pinref part="L1" gate="1" pin="2"/>
 <wire x1="71.12" y1="78.74" x2="71.12" y2="83.82" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="27.94" y1="53.34" x2="27.94" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="38.1" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="P+2" gate="VCC" pin="VCC"/>
-<wire x1="30.48" y1="38.1" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND" gate="1" pin="P"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="7.62" y1="60.96" x2="7.62" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="60.96" x2="-7.62" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="7.62" y1="78.74" x2="7.62" y2="60.96" width="0.1524" layer="91"/>
-<junction x="7.62" y="60.96"/>
+<wire x1="-7.62" y1="78.74" x2="-7.62" y2="60.96" width="0.1524" layer="91"/>
+<junction x="-7.62" y="60.96"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
@@ -14274,11 +14263,17 @@ manufacturer Siemens</description>
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
 <pinref part="IC1" gate="NC1" pin="IN"/>
-<wire x1="7.62" y1="83.82" x2="15.24" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="+"/>
-<wire x1="15.24" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
-<junction x="15.24" y="83.82"/>
-<label x="7.62" y="83.82" size="1.778" layer="95"/>
+<wire x1="0" y1="83.82" x2="17.78" y2="83.82" width="0.1524" layer="91"/>
+<junction x="0" y="83.82"/>
+<label x="-7.62" y="83.82" size="1.778" layer="95"/>
+<wire x1="17.78" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="45.72" x2="17.78" y2="83.82" width="0.1524" layer="91"/>
+<junction x="17.78" y="83.82"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="45.72" x2="27.94" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="45.72" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
