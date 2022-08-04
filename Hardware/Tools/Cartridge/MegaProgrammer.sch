@@ -1460,6 +1460,7 @@ Arduino Mega R3
 <sheets>
 <sheet>
 <plain>
+<text x="-73.66" y="91.44" size="6.4516" layer="97">Arduino MEGA shield adapter for GameTank cartridges</text>
 </plain>
 <instances>
 <instance part="U$1" gate="A" x="60.96" y="33.02" smashed="yes"/>

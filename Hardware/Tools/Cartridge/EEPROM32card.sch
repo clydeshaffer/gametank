@@ -2152,6 +2152,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <sheets>
 <sheet>
 <plain>
+<text x="-17.78" y="104.14" size="5.08" layer="97">EEPROM/EPROM cartridge
+with solder jumpers for picking memory pinout</text>
 </plain>
 <instances>
 <instance part="U$1" gate="A" x="96.52" y="48.26" smashed="yes"/>
