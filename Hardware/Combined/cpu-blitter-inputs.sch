@@ -24534,6 +24534,10 @@ Source: www.kingbright.com</description>
 <part name="IC3" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*573" device="N" package3d_urn="urn:adsk.eagle:package:16429/2" technology="HC" value="74HC573N"/>
 <part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$5" library="0_gametankparts" deviceset="SRAM_32K" device=""/>
+<part name="P+25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="GND44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25179,6 +25183,15 @@ GX,GY highbit</text>
 <instance part="IC1" gate="D" x="132.08" y="119.38" smashed="yes">
 <attribute name="NAME" x="124.46" y="125.095" size="1.778" layer="95"/>
 <attribute name="VALUE" x="124.46" y="111.76" size="1.778" layer="96"/>
+</instance>
+<instance part="U$4" gate="G$2" x="462.28" y="142.24" smashed="yes">
+<attribute name="NAME" x="461.01" y="141.605" size="1.778" layer="95"/>
+</instance>
+<instance part="P+28" gate="VCC" x="462.28" y="154.94" smashed="yes">
+<attribute name="VALUE" x="459.74" y="152.4" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND44" gate="1" x="462.28" y="129.54" smashed="yes">
+<attribute name="VALUE" x="459.74" y="127" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -27021,6 +27034,11 @@ GX,GY highbit</text>
 <pinref part="IC3" gate="A" pin="OC"/>
 <pinref part="GND34" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="U$4" gate="G$2" pin="VSS"/>
+<pinref part="GND44" gate="1" pin="GND"/>
+<wire x1="462.28" y1="134.62" x2="462.28" y2="132.08" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -27126,6 +27144,11 @@ GX,GY highbit</text>
 <pinref part="P+24" gate="VCC" pin="VCC"/>
 <pinref part="SEQGEN_XOR" gate="D" pin="I0"/>
 <wire x1="-403.86" y1="495.3" x2="-403.86" y2="492.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+28" gate="VCC" pin="VCC"/>
+<pinref part="U$4" gate="G$2" pin="VDD"/>
+<wire x1="462.28" y1="152.4" x2="462.28" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -29911,6 +29934,12 @@ GX,GY highbit</text>
 <instance part="GND5" gate="1" x="35.56" y="48.26" smashed="yes">
 <attribute name="VALUE" x="33.02" y="45.72" size="1.778" layer="96"/>
 </instance>
+<instance part="P+25" gate="VCC" x="119.38" y="66.04" smashed="yes">
+<attribute name="VALUE" x="116.84" y="63.5" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND37" gate="1" x="119.38" y="40.64" smashed="yes">
+<attribute name="VALUE" x="116.84" y="38.1" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -30121,6 +30150,10 @@ GX,GY highbit</text>
 <pinref part="C58" gate="G$1" pin="-"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="GND37" gate="1" pin="GND"/>
+<wire x1="119.38" y1="45.72" x2="119.38" y2="43.18" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -30327,6 +30360,10 @@ GX,GY highbit</text>
 <segment>
 <pinref part="C58" gate="G$1" pin="+"/>
 <pinref part="P+39" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="P+25" gate="VCC" pin="VCC"/>
+<wire x1="119.38" y1="63.5" x2="119.38" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$130" class="0">
