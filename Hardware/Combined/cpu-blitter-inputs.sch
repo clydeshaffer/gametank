@@ -24465,7 +24465,6 @@ Source: www.kingbright.com</description>
 <part name="C62" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" override_package3d_urn="urn:adsk.eagle:package:29285746/2" override_package_urn="urn:adsk.eagle:footprint:23136/1" value="0.1uF"/>
 <part name="C63" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="025-024X044" package3d_urn="urn:adsk.eagle:package:23630/1" override_package3d_urn="urn:adsk.eagle:package:29285746/2" override_package_urn="urn:adsk.eagle:footprint:23136/1" value="0.1uF"/>
 <part name="VIAPORT" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X14" device="" package3d_urn="urn:adsk.eagle:package:22417/2"/>
-<part name="GND45" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$6" library="0_gametankparts" deviceset="74HC163" device="" package3d_urn="urn:adsk.eagle:package:922/2"/>
 <part name="IC16" library="74xx-us" library_urn="urn:adsk.eagle:library:88" deviceset="74*04" device="N" package3d_urn="urn:adsk.eagle:package:16407/2"/>
@@ -24538,6 +24537,7 @@ Source: www.kingbright.com</description>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -28555,9 +28555,6 @@ GX,GY highbit</text>
 <attribute name="NAME" x="232.41" y="206.375" size="1.778" layer="95"/>
 <attribute name="VALUE" x="232.41" y="165.1" size="1.778" layer="96"/>
 </instance>
-<instance part="GND45" gate="1" x="231.14" y="203.2" smashed="yes" rot="R270">
-<attribute name="VALUE" x="228.6" y="205.74" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="GND46" gate="1" x="231.14" y="170.18" smashed="yes" rot="R270">
 <attribute name="VALUE" x="228.6" y="172.72" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -28566,6 +28563,9 @@ GX,GY highbit</text>
 <attribute name="VALUE" x="25.4" y="-19.05" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U$5" gate="G$1" x="66.04" y="134.62" smashed="yes"/>
+<instance part="P+48" gate="VCC" x="228.6" y="205.74" smashed="yes">
+<attribute name="VALUE" x="226.06" y="203.2" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -29051,11 +29051,6 @@ GX,GY highbit</text>
 <wire x1="17.78" y1="-15.24" x2="10.16" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND45" gate="1" pin="GND"/>
-<pinref part="VIAPORT" gate="A" pin="1"/>
-<wire x1="233.68" y1="203.2" x2="236.22" y2="203.2" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND46" gate="1" pin="GND"/>
 <pinref part="VIAPORT" gate="A" pin="14"/>
 <wire x1="233.68" y1="170.18" x2="236.22" y2="170.18" width="0.1524" layer="91"/>
@@ -29098,6 +29093,11 @@ GX,GY highbit</text>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="P+36" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="VIAPORT" gate="A" pin="1"/>
+<wire x1="228.6" y1="203.2" x2="236.22" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="P+48" gate="VCC" pin="VCC"/>
 </segment>
 </net>
 <net name="!RAMSEL" class="0">
@@ -29219,14 +29219,14 @@ GX,GY highbit</text>
 <pinref part="U$5" gate="G$1" pin="A3"/>
 </segment>
 </net>
-<net name="AUD_SQ1_N" class="0">
+<net name="AUD_RESET" class="0">
 <segment>
 <pinref part="WR_REG_DECODE" gate="G$2" pin="Y0"/>
 <wire x1="-58.42" y1="17.78" x2="-58.42" y2="43.18" width="0.1524" layer="91"/>
 <label x="-58.42" y="40.64" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
-<net name="AUD_SQ1_X" class="0">
+<net name="!AUD_NMI" class="0">
 <segment>
 <pinref part="WR_REG_DECODE" gate="G$2" pin="Y1"/>
 <wire x1="-60.96" y1="17.78" x2="-60.96" y2="43.18" width="0.1524" layer="91"/>
@@ -29261,7 +29261,7 @@ GX,GY highbit</text>
 <label x="-71.12" y="40.64" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
-<net name="AUD_WAVE_X" class="0">
+<net name="AUD_SAMP_RATE_SEL" class="0">
 <segment>
 <pinref part="WR_REG_DECODE" gate="G$2" pin="Y6"/>
 <wire x1="-73.66" y1="17.78" x2="-73.66" y2="43.18" width="0.1524" layer="91"/>
