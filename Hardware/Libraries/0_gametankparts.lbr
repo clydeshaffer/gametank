@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -2392,6 +2392,148 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="-3.556" y1="-0.762" x2="-1.27" y2="-0.762" width="0.127" layer="21"/>
 <text x="-2.54" y="0" size="0.6096" layer="21">&gt;NAME</text>
 </package>
+<package name="SANNI">
+<pad name="P$2" x="-46.99" y="11.43" drill="1.016"/>
+<pad name="P$3" x="-44.45" y="11.43" drill="1.016"/>
+<pad name="P$4" x="-41.91" y="11.43" drill="1.016"/>
+<pad name="P$5" x="-39.37" y="11.43" drill="1.016"/>
+<pad name="P$6" x="-36.83" y="11.43" drill="1.016"/>
+<pad name="P$7" x="-34.29" y="11.43" drill="1.016"/>
+<pad name="P$8" x="-31.75" y="11.43" drill="1.016"/>
+<pad name="P$9" x="-29.21" y="11.43" drill="1.016"/>
+<pad name="P$10" x="-26.67" y="11.43" drill="1.016"/>
+<pad name="P$11" x="-24.13" y="11.43" drill="1.016"/>
+<pad name="P$12" x="-21.59" y="11.43" drill="1.016"/>
+<pad name="P$13" x="-19.05" y="11.43" drill="1.016"/>
+<pad name="P$14" x="-16.51" y="11.43" drill="1.016"/>
+<pad name="P$15" x="-13.97" y="11.43" drill="1.016"/>
+<pad name="P$16" x="-11.43" y="11.43" drill="1.016"/>
+<pad name="P$17" x="-8.89" y="11.43" drill="1.016"/>
+<pad name="P$18" x="-6.35" y="11.43" drill="1.016"/>
+<pad name="P$19" x="-3.81" y="11.43" drill="1.016"/>
+<pad name="P$20" x="-1.27" y="11.43" drill="1.016"/>
+<pad name="P$21" x="1.27" y="11.43" drill="1.016"/>
+<pad name="P$22" x="3.81" y="11.43" drill="1.016"/>
+<pad name="P$23" x="6.35" y="11.43" drill="1.016"/>
+<pad name="P$24" x="8.89" y="11.43" drill="1.016"/>
+<pad name="P$25" x="11.43" y="11.43" drill="1.016"/>
+<pad name="P$26" x="13.97" y="11.43" drill="1.016"/>
+<pad name="P$27" x="16.51" y="11.43" drill="1.016"/>
+<pad name="P$28" x="19.05" y="11.43" drill="1.016"/>
+<pad name="P$29" x="21.59" y="11.43" drill="1.016"/>
+<pad name="P$30" x="24.13" y="11.43" drill="1.016"/>
+<pad name="P$31" x="26.67" y="11.43" drill="1.016"/>
+<pad name="P$32" x="29.21" y="11.43" drill="1.016"/>
+<pad name="P$33" x="31.75" y="11.43" drill="1.016"/>
+<pad name="P$34" x="34.29" y="11.43" drill="1.016"/>
+<pad name="P$35" x="36.83" y="11.43" drill="1.016"/>
+<pad name="P$36" x="39.37" y="11.43" drill="1.016"/>
+<pad name="P$37" x="41.91" y="11.43" drill="1.016"/>
+<pad name="P$38" x="44.45" y="11.43" drill="1.016"/>
+<pad name="P$39" x="46.99" y="11.43" drill="1.016" shape="square"/>
+<pad name="P$41" x="-44.45" y="-11.43" drill="1.016" shape="square"/>
+<pad name="P$42" x="-41.91" y="-11.43" drill="1.016"/>
+<pad name="P$43" x="-39.37" y="-11.43" drill="1.016"/>
+<pad name="P$44" x="-36.83" y="-11.43" drill="1.016"/>
+<pad name="P$45" x="-34.29" y="-11.43" drill="1.016"/>
+<pad name="P$46" x="-31.75" y="-11.43" drill="1.016"/>
+<pad name="P$47" x="-29.21" y="-11.43" drill="1.016"/>
+<pad name="P$48" x="-26.67" y="-11.43" drill="1.016"/>
+<pad name="P$49" x="-24.13" y="-11.43" drill="1.016"/>
+<pad name="P$50" x="-21.59" y="-11.43" drill="1.016"/>
+<pad name="P$51" x="-19.05" y="-11.43" drill="1.016"/>
+<pad name="P$52" x="-16.51" y="-11.43" drill="1.016"/>
+<pad name="P$53" x="-13.97" y="-11.43" drill="1.016"/>
+<pad name="P$54" x="-11.43" y="-11.43" drill="1.016"/>
+<pad name="P$55" x="-8.89" y="-11.43" drill="1.016"/>
+<pad name="P$56" x="-6.35" y="-11.43" drill="1.016"/>
+<pad name="P$57" x="-3.81" y="-11.43" drill="1.016"/>
+<pad name="P$58" x="-1.27" y="-11.43" drill="1.016"/>
+<pad name="P$59" x="1.27" y="-11.43" drill="1.016"/>
+<pad name="P$60" x="3.81" y="-11.43" drill="1.016"/>
+<pad name="P$61" x="6.35" y="-11.43" drill="1.016"/>
+<pad name="P$62" x="8.89" y="-11.43" drill="1.016"/>
+<pad name="P$63" x="11.43" y="-11.43" drill="1.016"/>
+<pad name="P$64" x="13.97" y="-11.43" drill="1.016"/>
+<pad name="P$65" x="16.51" y="-11.43" drill="1.016"/>
+<pad name="P$66" x="19.05" y="-11.43" drill="1.016"/>
+<pad name="P$67" x="21.59" y="-11.43" drill="1.016"/>
+<pad name="P$68" x="24.13" y="-11.43" drill="1.016"/>
+<pad name="P$69" x="26.67" y="-11.43" drill="1.016"/>
+<pad name="P$70" x="29.21" y="-11.43" drill="1.016"/>
+<pad name="P$71" x="31.75" y="-11.43" drill="1.016"/>
+<pad name="P$72" x="34.29" y="-11.43" drill="1.016"/>
+<pad name="P$73" x="36.83" y="-11.43" drill="1.016"/>
+<pad name="P$74" x="39.37" y="-11.43" drill="1.016"/>
+<pad name="P$75" x="41.91" y="-11.43" drill="1.016"/>
+<pad name="P$76" x="44.45" y="-11.43" drill="1.016"/>
+</package>
+<package name="SO28-3" urn="urn:adsk.eagle:footprint:4696/1">
+<description>&lt;b&gt;Small Outline Package&lt;/b&gt;</description>
+<wire x1="-8.814" y1="-4.248" x2="8.839" y2="-4.248" width="0.1524" layer="51"/>
+<wire x1="8.839" y1="-4.248" x2="8.839" y2="4.248" width="0.1524" layer="21"/>
+<wire x1="8.839" y1="4.248" x2="-8.814" y2="4.248" width="0.1524" layer="51"/>
+<wire x1="-8.814" y1="4.248" x2="-8.814" y2="-4.248" width="0.1524" layer="21"/>
+<circle x="-7.874" y="-3.0988" radius="0.5334" width="0.1524" layer="21"/>
+<smd name="1" x="-8.255" y="-5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="2" x="-6.985" y="-5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="3" x="-5.715" y="-5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="4" x="-4.445" y="-5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="5" x="-3.175" y="-5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="6" x="-1.905" y="-5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="7" x="-0.635" y="-5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="8" x="0.635" y="-5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="9" x="1.905" y="-5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="10" x="3.175" y="-5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="20" x="1.905" y="5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="19" x="3.175" y="5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="18" x="4.445" y="5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="17" x="5.715" y="5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="16" x="6.985" y="5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="15" x="8.255" y="5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="14" x="8.255" y="-5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="13" x="6.985" y="-5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="12" x="5.715" y="-5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="11" x="4.445" y="-5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="21" x="0.635" y="5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="22" x="-0.635" y="5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="23" x="-1.905" y="5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="24" x="-3.175" y="5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="25" x="-4.445" y="5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="26" x="-5.715" y="5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="27" x="-6.985" y="5.315" dx="0.61" dy="2.21" layer="1"/>
+<smd name="28" x="-8.255" y="5.315" dx="0.61" dy="2.21" layer="1"/>
+<text x="-9.652" y="-3.81" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-6.985" y="-1.27" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-8.509" y1="-5.7976" x2="-8.001" y2="-4.2736" layer="51"/>
+<rectangle x1="-7.239" y1="-5.7976" x2="-6.731" y2="-4.2736" layer="51"/>
+<rectangle x1="-5.969" y1="-5.7976" x2="-5.461" y2="-4.2736" layer="51"/>
+<rectangle x1="-4.699" y1="-5.7976" x2="-4.191" y2="-4.2736" layer="51"/>
+<rectangle x1="-3.429" y1="-5.7976" x2="-2.921" y2="-4.2736" layer="51"/>
+<rectangle x1="-2.159" y1="-5.7976" x2="-1.651" y2="-4.2736" layer="51"/>
+<rectangle x1="-0.889" y1="-5.7976" x2="-0.381" y2="-4.2736" layer="51"/>
+<rectangle x1="0.381" y1="-5.7976" x2="0.889" y2="-4.2736" layer="51"/>
+<rectangle x1="1.651" y1="-5.7976" x2="2.159" y2="-4.2736" layer="51"/>
+<rectangle x1="2.921" y1="-5.7976" x2="3.429" y2="-4.2736" layer="51"/>
+<rectangle x1="4.191" y1="-5.7976" x2="4.699" y2="-4.2736" layer="51"/>
+<rectangle x1="5.461" y1="-5.7976" x2="5.969" y2="-4.2736" layer="51"/>
+<rectangle x1="6.731" y1="-5.7976" x2="7.239" y2="-4.2736" layer="51"/>
+<rectangle x1="8.001" y1="-5.7976" x2="8.509" y2="-4.2736" layer="51"/>
+<rectangle x1="8.001" y1="4.2736" x2="8.509" y2="5.7976" layer="51"/>
+<rectangle x1="6.731" y1="4.2736" x2="7.239" y2="5.7976" layer="51"/>
+<rectangle x1="5.461" y1="4.2735" x2="5.969" y2="5.7975" layer="51"/>
+<rectangle x1="4.191" y1="4.2735" x2="4.699" y2="5.7975" layer="51"/>
+<rectangle x1="2.921" y1="4.2735" x2="3.429" y2="5.7975" layer="51"/>
+<rectangle x1="1.651" y1="4.2735" x2="2.159" y2="5.7975" layer="51"/>
+<rectangle x1="0.381" y1="4.2735" x2="0.889" y2="5.7975" layer="51"/>
+<rectangle x1="-0.889" y1="4.2735" x2="-0.381" y2="5.7975" layer="51"/>
+<rectangle x1="-2.159" y1="4.2735" x2="-1.651" y2="5.7975" layer="51"/>
+<rectangle x1="-3.429" y1="4.2735" x2="-2.921" y2="5.7975" layer="51"/>
+<rectangle x1="-4.699" y1="4.2735" x2="-4.191" y2="5.7975" layer="51"/>
+<rectangle x1="-5.969" y1="4.2735" x2="-5.461" y2="5.7975" layer="51"/>
+<rectangle x1="-7.239" y1="4.2736" x2="-6.731" y2="5.7976" layer="51"/>
+<rectangle x1="-8.509" y1="4.2736" x2="-8.001" y2="5.7976" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="DIL16" urn="urn:adsk.eagle:package:922/2" type="model">
@@ -3159,6 +3301,80 @@ CONNECTOR v2</text>
 <text x="-5.08" y="12.7" size="1.27" layer="95">&gt;NAME</text>
 <text x="-5.08" y="10.16" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="SANNI">
+<pin name="PORT_A0" x="-20.32" y="10.16" length="middle"/>
+<pin name="PORT_A1" x="-20.32" y="7.62" length="middle"/>
+<pin name="PORT_A2" x="-20.32" y="5.08" length="middle"/>
+<pin name="PORT_A3" x="-20.32" y="2.54" length="middle"/>
+<pin name="PORT_A4" x="-20.32" y="0" length="middle"/>
+<pin name="PORT_A5" x="-20.32" y="-2.54" length="middle"/>
+<pin name="PORT_A6" x="-20.32" y="-5.08" length="middle"/>
+<pin name="PORT_A7" x="-20.32" y="-7.62" length="middle"/>
+<pin name="PORT_L0" x="-20.32" y="-12.7" length="middle"/>
+<pin name="PORT_L1" x="-20.32" y="-15.24" length="middle"/>
+<pin name="PORT_L2" x="-20.32" y="-17.78" length="middle"/>
+<pin name="PORT_L3" x="-20.32" y="-20.32" length="middle"/>
+<pin name="PORT_L4" x="-20.32" y="-22.86" length="middle"/>
+<pin name="PORT_L5" x="-20.32" y="-25.4" length="middle"/>
+<pin name="PORT_L6" x="-20.32" y="-27.94" length="middle"/>
+<pin name="PORT_L7" x="-20.32" y="-30.48" length="middle"/>
+<pin name="PORT_J0" x="-20.32" y="17.78" length="middle"/>
+<pin name="PORT_J1" x="-20.32" y="15.24" length="middle"/>
+<pin name="PORT_G0" x="-20.32" y="27.94" length="middle"/>
+<pin name="PORT_G1" x="-20.32" y="25.4" length="middle"/>
+<pin name="PORT_G5" x="-20.32" y="22.86" length="middle"/>
+<pin name="PORT_E0" x="-20.32" y="43.18" length="middle"/>
+<pin name="PORT_E1" x="-20.32" y="40.64" length="middle"/>
+<pin name="PORT_E3" x="-20.32" y="38.1" length="middle"/>
+<pin name="PORT_E4" x="-20.32" y="35.56" length="middle"/>
+<pin name="PORT_E5" x="-20.32" y="33.02" length="middle"/>
+<pin name="I2C_SDA" x="-20.32" y="-35.56" length="middle"/>
+<pin name="I2C_SCL" x="-20.32" y="-38.1" length="middle"/>
+<pin name="CLKGEN2" x="-20.32" y="-43.18" length="middle"/>
+<pin name="CLKGEN1" x="-20.32" y="-45.72" length="middle"/>
+<pin name="CLKGEN0" x="-20.32" y="-48.26" length="middle"/>
+<pin name="NEOPIXEL" x="-20.32" y="-53.34" length="middle"/>
+<pin name="STATUS_LED" x="-20.32" y="-55.88" length="middle"/>
+<pin name="RESET" x="-20.32" y="-58.42" length="middle"/>
+<pin name="VCC" x="-20.32" y="-63.5" length="middle"/>
+<pin name="PORT_F0" x="22.86" y="43.18" length="middle" rot="R180"/>
+<pin name="PORT_F1" x="22.86" y="40.64" length="middle" rot="R180"/>
+<pin name="PORT_F2" x="22.86" y="38.1" length="middle" rot="R180"/>
+<pin name="PORT_F3" x="22.86" y="35.56" length="middle" rot="R180"/>
+<pin name="PORT_F4" x="22.86" y="33.02" length="middle" rot="R180"/>
+<pin name="PORT_F5" x="22.86" y="30.48" length="middle" rot="R180"/>
+<pin name="PORT_F6" x="22.86" y="27.94" length="middle" rot="R180"/>
+<pin name="PORT_F7" x="22.86" y="25.4" length="middle" rot="R180"/>
+<pin name="PORT_K0" x="22.86" y="20.32" length="middle" rot="R180"/>
+<pin name="PORT_K1" x="22.86" y="17.78" length="middle" rot="R180"/>
+<pin name="PORT_K2" x="22.86" y="15.24" length="middle" rot="R180"/>
+<pin name="PORT_K3" x="22.86" y="12.7" length="middle" rot="R180"/>
+<pin name="PORT_K4" x="22.86" y="10.16" length="middle" rot="R180"/>
+<pin name="PORT_K5" x="22.86" y="7.62" length="middle" rot="R180"/>
+<pin name="PORT_K6" x="22.86" y="5.08" length="middle" rot="R180"/>
+<pin name="PORT_K7" x="22.86" y="2.54" length="middle" rot="R180"/>
+<pin name="PORT_C0" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="PORT_C1" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="PORT_C2" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="PORT_C3" x="22.86" y="-10.16" length="middle" rot="R180"/>
+<pin name="PORT_C4" x="22.86" y="-12.7" length="middle" rot="R180"/>
+<pin name="PORT_C5" x="22.86" y="-15.24" length="middle" rot="R180"/>
+<pin name="PORT_C6" x="22.86" y="-17.78" length="middle" rot="R180"/>
+<pin name="PORT_C7" x="22.86" y="-20.32" length="middle" rot="R180"/>
+<pin name="PORT_H0" x="22.86" y="-25.4" length="middle" rot="R180"/>
+<pin name="PORT_H1" x="22.86" y="-27.94" length="middle" rot="R180"/>
+<pin name="PORT_H3" x="22.86" y="-30.48" length="middle" rot="R180"/>
+<pin name="PORT_H4" x="22.86" y="-33.02" length="middle" rot="R180"/>
+<pin name="PORT_H5" x="22.86" y="-35.56" length="middle" rot="R180"/>
+<pin name="PORT_H6" x="22.86" y="-38.1" length="middle" rot="R180"/>
+<pin name="SPI_SS" x="22.86" y="-43.18" length="middle" rot="R180"/>
+<pin name="SPI_SCK" x="22.86" y="-45.72" length="middle" rot="R180"/>
+<pin name="SPI_PICO" x="22.86" y="-48.26" length="middle" rot="R180"/>
+<pin name="SPI_POCI" x="22.86" y="-50.8" length="middle" rot="R180"/>
+<pin name="GND" x="22.86" y="-55.88" length="middle" rot="R180"/>
+<pin name="GND2" x="-20.32" y="48.26" length="middle"/>
+<pin name="VCC2" x="22.86" y="48.26" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="74HC161">
@@ -3840,6 +4056,41 @@ CONNECTOR v2</text>
 <technology name=""/>
 </technologies>
 </device>
+<device name="SOP28" package="SO28-3">
+<connects>
+<connect gate="G$1" pin="A0" pad="10"/>
+<connect gate="G$1" pin="A1" pad="9"/>
+<connect gate="G$1" pin="A10" pad="21"/>
+<connect gate="G$1" pin="A11" pad="23"/>
+<connect gate="G$1" pin="A12" pad="2"/>
+<connect gate="G$1" pin="A13" pad="26"/>
+<connect gate="G$1" pin="A14" pad="1"/>
+<connect gate="G$1" pin="A2" pad="8"/>
+<connect gate="G$1" pin="A3" pad="7"/>
+<connect gate="G$1" pin="A4" pad="6"/>
+<connect gate="G$1" pin="A5" pad="5"/>
+<connect gate="G$1" pin="A6" pad="4"/>
+<connect gate="G$1" pin="A7" pad="3"/>
+<connect gate="G$1" pin="A8" pad="25"/>
+<connect gate="G$1" pin="A9" pad="24"/>
+<connect gate="G$1" pin="D0" pad="11"/>
+<connect gate="G$1" pin="D1" pad="12"/>
+<connect gate="G$1" pin="D2" pad="13"/>
+<connect gate="G$1" pin="D3" pad="15"/>
+<connect gate="G$1" pin="D4" pad="16"/>
+<connect gate="G$1" pin="D5" pad="17"/>
+<connect gate="G$1" pin="D6" pad="18"/>
+<connect gate="G$1" pin="D7" pad="19"/>
+<connect gate="G$1" pin="_CS" pad="20"/>
+<connect gate="G$1" pin="_OE" pad="22"/>
+<connect gate="G$1" pin="_WE" pad="27"/>
+<connect gate="G$2" pin="GND" pad="14"/>
+<connect gate="G$2" pin="VCC" pad="28"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="TSH122">
@@ -4404,6 +4655,92 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/AS29CF160B-55
 <connect gate="G$1" pin="GND" pad="P$2"/>
 <connect gate="G$1" pin="OUT" pad="P$3"/>
 <connect gate="G$1" pin="VDD" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SANNI-GAMETANK">
+<gates>
+<gate name="G$1" symbol="SANNI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SANNI">
+<connects>
+<connect gate="G$1" pin="CLKGEN0" pad="P$72"/>
+<connect gate="G$1" pin="CLKGEN1" pad="P$71"/>
+<connect gate="G$1" pin="CLKGEN2" pad="P$70"/>
+<connect gate="G$1" pin="GND" pad="P$39"/>
+<connect gate="G$1" pin="GND2" pad="P$41"/>
+<connect gate="G$1" pin="I2C_SCL" pad="P$69"/>
+<connect gate="G$1" pin="I2C_SDA" pad="P$68"/>
+<connect gate="G$1" pin="NEOPIXEL" pad="P$73"/>
+<connect gate="G$1" pin="PORT_A0" pad="P$52"/>
+<connect gate="G$1" pin="PORT_A1" pad="P$53"/>
+<connect gate="G$1" pin="PORT_A2" pad="P$54"/>
+<connect gate="G$1" pin="PORT_A3" pad="P$55"/>
+<connect gate="G$1" pin="PORT_A4" pad="P$56"/>
+<connect gate="G$1" pin="PORT_A5" pad="P$57"/>
+<connect gate="G$1" pin="PORT_A6" pad="P$58"/>
+<connect gate="G$1" pin="PORT_A7" pad="P$59"/>
+<connect gate="G$1" pin="PORT_C0" pad="P$21"/>
+<connect gate="G$1" pin="PORT_C1" pad="P$22"/>
+<connect gate="G$1" pin="PORT_C2" pad="P$23"/>
+<connect gate="G$1" pin="PORT_C3" pad="P$24"/>
+<connect gate="G$1" pin="PORT_C4" pad="P$25"/>
+<connect gate="G$1" pin="PORT_C5" pad="P$26"/>
+<connect gate="G$1" pin="PORT_C6" pad="P$27"/>
+<connect gate="G$1" pin="PORT_C7" pad="P$28"/>
+<connect gate="G$1" pin="PORT_E0" pad="P$42"/>
+<connect gate="G$1" pin="PORT_E1" pad="P$43"/>
+<connect gate="G$1" pin="PORT_E3" pad="P$44"/>
+<connect gate="G$1" pin="PORT_E4" pad="P$45"/>
+<connect gate="G$1" pin="PORT_E5" pad="P$46"/>
+<connect gate="G$1" pin="PORT_F0" pad="P$5"/>
+<connect gate="G$1" pin="PORT_F1" pad="P$6"/>
+<connect gate="G$1" pin="PORT_F2" pad="P$7"/>
+<connect gate="G$1" pin="PORT_F3" pad="P$8"/>
+<connect gate="G$1" pin="PORT_F4" pad="P$9"/>
+<connect gate="G$1" pin="PORT_F5" pad="P$10"/>
+<connect gate="G$1" pin="PORT_F6" pad="P$11"/>
+<connect gate="G$1" pin="PORT_F7" pad="P$12"/>
+<connect gate="G$1" pin="PORT_G0" pad="P$47"/>
+<connect gate="G$1" pin="PORT_G1" pad="P$48"/>
+<connect gate="G$1" pin="PORT_G5" pad="P$49"/>
+<connect gate="G$1" pin="PORT_H0" pad="P$29"/>
+<connect gate="G$1" pin="PORT_H1" pad="P$30"/>
+<connect gate="G$1" pin="PORT_H3" pad="P$31"/>
+<connect gate="G$1" pin="PORT_H4" pad="P$32"/>
+<connect gate="G$1" pin="PORT_H5" pad="P$33"/>
+<connect gate="G$1" pin="PORT_H6" pad="P$34"/>
+<connect gate="G$1" pin="PORT_J0" pad="P$50"/>
+<connect gate="G$1" pin="PORT_J1" pad="P$51"/>
+<connect gate="G$1" pin="PORT_K0" pad="P$13"/>
+<connect gate="G$1" pin="PORT_K1" pad="P$14"/>
+<connect gate="G$1" pin="PORT_K2" pad="P$15"/>
+<connect gate="G$1" pin="PORT_K3" pad="P$16"/>
+<connect gate="G$1" pin="PORT_K4" pad="P$17"/>
+<connect gate="G$1" pin="PORT_K5" pad="P$18"/>
+<connect gate="G$1" pin="PORT_K6" pad="P$19"/>
+<connect gate="G$1" pin="PORT_K7" pad="P$20"/>
+<connect gate="G$1" pin="PORT_L0" pad="P$60"/>
+<connect gate="G$1" pin="PORT_L1" pad="P$61"/>
+<connect gate="G$1" pin="PORT_L2" pad="P$62"/>
+<connect gate="G$1" pin="PORT_L3" pad="P$63"/>
+<connect gate="G$1" pin="PORT_L4" pad="P$64"/>
+<connect gate="G$1" pin="PORT_L5" pad="P$65"/>
+<connect gate="G$1" pin="PORT_L6" pad="P$66"/>
+<connect gate="G$1" pin="PORT_L7" pad="P$67"/>
+<connect gate="G$1" pin="RESET" pad="P$75"/>
+<connect gate="G$1" pin="SPI_PICO" pad="P$37"/>
+<connect gate="G$1" pin="SPI_POCI" pad="P$38"/>
+<connect gate="G$1" pin="SPI_SCK" pad="P$36"/>
+<connect gate="G$1" pin="SPI_SS" pad="P$35"/>
+<connect gate="G$1" pin="STATUS_LED" pad="P$74"/>
+<connect gate="G$1" pin="VCC" pad="P$76"/>
+<connect gate="G$1" pin="VCC2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
