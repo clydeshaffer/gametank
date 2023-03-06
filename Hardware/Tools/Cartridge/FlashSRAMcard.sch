@@ -424,15 +424,15 @@
 <rectangle x1="-7.239" y1="4.2736" x2="-6.731" y2="5.7976" layer="51"/>
 <rectangle x1="-8.509" y1="4.2736" x2="-8.001" y2="5.7976" layer="51"/>
 </package>
-<package name="TSOP10X14" urn="urn:adsk.eagle:footprint:8085669/1">
+<package name="TSOP10X14" urn="urn:adsk.eagle:footprint:8085669/1" locally_modified="yes">
 <description>&lt;b&gt;TSOP28&lt;/b&gt;&lt;p&gt;
 thin small outline package</description>
 <wire x1="-5.4" y1="7.9" x2="5.4" y2="7.9" width="0.1998" layer="39"/>
 <wire x1="5.4" y1="7.9" x2="5.4" y2="-7.9" width="0.1998" layer="39"/>
 <wire x1="-5.4" y1="-7.9" x2="-5.4" y2="7.9" width="0.1998" layer="39"/>
-<wire x1="4.645" y1="6.195" x2="4.645" y2="-6.195" width="0.2032" layer="51"/>
+<wire x1="4.645" y1="6.195" x2="4.645" y2="-6.195" width="0.2032" layer="21"/>
 <wire x1="4.645" y1="-6.195" x2="-4.645" y2="-6.195" width="0.2032" layer="51"/>
-<wire x1="-4.645" y1="-6.195" x2="-4.645" y2="6.195" width="0.2032" layer="51"/>
+<wire x1="-4.645" y1="-6.195" x2="-4.645" y2="6.195" width="0.2032" layer="21"/>
 <wire x1="-4.645" y1="6.195" x2="4.645" y2="6.195" width="0.2032" layer="51"/>
 <wire x1="5.4" y1="-7.9" x2="-5.4" y2="-7.9" width="0.1998" layer="39"/>
 <smd name="1" x="-4.225" y="-6.6" dx="0.4" dy="1.6" layer="1"/>
@@ -494,6 +494,7 @@ thin small outline package</description>
 <rectangle x1="-3.125" y1="6.2799" x2="-2.7249" y2="7.1001" layer="51"/>
 <rectangle x1="-3.7749" y1="6.2799" x2="-3.3749" y2="7.1001" layer="51"/>
 <rectangle x1="-4.4249" y1="6.2799" x2="-4.0249" y2="7.1001" layer="51"/>
+<wire x1="-5.08" y1="-6.35" x2="-5.08" y2="-5.08" width="0.127" layer="21"/>
 </package>
 <package name="BATTHOLDER-6.8">
 <smd name="V_1" x="-4.699" y="0" dx="1.778" dy="5.08" layer="1" rot="R180"/>
@@ -891,6 +892,42 @@ MAX3223-MAX3243.pdf</description>
 <rectangle x1="5.461" y1="-3.8608" x2="5.969" y2="-3.7338" layer="51"/>
 <rectangle x1="4.191" y1="-5.334" x2="4.699" y2="-3.8608" layer="51"/>
 <rectangle x1="5.461" y1="-5.334" x2="5.969" y2="-3.8608" layer="51"/>
+</package>
+<package name="STSOP28">
+<smd name="P0" x="-6.35" y="3.81" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P1" x="-6.35" y="3.26" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P2" x="-6.35" y="2.71" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P3" x="-6.35" y="2.16" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P4" x="-6.35" y="1.61" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P5" x="-6.35" y="1.06" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P6" x="-6.35" y="0.51" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P7" x="-6.35" y="-0.04" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P8" x="-6.35" y="-0.59" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P9" x="-6.35" y="-1.14" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P10" x="-6.35" y="-1.69" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P11" x="-6.35" y="-2.24" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P12" x="-6.35" y="-2.79" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P13" x="-6.35" y="-3.34" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P14" x="6.2" y="-3.34" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P15" x="6.2" y="-2.79" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P16" x="6.2" y="-2.24" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P17" x="6.2" y="-1.69" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P18" x="6.2" y="-1.14" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P19" x="6.2" y="-0.59" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P20" x="6.2" y="-0.04" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P21" x="6.2" y="0.51" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P22" x="6.2" y="1.06" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P23" x="6.2" y="1.61" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P24" x="6.2" y="2.16" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P25" x="6.2" y="2.71" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P26" x="6.2" y="3.26" dx="1.2954" dy="0.2794" layer="1"/>
+<smd name="P27" x="6.2" y="3.81" dx="1.2954" dy="0.2794" layer="1"/>
+<wire x1="-7.6454" y1="4.0894" x2="7.4954" y2="4.0894" width="0.127" layer="21"/>
+<wire x1="7.4954" y1="4.0894" x2="7.4954" y2="-3.6194" width="0.127" layer="21"/>
+<wire x1="7.4954" y1="-3.6194" x2="-7.6454" y2="-3.6194" width="0.127" layer="21"/>
+<wire x1="-7.6454" y1="-3.6194" x2="-7.6454" y2="4.0894" width="0.127" layer="21"/>
+<text x="-7.6454" y="4.301065625" size="1.27" layer="25">&gt;NAME</text>
+<text x="-7.6454" y="-5.101065625" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
@@ -1398,6 +1435,41 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/AS29CF160B-55
 <connect gate="G$1" pin="_WE" pad="6"/>
 <connect gate="G$2" pin="GND" pad="21"/>
 <connect gate="G$2" pin="VCC" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ALLIANCE" package="STSOP28">
+<connects>
+<connect gate="G$1" pin="A0" pad="P16"/>
+<connect gate="G$1" pin="A1" pad="P15"/>
+<connect gate="G$1" pin="A10" pad="P27"/>
+<connect gate="G$1" pin="A11" pad="P1"/>
+<connect gate="G$1" pin="A12" pad="P8"/>
+<connect gate="G$1" pin="A13" pad="P4"/>
+<connect gate="G$1" pin="A14" pad="P7"/>
+<connect gate="G$1" pin="A2" pad="P14"/>
+<connect gate="G$1" pin="A3" pad="P13"/>
+<connect gate="G$1" pin="A4" pad="P12"/>
+<connect gate="G$1" pin="A5" pad="P11"/>
+<connect gate="G$1" pin="A6" pad="P10"/>
+<connect gate="G$1" pin="A7" pad="P9"/>
+<connect gate="G$1" pin="A8" pad="P3"/>
+<connect gate="G$1" pin="A9" pad="P2"/>
+<connect gate="G$1" pin="D0" pad="P17"/>
+<connect gate="G$1" pin="D1" pad="P18"/>
+<connect gate="G$1" pin="D2" pad="P19"/>
+<connect gate="G$1" pin="D3" pad="P21"/>
+<connect gate="G$1" pin="D4" pad="P22"/>
+<connect gate="G$1" pin="D5" pad="P23"/>
+<connect gate="G$1" pin="D6" pad="P24"/>
+<connect gate="G$1" pin="D7" pad="P25"/>
+<connect gate="G$1" pin="_CS" pad="P26"/>
+<connect gate="G$1" pin="_OE" pad="P0"/>
+<connect gate="G$1" pin="_WE" pad="P5"/>
+<connect gate="G$2" pin="GND" pad="P20"/>
+<connect gate="G$2" pin="VCC" pad="P6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10250,7 +10322,7 @@ unfilled</description>
 <part name="W" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ2W" device="" package3d_urn="urn:adsk.eagle:package:15474/1"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="U$2" library="0_gametankparts" deviceset="SRAM_32K" device="TSOP28" value="SRAM_32KTSOP28"/>
+<part name="U$2" library="0_gametankparts" deviceset="SRAM_32K" device="ALLIANCE" value="SRAM_32KALLIANCE"/>
 <part name="IC6" library="74xx-little-us" library_urn="urn:adsk.eagle:library:87" deviceset="74*1G32" device="DBV" package3d_urn="urn:adsk.eagle:package:2406/2" technology="AHC"/>
 <part name="IC7" library="74xx-little-us" library_urn="urn:adsk.eagle:library:87" deviceset="74*1G32" device="DBV" package3d_urn="urn:adsk.eagle:package:2406/2" technology="AHC"/>
 <part name="IC5" library="74xx-little-us" library_urn="urn:adsk.eagle:library:87" deviceset="74*1G04" device="DBV" package3d_urn="urn:adsk.eagle:package:2406/2" technology="AHC"/>
@@ -10538,6 +10610,11 @@ A13-A19 use shift register values when !BANKING! is low</text>
 <pinref part="IC2" gate="A" pin="QG"/>
 <wire x1="86.36" y1="-68.58" x2="93.98" y2="-68.58" width="0.1524" layer="91"/>
 <label x="93.98" y="-68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="A14"/>
+<wire x1="-132.08" y1="38.1" x2="-114.3" y2="38.1" width="0.1524" layer="91"/>
+<label x="-114.3" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -11212,7 +11289,7 @@ A13-A19 use shift register values when !BANKING! is low</text>
 <wire x1="-152.4" y1="-27.94" x2="-152.4" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="V_SRAM" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="U$2" gate="G$2" pin="VCC"/>
@@ -11233,6 +11310,7 @@ A13-A19 use shift register values when !BANKING! is low</text>
 <junction x="-152.4" y="7.62"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="-160.02" y1="2.54" x2="-152.4" y2="2.54" width="0.1524" layer="91"/>
+<label x="-149.86" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
