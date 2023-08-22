@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "switched-lm2575-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/switched-lm2575-eagle-import.kicad_sym")(options "")(descr ""))
+)
