@@ -1,0 +1,4 @@
+(version 1)
+(rule "class 0:0"
+  (condition "A.NetClass == 'default' && B.NetClass == 'Default'")
+  (constraint clearance (min 0.1524mm)))

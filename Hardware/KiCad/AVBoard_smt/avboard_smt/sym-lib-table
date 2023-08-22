@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "signals-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/signals-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "cpu-blitter-inputs-eagle-import")(type "KiCad")(uri "C:/Users/clyde/repos/gametank/Hardware/KiCad/LogicBoard_smt/cpu-blitter-inputs-eagle-import.kicad_sym")(options "")(descr ""))
+)

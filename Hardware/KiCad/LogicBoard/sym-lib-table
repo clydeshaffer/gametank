@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "cpu-blitter-inputs-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/cpu-blitter-inputs-eagle-import.kicad_sym")(options "")(descr ""))
+)
