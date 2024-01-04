@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "FlashCardBanked2M-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/FlashCardBanked2M-eagle-import.kicad_sym")(options "")(descr ""))
+)
