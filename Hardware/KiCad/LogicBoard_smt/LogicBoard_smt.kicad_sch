@@ -42,6 +42,23 @@
     )
   )
 
+  (sheet (at 102.87 80.01) (size 53.34 44.45) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3cd7a415-d991-43da-8d25-a2cb0e7b5043)
+    (property "Sheetname" "Power" (at 102.87 79.2984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 102.87 125.0446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "LogicBoard_smt"
+        (path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa" (page "8"))
+      )
+    )
+  )
+
   (sheet (at 127 25.4) (size 12.7 3.81) (fields_autoplaced)
     (stroke (width 0) (type solid))
     (fill (color 0 0 0 0.0000))

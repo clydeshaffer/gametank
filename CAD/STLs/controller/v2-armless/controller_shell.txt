@@ -1,0 +1,3 @@
+One shell_top and one shell_bottom are needed for each controller.
+
+shell_top_exp is provided with substantial extra clearance around the button caps to prevent binding without having to get the button cap or acrylic bushing tolerances dialed in

@@ -1,0 +1,7 @@
+Using a spare soldering iron to weld together top-center, tread-left, and tread-right is recommended.
+
+The center_support model should go between the two circuit boards, with the bump in the cartridge tray facing the rear to prevent accidental reverse cartridge insertion.
+
+The vent piece goes in the rectangular hole near the power entry portion of the bottom board.
+
+badge2.stl is installed in the rectangular opening in front of the cartridge slot by snapping it in from inside, then securing with the soldering iron method.

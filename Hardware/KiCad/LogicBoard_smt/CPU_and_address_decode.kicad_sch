@@ -6522,7 +6522,7 @@
     (property "Value" "Conn_01x26_Socket" (at 410.21 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Dsub:DSUB-26-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm" (at 408.94 96.52 0)
+    (property "Footprint" "connector:HDL26-SL-B" (at 408.94 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 408.94 96.52 0)

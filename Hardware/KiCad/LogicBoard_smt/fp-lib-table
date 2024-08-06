@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "cpu-blitter-inputs")(type "KiCad")(uri "$(KIPRJMOD)/LogicBoard_smt.pretty")(options "")(descr ""))
   (lib (name "logo")(type "KiCad")(uri "${KIPRJMOD}/logo.pretty")(options "")(descr ""))
+  (lib (name "connector")(type "KiCad")(uri "${KIPRJMOD}/connector.pretty")(options "")(descr ""))
 )

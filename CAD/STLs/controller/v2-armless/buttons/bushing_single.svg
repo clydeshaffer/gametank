@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 384 192"
+   width="4in"
+   height="2in"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="bushing_single.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.6204616"
+     inkscape:cx="396.80052"
+     inkscape:cy="389.08666"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g8"
+     inkscape:document-units="in" />
+  <desc
+     id="desc1">bushing_outlines.dxf - scale = 1.000000, origin = (0.000000, 0.000000), method = manual</desc>
+  <defs
+     id="defs4">
+    <marker
+       id="DistanceX"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 -3,3 M 0,-5 V 5"
+         style="stroke:#000000;stroke-width:0.5"
+         id="path1" />
+    </marker>
+    <pattern
+       id="Hatch"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path2" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path3" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path4" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE" />
+    <symbol
+       id="*PAPER_SPACE" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="0"
+     id="g8">
+    <path
+       d="m 83.20522,88.345952 h 5.65817 l 13.58405,-13.58404 v -5.65817 l -9.308,-9.308 h -5.65817 l -13.58405,13.58405 v 5.65816 z"
+       style="fill:none;stroke:#ff0000"
+       id="path15" />
+    <path
+       d="m 107.06997,74.070852 a 18.89764,18.89764 0 0 0 -37.79528,0 18.89764,18.89764 0 0 0 37.79528,0 z"
+       style="fill:none;stroke:#ff0000"
+       id="path16" />
+    <path
+       d="m 255.45993,68.473157 h -5.65817 l -13.58405,13.584047 v 5.65816 l 9.308,9.308 h 5.65817 l 13.58405,-13.58405 v -5.658157 z"
+       style="fill:none;stroke:#0000ff"
+       id="path373" />
+    <path
+       d="m 289.31131,70.655067 a 18.897638,18.897638 0 0 0 -26.72529,-26.7253 l -50.91169,50.911687 a 18.897638,18.897638 0 0 0 26.72529,26.725296 z"
+       style="fill:none;stroke:#0000ff"
+       id="path374" />
+  </g>
+</svg>

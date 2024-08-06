@@ -1,0 +1,7 @@
+These are designed as keycaps for Cherry MX style keyboard switches.
+
+The caps are designed with a main "cap" part to be 3D printed and a "bushing" piece that is meant to be laser cut from 3mm acrylic.
+
+This two-piece design prevents friction against the surrounding controller shell plastic without having to sand down the sides of each button.
+
+The "A" "B" "C" and "S" caps look particularly good when printed using a multi-material printer and contrasting colors on the recessed letters.
