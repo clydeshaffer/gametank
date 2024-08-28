@@ -792,7 +792,7 @@
   (symbol (lib_id "switched-lm2575-eagle-import:GND") (at 152.4 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f382c8b-8ef0-4bbf-a7c3-a2609ec33b5c)
-    (property "Reference" "#GND03" (at 152.4 106.68 0)
+    (property "Reference" "#GND0101" (at 152.4 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.86 109.22 0)
@@ -808,7 +808,7 @@
     (instances
       (project "LogicBoard_smt"
         (path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa/3cd7a415-d991-43da-8d25-a2cb0e7b5043"
-          (reference "#GND03") (unit 1)
+          (reference "#GND0101") (unit 1)
         )
       )
       (project "Power_smt"
@@ -822,7 +822,7 @@
   (symbol (lib_id "switched-lm2575-eagle-import:GND") (at 201.93 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 45a0142e-699e-4cd7-ab10-f4dcdedbd843)
-    (property "Reference" "#GND06" (at 201.93 107.95 0)
+    (property "Reference" "#GND0104" (at 201.93 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 199.39 110.49 0)
@@ -838,7 +838,7 @@
     (instances
       (project "LogicBoard_smt"
         (path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa/3cd7a415-d991-43da-8d25-a2cb0e7b5043"
-          (reference "#GND06") (unit 1)
+          (reference "#GND0104") (unit 1)
         )
       )
       (project "Power_smt"
@@ -852,7 +852,7 @@
   (symbol (lib_id "switched-lm2575-eagle-import:GND") (at 106.68 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ce6ab7f-9f88-416a-8d9f-e501f0b3f32f)
-    (property "Reference" "#GND01" (at 106.68 121.92 0)
+    (property "Reference" "#GND0102" (at 106.68 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 104.14 124.46 0)
@@ -868,7 +868,7 @@
     (instances
       (project "LogicBoard_smt"
         (path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa/3cd7a415-d991-43da-8d25-a2cb0e7b5043"
-          (reference "#GND01") (unit 1)
+          (reference "#GND0102") (unit 1)
         )
       )
       (project "Power_smt"
@@ -882,7 +882,7 @@
   (symbol (lib_id "switched-lm2575-eagle-import:GND") (at 129.54 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f40c467-8f24-4b57-aa10-f941d160d1a1)
-    (property "Reference" "#GND04" (at 129.54 105.41 0)
+    (property "Reference" "#GND0103" (at 129.54 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 127 107.95 0)
@@ -898,7 +898,7 @@
     (instances
       (project "LogicBoard_smt"
         (path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa/3cd7a415-d991-43da-8d25-a2cb0e7b5043"
-          (reference "#GND04") (unit 1)
+          (reference "#GND0103") (unit 1)
         )
       )
       (project "Power_smt"
@@ -1048,7 +1048,7 @@
   (symbol (lib_id "switched-lm2575-eagle-import:VCC") (at 215.9 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9a4941a8-3049-4b6d-a5d0-076aa9407204)
-    (property "Reference" "#P+01" (at 215.9 88.9 0)
+    (property "Reference" "#P+0101" (at 215.9 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 213.36 91.44 90)
@@ -1064,7 +1064,7 @@
     (instances
       (project "LogicBoard_smt"
         (path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa/3cd7a415-d991-43da-8d25-a2cb0e7b5043"
-          (reference "#P+01") (unit 1)
+          (reference "#P+0101") (unit 1)
         )
       )
       (project "Power_smt"

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "gpad1")(type "KiCad")(uri "$(KIPRJMOD)/gpad1.pretty")(options "")(descr ""))
+)

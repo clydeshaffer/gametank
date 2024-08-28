@@ -96,7 +96,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_thickness": "warning",
@@ -482,7 +482,7 @@
   "sheets": [
     [
       "efb4bb42-9307-46c9-89da-d677369b1356",
-      "FlashCardBanked2M_0"
+      ""
     ]
   ],
   "text_variables": {}
