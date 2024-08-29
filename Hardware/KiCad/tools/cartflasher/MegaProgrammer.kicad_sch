@@ -2528,7 +2528,7 @@
     (uuid ff158822-90e6-4b6b-b00f-5a161c6c5658)
   )
 
-  (text "ATMega2560 GameTank Cartridge Interface" (at 179.07 11.43 0)
+  (text "ATMega2560 GameTank Cartridge Interface" (at 194.31 15.24 0)
     (effects (font (size 6.4516 5.4838)) (justify right bottom))
     (uuid d4eaad48-20f3-4d77-b2aa-aef4fe360c73)
   )
