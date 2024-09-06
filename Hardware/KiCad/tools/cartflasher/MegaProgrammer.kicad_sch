@@ -3702,9 +3702,9 @@
     (pin "B7" (uuid d4d8276e-8323-4c3e-b23c-d0e55bb69ac7))
     (pin "B8" (uuid 9dcf05ff-87b5-47d4-b863-ed97c606614c))
     (pin "S1" (uuid 666271e6-7c65-4189-84b0-454724eb693f))
-    (pin "S4" (uuid e9006354-09e2-42f2-8839-13b61ab19e1e))
     (pin "S2" (uuid c62ef7d5-48eb-45ff-9a7c-e4217370e1e1))
     (pin "S3" (uuid c8fd6767-2efc-47ce-9c45-6221cbeedf3c))
+    (pin "S4" (uuid e9006354-09e2-42f2-8839-13b61ab19e1e))
     (instances
       (project "MegaProgrammer"
         (path "/28b5c39a-3bca-4ae3-9c02-98d1dbafe5a4"

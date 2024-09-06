@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MegaProgrammer")(type "KiCad")(uri "$(KIPRJMOD)/flasher2.pretty")(options "")(descr ""))
+)
