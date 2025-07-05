@@ -1,862 +1,2302 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid f825cb64-79c3-4fd9-a289-6df230eebe13)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "cpu-blitter-inputs-eagle-import:7404N" (in_bom yes) (on_board yes)
-      (property "Reference" "IC" (at -0.635 -0.635 0)
-        (effects (font (size 1.778 1.5113)) (justify left bottom))
-      )
-      (property "Value" "" (at 2.54 -5.08 0)
-        (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
-      )
-      (property "Footprint" "cpu-blitter-inputs:DIL14" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "7404N_1_0"
-        (polyline
-          (pts
-            (xy -5.08 -5.08)
-            (xy -5.08 5.08)
-          )
-          (stroke (width 0.4064) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy 5.08 0)
-          )
-          (stroke (width 0.4064) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.08 0)
-            (xy -5.08 -5.08)
-          )
-          (stroke (width 0.4064) (type solid))
-          (fill (type none))
-        )
-        (pin input line (at -10.16 0 0) (length 5.08)
-          (name "I" (effects (font (size 0 0))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin output inverted (at 10.16 0 180) (length 5.08)
-          (name "O" (effects (font (size 0 0))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "7404N_2_0"
-        (polyline
-          (pts
-            (xy -5.08 -5.08)
-            (xy -5.08 5.08)
-          )
-          (stroke (width 0.4064) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy 5.08 0)
-          )
-          (stroke (width 0.4064) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.08 0)
-            (xy -5.08 -5.08)
-          )
-          (stroke (width 0.4064) (type solid))
-          (fill (type none))
-        )
-        (pin input line (at -10.16 0 0) (length 5.08)
-          (name "I" (effects (font (size 0 0))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin output inverted (at 10.16 0 180) (length 5.08)
-          (name "O" (effects (font (size 0 0))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "7404N_3_0"
-        (polyline
-          (pts
-            (xy -5.08 -5.08)
-            (xy -5.08 5.08)
-          )
-          (stroke (width 0.4064) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy 5.08 0)
-          )
-          (stroke (width 0.4064) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.08 0)
-            (xy -5.08 -5.08)
-          )
-          (stroke (width 0.4064) (type solid))
-          (fill (type none))
-        )
-        (pin input line (at -10.16 0 0) (length 5.08)
-          (name "I" (effects (font (size 0 0))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin output inverted (at 10.16 0 180) (length 5.08)
-          (name "O" (effects (font (size 0 0))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "7404N_4_0"
-        (polyline
-          (pts
-            (xy -5.08 -5.08)
-            (xy -5.08 5.08)
-          )
-          (stroke (width 0.4064) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy 5.08 0)
-          )
-          (stroke (width 0.4064) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.08 0)
-            (xy -5.08 -5.08)
-          )
-          (stroke (width 0.4064) (type solid))
-          (fill (type none))
-        )
-        (pin output inverted (at 10.16 0 180) (length 5.08)
-          (name "O" (effects (font (size 0 0))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -10.16 0 0) (length 5.08)
-          (name "I" (effects (font (size 0 0))))
-          (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "7404N_5_0"
-        (polyline
-          (pts
-            (xy -5.08 -5.08)
-            (xy -5.08 5.08)
-          )
-          (stroke (width 0.4064) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy 5.08 0)
-          )
-          (stroke (width 0.4064) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.08 0)
-            (xy -5.08 -5.08)
-          )
-          (stroke (width 0.4064) (type solid))
-          (fill (type none))
-        )
-        (pin output inverted (at 10.16 0 180) (length 5.08)
-          (name "O" (effects (font (size 0 0))))
-          (number "10" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -10.16 0 0) (length 5.08)
-          (name "I" (effects (font (size 0 0))))
-          (number "11" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "7404N_6_0"
-        (polyline
-          (pts
-            (xy -5.08 -5.08)
-            (xy -5.08 5.08)
-          )
-          (stroke (width 0.4064) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 5.08)
-            (xy 5.08 0)
-          )
-          (stroke (width 0.4064) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 5.08 0)
-            (xy -5.08 -5.08)
-          )
-          (stroke (width 0.4064) (type solid))
-          (fill (type none))
-        )
-        (pin output inverted (at 10.16 0 180) (length 5.08)
-          (name "O" (effects (font (size 0 0))))
-          (number "12" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -10.16 0 0) (length 5.08)
-          (name "I" (effects (font (size 0 0))))
-          (number "13" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "7404N_7_0"
-        (text "GND" (at 1.905 -7.62 900)
-          (effects (font (size 1.27 1.0795)) (justify left bottom))
-        )
-        (text "VCC" (at 1.905 5.08 900)
-          (effects (font (size 1.27 1.0795)) (justify left bottom))
-        )
-        (pin power_in line (at 0 10.16 270) (length 7.62)
-          (name "VCC" (effects (font (size 0 0))))
-          (number "14" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 -10.16 90) (length 7.62)
-          (name "GND" (effects (font (size 0 0))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "cpu-blitter-inputs-eagle-import:74HC163" (in_bom yes) (on_board yes)
-      (property "Reference" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Footprint" "cpu-blitter-inputs:DIL16" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "74HC163_1_0"
-        (polyline
-          (pts
-            (xy -7.62 -15.24)
-            (xy -7.62 15.24)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -7.62 15.24)
-            (xy 7.62 15.24)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.62 -15.24)
-            (xy -7.62 -15.24)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.62 15.24)
-            (xy 7.62 -15.24)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (pin bidirectional inverted (at -12.7 -2.54 0) (length 5.08)
-          (name "_CLR" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -12.7 -10.16 0) (length 5.08)
-          (name "ENT" (effects (font (size 1.27 1.27))))
-          (number "10" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 12.7 5.08 180) (length 5.08)
-          (name "Q3" (effects (font (size 1.27 1.27))))
-          (number "11" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 12.7 7.62 180) (length 5.08)
-          (name "Q2" (effects (font (size 1.27 1.27))))
-          (number "12" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 12.7 10.16 180) (length 5.08)
-          (name "Q1" (effects (font (size 1.27 1.27))))
-          (number "13" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 12.7 12.7 180) (length 5.08)
-          (name "Q0" (effects (font (size 1.27 1.27))))
-          (number "14" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 12.7 0 180) (length 5.08)
-          (name "RCO" (effects (font (size 1.27 1.27))))
-          (number "15" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional clock (at -12.7 -12.7 0) (length 5.08)
-          (name "CLK" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -12.7 12.7 0) (length 5.08)
-          (name "P0" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -12.7 10.16 0) (length 5.08)
-          (name "P1" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -12.7 7.62 0) (length 5.08)
-          (name "P2" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -12.7 5.08 0) (length 5.08)
-          (name "P3" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -12.7 -7.62 0) (length 5.08)
-          (name "ENP" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional inverted (at -12.7 -5.08 0) (length 5.08)
-          (name "_LOAD" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "74HC163_2_0"
-        (pin power_in line (at 0 12.7 270) (length 5.08)
-          (name "VCC" (effects (font (size 1.27 1.27))))
-          (number "16" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 -10.16 90) (length 5.08)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "cpu-blitter-inputs-eagle-import:GND" (power) (in_bom yes) (on_board yes)
-      (property "Reference" "#GND" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at -2.54 -2.54 0)
-        (effects (font (size 1.778 1.5113)) (justify left bottom))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "GND_1_0"
-        (polyline
-          (pts
-            (xy -1.905 0)
-            (xy 1.905 0)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (pin power_in line (at 0 2.54 270) (length 2.54)
-          (name "GND" (effects (font (size 0 0))))
-          (number "1" (effects (font (size 0 0))))
-        )
-      )
-    )
-    (symbol "cpu-blitter-inputs-eagle-import:OSCILLATORMODULEDIL14" (in_bom yes) (on_board yes)
-      (property "Reference" "" (at -5.08 12.7 0)
-        (effects (font (size 1.27 1.0795)) (justify left bottom) hide)
-      )
-      (property "Value" "" (at -5.08 10.16 0)
-        (effects (font (size 1.27 1.0795)) (justify left bottom))
-      )
-      (property "Footprint" "cpu-blitter-inputs:CRYSTAL800MIL" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "OSCILLATORMODULEDIL14_1_0"
-        (polyline
-          (pts
-            (xy -7.62 -7.62)
-            (xy 7.62 -7.62)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -7.62 7.62)
-            (xy -7.62 -7.62)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.62 -7.62)
-            (xy 7.62 7.62)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 7.62 7.62)
-            (xy -7.62 7.62)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (pin no_connect line (at -12.7 -5.08 0) (length 5.08)
-          (name "NC" (effects (font (size 1.27 1.27))))
-          (number "P$1" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 12.7 -5.08 180) (length 5.08)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "P$2" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -12.7 5.08 0) (length 5.08)
-          (name "VDD" (effects (font (size 1.27 1.27))))
-          (number "P$3" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 12.7 5.08 180) (length 5.08)
-          (name "OUT" (effects (font (size 1.27 1.27))))
-          (number "P$4" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "cpu-blitter-inputs-eagle-import:VCC" (power) (in_bom yes) (on_board yes)
-      (property "Reference" "#P+" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "VCC" (at -2.54 -2.54 90)
-        (effects (font (size 1.778 1.5113)) (justify left bottom))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "VCC_1_0"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy -1.27 -1.905)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -1.905)
-            (xy 0 0)
-          )
-          (stroke (width 0.254) (type solid))
-          (fill (type none))
-        )
-        (pin power_in line (at 0 -2.54 90) (length 2.54)
-          (name "VCC" (effects (font (size 0 0))))
-          (number "1" (effects (font (size 0 0))))
-        )
-      )
-    )
-  )
-
-  (junction (at 147.32 101.6) (diameter 0) (color 0 0 0 0)
-    (uuid 28915fcf-e2fc-4936-b8c1-4edaa8dd445b)
-  )
-  (junction (at 147.32 104.14) (diameter 0) (color 0 0 0 0)
-    (uuid 4a83e75f-2a26-4f74-a983-f5a9fd64a519)
-  )
-  (junction (at 147.32 91.44) (diameter 0) (color 0 0 0 0)
-    (uuid 4f5182e2-5ed9-4eae-9f91-5b09a4b3584c)
-  )
-  (junction (at 147.32 86.36) (diameter 0) (color 0 0 0 0)
-    (uuid 731de2d4-b00e-4d63-9c5f-affd633a06d7)
-  )
-  (junction (at 147.32 88.9) (diameter 0) (color 0 0 0 0)
-    (uuid 87cc2c4c-e448-45ed-b487-e4b33dff913c)
-  )
-  (junction (at 147.32 99.06) (diameter 0) (color 0 0 0 0)
-    (uuid d345512d-22a1-4ec2-b790-de615965b283)
-  )
-
-  (wire (pts (xy 147.32 106.68) (xy 147.32 104.14))
-    (stroke (width 0.1524) (type solid))
-    (uuid 10d59624-826c-46e5-8298-653f028df2a0)
-  )
-  (wire (pts (xy 147.32 86.36) (xy 147.32 83.82))
-    (stroke (width 0.1524) (type solid))
-    (uuid 2953dd12-db55-46b6-bc96-6da396606646)
-  )
-  (wire (pts (xy 147.32 88.9) (xy 147.32 86.36))
-    (stroke (width 0.1524) (type solid))
-    (uuid 2ba63891-3230-4f3a-a932-98fb8c69cbc7)
-  )
-  (wire (pts (xy 172.72 83.82) (xy 177.8 83.82))
-    (stroke (width 0.1524) (type solid))
-    (uuid 33ea54c3-2f6f-4b5e-86a0-96e3351de111)
-  )
-  (wire (pts (xy 147.32 91.44) (xy 147.32 88.9))
-    (stroke (width 0.1524) (type solid))
-    (uuid 3ac53fe2-6493-4b81-807e-cf3da7da2825)
-  )
-  (wire (pts (xy 109.22 109.22) (xy 121.92 109.22))
-    (stroke (width 0.1524) (type solid))
-    (uuid 4455f1b3-0b92-4baf-83ff-4bfa4b5c2568)
-  )
-  (wire (pts (xy 205.74 86.36) (xy 208.28 86.36))
-    (stroke (width 0.1524) (type solid))
-    (uuid 481afbbc-8a13-4a7b-84eb-04ad29aaf3e0)
-  )
-  (wire (pts (xy 172.72 86.36) (xy 185.42 86.36))
-    (stroke (width 0.1524) (type solid))
-    (uuid 67d0d22d-9af6-4afa-9752-9602cbcdc38d)
-  )
-  (wire (pts (xy 147.32 109.22) (xy 142.24 109.22))
-    (stroke (width 0.1524) (type solid))
-    (uuid b4699c50-9276-4a67-a036-110f2e844af9)
-  )
-  (wire (pts (xy 147.32 101.6) (xy 147.32 104.14))
-    (stroke (width 0.1524) (type solid))
-    (uuid b74a3c3b-3cf5-4383-b9e0-898fac78726d)
-  )
-  (wire (pts (xy 172.72 88.9) (xy 177.8 88.9))
-    (stroke (width 0.1524) (type solid))
-    (uuid c157f5fd-cded-46d3-a8a3-05e2f908f7e9)
-  )
-  (wire (pts (xy 134.62 99.06) (xy 147.32 99.06))
-    (stroke (width 0.1524) (type solid))
-    (uuid dff1e206-35cd-409c-9fd1-9aa7ded8b11d)
-  )
-  (wire (pts (xy 147.32 101.6) (xy 147.32 99.06))
-    (stroke (width 0.1524) (type solid))
-    (uuid e80e3603-8664-4b9a-af40-ebec59a0e6e6)
-  )
-
-  (text "oscillator" (at 96.52 96.52 0)
-    (effects (font (size 5.08 4.318)) (justify left bottom))
-    (uuid 5a7ebebb-6f08-45f1-a6c5-01532ca6d5c5)
-  )
-
-  (label "~{CLK28}" (at 142.24 109.22 0) (fields_autoplaced)
-    (effects (font (size 1.2446 1.2446)) (justify left bottom))
-    (uuid a9c150fc-5bbf-49d4-83a8-064aa2e9e7b4)
-  )
-
-  (global_label "CLK14" (shape bidirectional) (at 177.8 83.82 0) (fields_autoplaced)
-    (effects (font (size 1.2446 1.2446)) (justify left))
-    (uuid 0d9d2405-8734-4be5-872c-931cbaa6254d)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 187.6037 83.82 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "CLK3_5" (shape bidirectional) (at 177.8 88.9 0) (fields_autoplaced)
-    (effects (font (size 1.2446 1.2446)) (justify left))
-    (uuid 53540475-8ec7-4784-8219-800683fb861d)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 188.552 88.9 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "CLK7" (shape bidirectional) (at 179.07 86.36 0) (fields_autoplaced)
-    (effects (font (size 1.2446 1.2446)) (justify left))
-    (uuid 6608c9fc-ec3e-4a9d-923f-837f2866a813)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 187.6884 86.36 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "CLK28" (shape bidirectional) (at 109.22 109.22 0) (fields_autoplaced)
-    (effects (font (size 1.2446 1.2446)) (justify left))
-    (uuid f2c5df9f-3ada-4508-b25f-58dc3a7ef5fc)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 119.0237 109.22 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "~{CLK7}" (shape bidirectional) (at 208.28 86.36 0) (fields_autoplaced)
-    (effects (font (size 1.2446 1.2446)) (justify left))
-    (uuid fff6889c-a84e-406f-bf0c-fe5642ec6df7)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 216.8984 86.36 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-
-  (symbol (lib_id "cpu-blitter-inputs-eagle-import:OSCILLATORMODULEDIL14") (at 96.52 114.3 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 254af2e3-7865-4425-a534-0c8163c72ed4)
-    (property "Reference" "U$2" (at 91.44 101.6 0)
-      (effects (font (size 1.27 1.0795)) (justify left bottom) hide)
-    )
-    (property "Value" "OSCILLATORMODULEDIL14" (at 91.44 104.14 0)
-      (effects (font (size 1.27 1.0795)) (justify left bottom))
-    )
-    (property "Footprint" "cpu-blitter-inputs:CRYSTAL800MIL" (at 96.52 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 96.52 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "P$1" (uuid a95f5b68-e001-48f9-9915-249fdf55e297))
-    (pin "P$2" (uuid 523ee4bf-790f-4819-a71d-5773a803b89f))
-    (pin "P$3" (uuid e24624d7-f8a8-4dc3-acee-6732f6d1dd2e))
-    (pin "P$4" (uuid bf80545d-98fb-4097-8092-279ad6c9479d))
-    (instances
-      (project "cpu-blitter-inputs"
-        (path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa/ece8c674-80b2-4664-a47f-204f39ea3530"
-          (reference "U$2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "cpu-blitter-inputs-eagle-import:GND") (at 109.22 121.92 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 456fe370-08c2-4a8f-bbc7-683bd87fc438)
-    (property "Reference" "#GND35" (at 109.22 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 106.68 124.46 0)
-      (effects (font (size 1.778 1.5113)) (justify left bottom))
-    )
-    (property "Footprint" "" (at 109.22 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 109.22 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5dba6355-bf0b-4215-a7b8-025468b780b1))
-    (instances
-      (project "cpu-blitter-inputs"
-        (path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa/ece8c674-80b2-4664-a47f-204f39ea3530"
-          (reference "#GND35") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "cpu-blitter-inputs-eagle-import:VCC") (at 134.62 96.52 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 64a3ef7c-8856-45f6-84f0-d9512cc90adc)
-    (property "Reference" "#P+50" (at 134.62 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 132.08 99.06 90)
-      (effects (font (size 1.778 1.5113)) (justify left bottom))
-    )
-    (property "Footprint" "" (at 134.62 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 134.62 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2abde7c5-c06f-4f88-959a-78520aa6ebf5))
-    (instances
-      (project "cpu-blitter-inputs"
-        (path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa/ece8c674-80b2-4664-a47f-204f39ea3530"
-          (reference "#P+50") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "cpu-blitter-inputs-eagle-import:7404N") (at 132.08 109.22 0) (unit 5)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9178aab1-bdad-45d2-a9df-6a9ea00a3150)
-    (property "Reference" "IC16" (at 134.62 106.045 0)
-      (effects (font (size 1.778 1.5113)) (justify left bottom))
-    )
-    (property "Value" "7404N" (at 134.62 114.3 0)
-      (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
-    )
-    (property "Footprint" "cpu-blitter-inputs:DIL14" (at 132.08 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 132.08 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ca1e3fd2-9300-48ce-95f4-8b931eae46ed))
-    (pin "2" (uuid 38b877f2-109b-4aab-9741-fbc18b3210b8))
-    (pin "3" (uuid 71d29c08-d276-44cb-afb5-f597bff3aa63))
-    (pin "4" (uuid d728047c-907a-4402-913c-97e277ff4a3a))
-    (pin "5" (uuid 0b19f847-ae8e-4b13-acea-c33d8635da18))
-    (pin "6" (uuid 0c5ab8c3-2117-4240-945d-99f9177d415a))
-    (pin "8" (uuid ec67ed85-68f2-41ad-99c2-9b4627074cd0))
-    (pin "9" (uuid 56f05b75-3805-441a-b085-8ea96465fb30))
-    (pin "10" (uuid 76aefeb6-6592-4bdf-9e4a-e883b157518b))
-    (pin "11" (uuid 06d9bf37-0d2a-4207-bc72-42bd5750a69e))
-    (pin "12" (uuid b4ad8f18-3297-4589-be7e-9fd457ab4743))
-    (pin "13" (uuid c86a515f-e2d5-4521-a8c9-aaddc7a3d304))
-    (pin "14" (uuid 6bc1c9fc-07f1-45fd-9dc1-773b8bc1397b))
-    (pin "7" (uuid 5fe0cc33-fd15-409c-a5ce-9273d11c3c43))
-    (instances
-      (project "cpu-blitter-inputs"
-        (path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa/ece8c674-80b2-4664-a47f-204f39ea3530"
-          (reference "IC16") (unit 5)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "cpu-blitter-inputs-eagle-import:74HC163") (at 160.02 96.52 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9dd0839d-0740-4452-b071-e09ab06e1b04)
-    (property "Reference" "U$6" (at 160.02 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "74HC163" (at 160.02 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "cpu-blitter-inputs:DIL16" (at 160.02 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 160.02 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a68bf6a4-e4b6-40dd-b07e-759915f1f555))
-    (pin "10" (uuid 2ed59f0a-798a-4b98-87ac-b11ef53f1dad))
-    (pin "11" (uuid b4866a38-ece4-444c-9233-70b5847a1178))
-    (pin "12" (uuid 345d7f53-2eb2-4832-8b9d-492764971ca4))
-    (pin "13" (uuid 7d078504-a8bc-4445-8176-24415308dd3c))
-    (pin "14" (uuid 7c81ee23-00fc-4469-8df3-a6a7daf13fcb))
-    (pin "15" (uuid 45b9089a-f601-472e-93a2-0f11310c7fa5))
-    (pin "2" (uuid 96e7a44d-ff49-4025-a435-bbfbc0d6b2ef))
-    (pin "3" (uuid 25a3760a-8949-4278-a67f-02c80b250592))
-    (pin "4" (uuid 582c4915-a57b-46e4-8a05-449378dcb7ba))
-    (pin "5" (uuid f576770d-7816-4a0d-ae2c-d00c8da3d946))
-    (pin "6" (uuid 5048de75-f0d2-42df-ad64-061a464908c0))
-    (pin "7" (uuid dd9d44ab-2062-4f80-81d5-8530f323b885))
-    (pin "9" (uuid 91b691f4-ccfa-49b4-807e-64eb9c39cc7f))
-    (pin "16" (uuid 757c8a92-cf2a-4566-9703-803d808f355b))
-    (pin "8" (uuid 2e12741b-e26e-4563-8eea-69b34ec430b2))
-    (instances
-      (project "cpu-blitter-inputs"
-        (path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa/ece8c674-80b2-4664-a47f-204f39ea3530"
-          (reference "U$6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "cpu-blitter-inputs-eagle-import:VCC") (at 81.28 109.22 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c8970c8e-bb0d-4f13-97f5-2a275c630cf1)
-    (property "Reference" "#P+38" (at 81.28 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (at 83.82 111.76 90)
-      (effects (font (size 1.778 1.5113)) (justify left bottom))
-    )
-    (property "Footprint" "" (at 81.28 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 81.28 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 188138ed-74d4-47e7-a33b-d0deabeb68cf))
-    (instances
-      (project "cpu-blitter-inputs"
-        (path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa/ece8c674-80b2-4664-a47f-204f39ea3530"
-          (reference "#P+38") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "cpu-blitter-inputs-eagle-import:GND") (at 147.32 93.98 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e082efb2-db2f-43b6-8781-69de8dfd98c2)
-    (property "Reference" "#GND36" (at 147.32 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 139.7 93.98 0)
-      (effects (font (size 1.778 1.5113)) (justify left bottom))
-    )
-    (property "Footprint" "" (at 147.32 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 147.32 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 16d19489-a72f-41ea-8698-785400f439ab))
-    (instances
-      (project "cpu-blitter-inputs"
-        (path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa/ece8c674-80b2-4664-a47f-204f39ea3530"
-          (reference "#GND36") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "cpu-blitter-inputs-eagle-import:7404N") (at 195.58 86.36 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f8bab6d4-dad8-4ce3-93d9-bda8aa7210b4)
-    (property "Reference" "IC4" (at 198.12 83.185 0)
-      (effects (font (size 1.778 1.5113)) (justify left bottom))
-    )
-    (property "Value" "7404N" (at 198.12 91.44 0)
-      (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
-    )
-    (property "Footprint" "cpu-blitter-inputs:DIL14" (at 195.58 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 195.58 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 15d853d3-3b38-4b75-9b15-995c313e7bb4))
-    (pin "2" (uuid 555b590e-bda3-4712-877a-767c122681b1))
-    (pin "3" (uuid 332d84d9-7a43-45fe-9755-2fc6d94a1dcc))
-    (pin "4" (uuid 4b703452-1278-4701-8c82-d12a429f985e))
-    (pin "5" (uuid d11f5fcc-c2da-4863-a3c3-9c5beee7e18a))
-    (pin "6" (uuid cd3a7b01-6ec4-4dc5-8e46-6ef96ea61960))
-    (pin "8" (uuid e6269a47-c798-44d7-8e79-91ad4ad3d5e0))
-    (pin "9" (uuid 0f103657-ae48-4bba-9fe4-c0978334e8e9))
-    (pin "10" (uuid e8a710bc-3fdc-4bcb-8b65-488b5cafd135))
-    (pin "11" (uuid bc1cf85c-594b-49ec-8d58-6988ba2d894f))
-    (pin "12" (uuid 46738011-5dca-4e19-909c-e1b3ee4b2cd7))
-    (pin "13" (uuid 21c0e904-0428-4c05-8db9-140230267fe7))
-    (pin "14" (uuid 40b2817d-17ce-4f3d-9a5b-36c55b29ffca))
-    (pin "7" (uuid 21ea58eb-c3b7-4a5f-b054-dd7a76d281f6))
-    (instances
-      (project "cpu-blitter-inputs"
-        (path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa/ece8c674-80b2-4664-a47f-204f39ea3530"
-          (reference "IC4") (unit 2)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f825cb64-79c3-4fd9-a289-6df230eebe13")
+	(paper "A4")
+	(lib_symbols
+		(symbol "cpu-blitter-inputs-eagle-import:7404N"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at -0.635 -0.635 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "cpu-blitter-inputs:DIL14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "7404N_1_0"
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "I"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "O"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "7404N_2_0"
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "I"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "O"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "7404N_3_0"
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "I"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "O"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "7404N_4_0"
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output inverted
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "O"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "I"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "7404N_5_0"
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output inverted
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "O"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "I"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "7404N_6_0"
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin output inverted
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "O"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "I"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "7404N_7_0"
+				(text "GND"
+					(at 1.905 -7.62 900)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "VCC"
+					(at 1.905 5.08 900)
+					(effects
+						(font
+							(size 1.27 1.0795)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 7.62)
+					(name "VCC"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "cpu-blitter-inputs-eagle-import:74HC163"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "cpu-blitter-inputs:DIL16"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74HC163_1_0"
+				(polyline
+					(pts
+						(xy -7.62 -15.24) (xy -7.62 15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 15.24) (xy 7.62 15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -15.24) (xy -7.62 -15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 15.24) (xy 7.62 -15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional inverted
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "_CLR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -10.16 0)
+					(length 5.08)
+					(name "ENT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "Q3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "Q2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 10.16 180)
+					(length 5.08)
+					(name "Q1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 12.7 180)
+					(length 5.08)
+					(name "Q0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "RCO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional clock
+					(at -12.7 -12.7 0)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 12.7 0)
+					(length 5.08)
+					(name "P0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 10.16 0)
+					(length 5.08)
+					(name "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 7.62 0)
+					(length 5.08)
+					(name "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "ENP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional inverted
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "_LOAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC163_2_0"
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "cpu-blitter-inputs-eagle-import:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "cpu-blitter-inputs-eagle-import:OSCILLATORMODULEDIL14"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at -5.08 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -5.08 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "cpu-blitter-inputs:CRYSTAL800MIL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "OSCILLATORMODULEDIL14_1_0"
+				(polyline
+					(pts
+						(xy -7.62 -7.62) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 7.62) (xy -7.62 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 7.62) (xy -7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "cpu-blitter-inputs-eagle-import:VCC"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#P+"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at -2.54 -2.54 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_1_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.905) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 147.32 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28915fcf-e2fc-4936-b8c1-4edaa8dd445b")
+	)
+	(junction
+		(at 147.32 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a83e75f-2a26-4f74-a983-f5a9fd64a519")
+	)
+	(junction
+		(at 147.32 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f5182e2-5ed9-4eae-9f91-5b09a4b3584c")
+	)
+	(junction
+		(at 147.32 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "731de2d4-b00e-4d63-9c5f-affd633a06d7")
+	)
+	(junction
+		(at 147.32 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87cc2c4c-e448-45ed-b487-e4b33dff913c")
+	)
+	(junction
+		(at 147.32 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d345512d-22a1-4ec2-b790-de615965b283")
+	)
+	(wire
+		(pts
+			(xy 147.32 106.68) (xy 147.32 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "10d59624-826c-46e5-8298-653f028df2a0")
+	)
+	(wire
+		(pts
+			(xy 147.32 86.36) (xy 147.32 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2953dd12-db55-46b6-bc96-6da396606646")
+	)
+	(wire
+		(pts
+			(xy 147.32 88.9) (xy 147.32 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2ba63891-3230-4f3a-a932-98fb8c69cbc7")
+	)
+	(wire
+		(pts
+			(xy 172.72 83.82) (xy 177.8 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "33ea54c3-2f6f-4b5e-86a0-96e3351de111")
+	)
+	(wire
+		(pts
+			(xy 147.32 91.44) (xy 147.32 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3ac53fe2-6493-4b81-807e-cf3da7da2825")
+	)
+	(wire
+		(pts
+			(xy 109.22 109.22) (xy 121.92 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4455f1b3-0b92-4baf-83ff-4bfa4b5c2568")
+	)
+	(wire
+		(pts
+			(xy 205.74 86.36) (xy 208.28 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "481afbbc-8a13-4a7b-84eb-04ad29aaf3e0")
+	)
+	(wire
+		(pts
+			(xy 172.72 86.36) (xy 185.42 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "67d0d22d-9af6-4afa-9752-9602cbcdc38d")
+	)
+	(wire
+		(pts
+			(xy 147.32 109.22) (xy 142.24 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b4699c50-9276-4a67-a036-110f2e844af9")
+	)
+	(wire
+		(pts
+			(xy 147.32 101.6) (xy 147.32 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b74a3c3b-3cf5-4383-b9e0-898fac78726d")
+	)
+	(wire
+		(pts
+			(xy 172.72 88.9) (xy 177.8 88.9)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c157f5fd-cded-46d3-a8a3-05e2f908f7e9")
+	)
+	(wire
+		(pts
+			(xy 134.62 99.06) (xy 147.32 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dff1e206-35cd-409c-9fd1-9aa7ded8b11d")
+	)
+	(wire
+		(pts
+			(xy 147.32 101.6) (xy 147.32 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e80e3603-8664-4b9a-af40-ebec59a0e6e6")
+	)
+	(text "oscillator"
+		(exclude_from_sim no)
+		(at 96.52 96.52 0)
+		(effects
+			(font
+				(size 5.08 4.318)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a7ebebb-6f08-45f1-a6c5-01532ca6d5c5")
+	)
+	(label "~{CLK28}"
+		(at 142.24 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9c150fc-5bbf-49d4-83a8-064aa2e9e7b4")
+	)
+	(global_label "CLK14"
+		(shape bidirectional)
+		(at 177.8 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "0d9d2405-8734-4be5-872c-931cbaa6254d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.6037 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLK3_5"
+		(shape bidirectional)
+		(at 177.8 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "53540475-8ec7-4784-8219-800683fb861d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 188.552 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLK7"
+		(shape bidirectional)
+		(at 179.07 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "6608c9fc-ec3e-4a9d-923f-837f2866a813")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.6884 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CLK28"
+		(shape bidirectional)
+		(at 109.22 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "f2c5df9f-3ada-4508-b25f-58dc3a7ef5fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.0237 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{CLK7}"
+		(shape bidirectional)
+		(at 208.28 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "fff6889c-a84e-406f-bf0c-fe5642ec6df7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.8984 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cpu-blitter-inputs-eagle-import:OSCILLATORMODULEDIL14")
+		(at 96.52 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "254af2e3-7865-4425-a534-0c8163c72ed4")
+		(property "Reference" "U$2"
+			(at 91.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "OSCILLATORMODULEDIL14"
+			(at 91.44 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "cpu-blitter-inputs:CRYSTAL800MIL"
+			(at 96.52 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "a95f5b68-e001-48f9-9915-249fdf55e297")
+		)
+		(pin "P$2"
+			(uuid "523ee4bf-790f-4819-a71d-5773a803b89f")
+		)
+		(pin "P$3"
+			(uuid "e24624d7-f8a8-4dc3-acee-6732f6d1dd2e")
+		)
+		(pin "P$4"
+			(uuid "bf80545d-98fb-4097-8092-279ad6c9479d")
+		)
+		(instances
+			(project "cpu-blitter-inputs"
+				(path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa/ece8c674-80b2-4664-a47f-204f39ea3530"
+					(reference "U$2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cpu-blitter-inputs-eagle-import:GND")
+		(at 109.22 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "456fe370-08c2-4a8f-bbc7-683bd87fc438")
+		(property "Reference" "#GND035"
+			(at 109.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 124.46 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5dba6355-bf0b-4215-a7b8-025468b780b1")
+		)
+		(instances
+			(project "cpu-blitter-inputs"
+				(path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa/ece8c674-80b2-4664-a47f-204f39ea3530"
+					(reference "#GND035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cpu-blitter-inputs-eagle-import:VCC")
+		(at 134.62 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64a3ef7c-8856-45f6-84f0-d9512cc90adc")
+		(property "Reference" "#P+050"
+			(at 134.62 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 132.08 99.06 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2abde7c5-c06f-4f88-959a-78520aa6ebf5")
+		)
+		(instances
+			(project "cpu-blitter-inputs"
+				(path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa/ece8c674-80b2-4664-a47f-204f39ea3530"
+					(reference "#P+050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cpu-blitter-inputs-eagle-import:7404N")
+		(at 132.08 109.22 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9178aab1-bdad-45d2-a9df-6a9ea00a3150")
+		(property "Reference" "IC16"
+			(at 134.62 106.045 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "7404N"
+			(at 134.62 114.3 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "cpu-blitter-inputs:DIL14"
+			(at 132.08 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca1e3fd2-9300-48ce-95f4-8b931eae46ed")
+		)
+		(pin "2"
+			(uuid "38b877f2-109b-4aab-9741-fbc18b3210b8")
+		)
+		(pin "3"
+			(uuid "71d29c08-d276-44cb-afb5-f597bff3aa63")
+		)
+		(pin "4"
+			(uuid "d728047c-907a-4402-913c-97e277ff4a3a")
+		)
+		(pin "5"
+			(uuid "0b19f847-ae8e-4b13-acea-c33d8635da18")
+		)
+		(pin "6"
+			(uuid "0c5ab8c3-2117-4240-945d-99f9177d415a")
+		)
+		(pin "8"
+			(uuid "ec67ed85-68f2-41ad-99c2-9b4627074cd0")
+		)
+		(pin "9"
+			(uuid "56f05b75-3805-441a-b085-8ea96465fb30")
+		)
+		(pin "10"
+			(uuid "76aefeb6-6592-4bdf-9e4a-e883b157518b")
+		)
+		(pin "11"
+			(uuid "06d9bf37-0d2a-4207-bc72-42bd5750a69e")
+		)
+		(pin "12"
+			(uuid "b4ad8f18-3297-4589-be7e-9fd457ab4743")
+		)
+		(pin "13"
+			(uuid "c86a515f-e2d5-4521-a8c9-aaddc7a3d304")
+		)
+		(pin "14"
+			(uuid "6bc1c9fc-07f1-45fd-9dc1-773b8bc1397b")
+		)
+		(pin "7"
+			(uuid "5fe0cc33-fd15-409c-a5ce-9273d11c3c43")
+		)
+		(instances
+			(project "cpu-blitter-inputs"
+				(path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa/ece8c674-80b2-4664-a47f-204f39ea3530"
+					(reference "IC16")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cpu-blitter-inputs-eagle-import:74HC163")
+		(at 160.02 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9dd0839d-0740-4452-b071-e09ab06e1b04")
+		(property "Reference" "U$6"
+			(at 160.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "74HC163"
+			(at 160.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "cpu-blitter-inputs:DIL16"
+			(at 160.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a68bf6a4-e4b6-40dd-b07e-759915f1f555")
+		)
+		(pin "10"
+			(uuid "2ed59f0a-798a-4b98-87ac-b11ef53f1dad")
+		)
+		(pin "11"
+			(uuid "b4866a38-ece4-444c-9233-70b5847a1178")
+		)
+		(pin "12"
+			(uuid "345d7f53-2eb2-4832-8b9d-492764971ca4")
+		)
+		(pin "13"
+			(uuid "7d078504-a8bc-4445-8176-24415308dd3c")
+		)
+		(pin "14"
+			(uuid "7c81ee23-00fc-4469-8df3-a6a7daf13fcb")
+		)
+		(pin "15"
+			(uuid "45b9089a-f601-472e-93a2-0f11310c7fa5")
+		)
+		(pin "2"
+			(uuid "96e7a44d-ff49-4025-a435-bbfbc0d6b2ef")
+		)
+		(pin "3"
+			(uuid "25a3760a-8949-4278-a67f-02c80b250592")
+		)
+		(pin "4"
+			(uuid "582c4915-a57b-46e4-8a05-449378dcb7ba")
+		)
+		(pin "5"
+			(uuid "f576770d-7816-4a0d-ae2c-d00c8da3d946")
+		)
+		(pin "6"
+			(uuid "5048de75-f0d2-42df-ad64-061a464908c0")
+		)
+		(pin "7"
+			(uuid "dd9d44ab-2062-4f80-81d5-8530f323b885")
+		)
+		(pin "9"
+			(uuid "91b691f4-ccfa-49b4-807e-64eb9c39cc7f")
+		)
+		(pin "16"
+			(uuid "757c8a92-cf2a-4566-9703-803d808f355b")
+		)
+		(pin "8"
+			(uuid "2e12741b-e26e-4563-8eea-69b34ec430b2")
+		)
+		(instances
+			(project "cpu-blitter-inputs"
+				(path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa/ece8c674-80b2-4664-a47f-204f39ea3530"
+					(reference "U$6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cpu-blitter-inputs-eagle-import:VCC")
+		(at 81.28 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8970c8e-bb0d-4f13-97f5-2a275c630cf1")
+		(property "Reference" "#P+038"
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 83.82 111.76 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "188138ed-74d4-47e7-a33b-d0deabeb68cf")
+		)
+		(instances
+			(project "cpu-blitter-inputs"
+				(path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa/ece8c674-80b2-4664-a47f-204f39ea3530"
+					(reference "#P+038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cpu-blitter-inputs-eagle-import:GND")
+		(at 147.32 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e082efb2-db2f-43b6-8781-69de8dfd98c2")
+		(property "Reference" "#GND036"
+			(at 147.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16d19489-a72f-41ea-8698-785400f439ab")
+		)
+		(instances
+			(project "cpu-blitter-inputs"
+				(path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa/ece8c674-80b2-4664-a47f-204f39ea3530"
+					(reference "#GND036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cpu-blitter-inputs-eagle-import:7404N")
+		(at 195.58 86.36 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8bab6d4-dad8-4ce3-93d9-bda8aa7210b4")
+		(property "Reference" "IC4"
+			(at 198.12 83.185 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "7404N"
+			(at 198.12 91.44 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "cpu-blitter-inputs:DIL14"
+			(at 195.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15d853d3-3b38-4b75-9b15-995c313e7bb4")
+		)
+		(pin "2"
+			(uuid "555b590e-bda3-4712-877a-767c122681b1")
+		)
+		(pin "3"
+			(uuid "332d84d9-7a43-45fe-9755-2fc6d94a1dcc")
+		)
+		(pin "4"
+			(uuid "4b703452-1278-4701-8c82-d12a429f985e")
+		)
+		(pin "5"
+			(uuid "d11f5fcc-c2da-4863-a3c3-9c5beee7e18a")
+		)
+		(pin "6"
+			(uuid "cd3a7b01-6ec4-4dc5-8e46-6ef96ea61960")
+		)
+		(pin "8"
+			(uuid "e6269a47-c798-44d7-8e79-91ad4ad3d5e0")
+		)
+		(pin "9"
+			(uuid "0f103657-ae48-4bba-9fe4-c0978334e8e9")
+		)
+		(pin "10"
+			(uuid "e8a710bc-3fdc-4bcb-8b65-488b5cafd135")
+		)
+		(pin "11"
+			(uuid "bc1cf85c-594b-49ec-8d58-6988ba2d894f")
+		)
+		(pin "12"
+			(uuid "46738011-5dca-4e19-909c-e1b3ee4b2cd7")
+		)
+		(pin "13"
+			(uuid "21c0e904-0428-4c05-8db9-140230267fe7")
+		)
+		(pin "14"
+			(uuid "40b2817d-17ce-4f3d-9a5b-36c55b29ffca")
+		)
+		(pin "7"
+			(uuid "21ea58eb-c3b7-4a5f-b054-dd7a76d281f6")
+		)
+		(instances
+			(project "cpu-blitter-inputs"
+				(path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa/ece8c674-80b2-4664-a47f-204f39ea3530"
+					(reference "IC4")
+					(unit 2)
+				)
+			)
+		)
+	)
 )
