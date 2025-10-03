@@ -1,133 +1,308 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 28034957-81b4-48a5-b869-6f4cb8f0c2fa)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 177.8 25.4) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 0a9c1bb4-cd21-41da-b869-100e097503b6)
-    (property "Sheetname" "Gamepad ports" (at 177.8 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Gamepad_ports.kicad_sch" (at 177.8 29.7946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "LogicBoard_smt"
-        (path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 25.4 25.4) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 1a1afecc-27a9-4052-a1f1-ea8e6f71b57b)
-    (property "Sheetname" "DMA Controller" (at 25.4 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "DMA_Controller.kicad_sch" (at 25.4 29.7946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "LogicBoard_smt"
-        (path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa" (page "1"))
-      )
-    )
-  )
-
-  (sheet (at 102.87 80.01) (size 53.34 44.45) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 3cd7a415-d991-43da-8d25-a2cb0e7b5043)
-    (property "Sheetname" "Power" (at 102.87 79.2984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "power.kicad_sch" (at 102.87 125.0446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "LogicBoard_smt"
-        (path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa" (page "8"))
-      )
-    )
-  )
-
-  (sheet (at 127 25.4) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 95bc2f6c-a227-442d-9d58-41fddaf17fd9)
-    (property "Sheetname" "cpu-blitter-inputs_3" (at 127 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "cpu-blitter-inputs_3.kicad_sch" (at 127 29.7946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "LogicBoard_smt"
-        (path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 228.6 25.4) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid e60342e7-9857-478f-9abf-0bd7d7ef0739)
-    (property "Sheetname" "cpu-blitter-inputs_5" (at 228.6 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "cpu-blitter-inputs_5.kicad_sch" (at 228.6 29.7946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "LogicBoard_smt"
-        (path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 25.4 76.2) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid ece8c674-80b2-4664-a47f-204f39ea3530)
-    (property "Sheetname" "cpu-blitter-inputs_6" (at 25.4 75.4884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "cpu-blitter-inputs_6.kicad_sch" (at 25.4 80.5946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "LogicBoard_smt"
-        (path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa" (page "6"))
-      )
-    )
-  )
-
-  (sheet (at 76.2 25.4) (size 12.7 3.81) (fields_autoplaced)
-    (stroke (width 0) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid f0ce6048-bb8c-44d1-87fc-da575349d621)
-    (property "Sheetname" "CPU and address decode" (at 76.2 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "CPU_and_address_decode.kicad_sch" (at 76.2 29.7946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "LogicBoard_smt"
-        (path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa" (page "2"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "28034957-81b4-48a5-b869-6f4cb8f0c2fa")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 177.8 25.4)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0a9c1bb4-cd21-41da-b869-100e097503b6")
+		(property "Sheetname" "Gamepad ports"
+			(at 177.8 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Gamepad_ports.kicad_sch"
+			(at 177.8 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LogicBoard_smt"
+				(path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1a1afecc-27a9-4052-a1f1-ea8e6f71b57b")
+		(property "Sheetname" "DMA Controller"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DMA_Controller.kicad_sch"
+			(at 25.4 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LogicBoard_smt"
+				(path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 80.01)
+		(size 53.34 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3cd7a415-d991-43da-8d25-a2cb0e7b5043")
+		(property "Sheetname" "Power"
+			(at 102.87 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 102.87 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LogicBoard_smt"
+				(path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 25.4)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "95bc2f6c-a227-442d-9d58-41fddaf17fd9")
+		(property "Sheetname" "cpu-blitter-inputs_3"
+			(at 127 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cpu-blitter-inputs_3.kicad_sch"
+			(at 127 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LogicBoard_smt"
+				(path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 25.4)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e60342e7-9857-478f-9abf-0bd7d7ef0739")
+		(property "Sheetname" "cpu-blitter-inputs_5"
+			(at 228.6 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cpu-blitter-inputs_5.kicad_sch"
+			(at 228.6 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LogicBoard_smt"
+				(path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 76.2)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ece8c674-80b2-4664-a47f-204f39ea3530")
+		(property "Sheetname" "cpu-blitter-inputs_6"
+			(at 25.4 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cpu-blitter-inputs_6.kicad_sch"
+			(at 25.4 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LogicBoard_smt"
+				(path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 25.4)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f0ce6048-bb8c-44d1-87fc-da575349d621")
+		(property "Sheetname" "CPU and address decode"
+			(at 76.2 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CPU_and_address_decode.kicad_sch"
+			(at 76.2 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LogicBoard_smt"
+				(path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
