@@ -9980,6 +9980,12 @@
 		(uuid "538508d8-aad3-484f-9557-618071e8c00c")
 	)
 	(junction
+		(at 167.64 -19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54d8c795-4769-4bb2-818e-09c0caf03fd6")
+	)
+	(junction
 		(at 175.26 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11167,7 +11173,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 -19.05) (xy 171.45 -19.05)
+			(xy 161.29 -19.05) (xy 167.64 -19.05)
 		)
 		(stroke
 			(width 0)
@@ -11194,6 +11200,16 @@
 			(type default)
 		)
 		(uuid "389ff0dd-3a15-47d3-a8ce-c78a5729b240")
+	)
+	(wire
+		(pts
+			(xy 167.64 -19.05) (xy 171.45 -19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3996c79c-9577-4bb7-bd94-28898495362b")
 	)
 	(wire
 		(pts
@@ -14537,6 +14553,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 -16.51) (xy 167.64 -16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f34c2814-26b6-4788-9640-d728e36f729b")
+	)
+	(wire
+		(pts
 			(xy 327.66 137.16) (xy 327.66 167.64)
 		)
 		(stroke
@@ -14784,6 +14810,16 @@
 			(type default)
 		)
 		(uuid "fccbb6a0-35d2-4e80-9db5-42867ee15b06")
+	)
+	(wire
+		(pts
+			(xy 167.64 -16.51) (xy 167.64 -19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd0f37bb-7bdc-4287-8dc2-debeb69d40c4")
 	)
 	(wire
 		(pts
@@ -15185,16 +15221,6 @@
 		)
 		(uuid "71c9cab5-9845-4864-9140-4a77448e8237")
 	)
-	(label "ACP_ARAM_~{CE}"
-		(at 161.29 -16.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "76cdb812-c1c4-4bf7-9a84-c5741f30b565")
-	)
 	(label "Sys_ARAM_~{WE}"
 		(at 130.81 -29.21 180)
 		(effects
@@ -15234,16 +15260,6 @@
 			(justify right bottom)
 		)
 		(uuid "7f907bc6-fe71-4822-9775-5fe15a76879f")
-	)
-	(label "ARAM_~{CE}"
-		(at 166.37 -13.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "835e7876-40d9-41d5-8266-255492a14b41")
 	)
 	(label "AA7"
 		(at 204.47 2.54 180)
