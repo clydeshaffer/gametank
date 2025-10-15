@@ -19939,6 +19939,28 @@
 		)
 		(uuid "fe1ddfa1-61ce-4651-a09d-3de1fbc053a0")
 	)
+	(global_label "P6"
+		(shape input)
+		(at 0 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02c05f63-898e-43cb-9573-3903d2e907d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 5.4647 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "P1"
 		(shape input)
 		(at 0 160.02 0)
@@ -20049,28 +20071,6 @@
 			)
 		)
 	)
-	(global_label "P6"
-		(shape input)
-		(at 0 175.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "02c05f63-898e-43cb-9573-3903d2e907d8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 5.4647 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "P7"
 		(shape input)
 		(at 0 177.8 0)
@@ -20159,9 +20159,9 @@
 			)
 		)
 	)
-	(global_label "PAY4"
+	(global_label "PAY0"
 		(shape input)
-		(at 88.9 163.83 180)
+		(at 88.9 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20171,7 +20171,7 @@
 		)
 		(uuid "1b08bb34-b059-4d83-a201-a241bcd8a60a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.2581 163.83 0)
+			(at 81.2581 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20181,9 +20181,9 @@
 			)
 		)
 	)
-	(global_label "PAY5"
+	(global_label "PAY1"
 		(shape input)
-		(at 88.9 166.37 180)
+		(at 88.9 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20193,7 +20193,7 @@
 		)
 		(uuid "1b08bb34-b059-4d83-a201-a241bcd8a60a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.2581 166.37 0)
+			(at 81.2581 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20203,9 +20203,9 @@
 			)
 		)
 	)
-	(global_label "PAY6"
+	(global_label "PAX1"
 		(shape input)
-		(at 88.9 168.91 180)
+		(at 88.9 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20215,7 +20215,7 @@
 		)
 		(uuid "1b08bb34-b059-4d83-a201-a241bcd8a60a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.2581 168.91 0)
+			(at 81.1372 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20335,28 +20335,6 @@
 			)
 		)
 	)
-	(global_label "PAX1"
-		(shape input)
-		(at 88.9 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1b08bb34-b059-4d83-a201-a241bcd8a60a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.1372 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PAX0"
 		(shape input)
 		(at 88.9 102.87 180)
@@ -20379,9 +20357,9 @@
 			)
 		)
 	)
-	(global_label "PAY0"
+	(global_label "PAY6"
 		(shape input)
-		(at 88.9 153.67 180)
+		(at 88.9 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20391,7 +20369,7 @@
 		)
 		(uuid "1b08bb34-b059-4d83-a201-a241bcd8a60a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.2581 153.67 0)
+			(at 81.2581 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20401,9 +20379,9 @@
 			)
 		)
 	)
-	(global_label "PAY1"
+	(global_label "PAY5"
 		(shape input)
-		(at 88.9 156.21 180)
+		(at 88.9 166.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20413,7 +20391,29 @@
 		)
 		(uuid "1b08bb34-b059-4d83-a201-a241bcd8a60a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.2581 156.21 0)
+			(at 81.2581 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PAY4"
+		(shape input)
+		(at 88.9 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b08bb34-b059-4d83-a201-a241bcd8a60a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.2581 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21633,6 +21633,28 @@
 			)
 		)
 	)
+	(global_label "VD4"
+		(shape input)
+		(at 115.57 293.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78c9f9ec-bf4d-45e1-97ee-76b11449bab4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.1233 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VD3"
 		(shape input)
 		(at 115.57 290.83 0)
@@ -21721,28 +21743,6 @@
 			)
 		)
 	)
-	(global_label "VD4"
-		(shape input)
-		(at 115.57 293.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "78c9f9ec-bf4d-45e1-97ee-76b11449bab4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.1233 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VD0"
 		(shape input)
 		(at 115.57 283.21 0)
@@ -21765,28 +21765,6 @@
 			)
 		)
 	)
-	(global_label "VD6"
-		(shape input)
-		(at 115.57 298.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "78c9f9ec-bf4d-45e1-97ee-76b11449bab4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.1233 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VD7"
 		(shape input)
 		(at 115.57 300.99 0)
@@ -21800,6 +21778,28 @@
 		(uuid "78c9f9ec-bf4d-45e1-97ee-76b11449bab4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 122.1233 300.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VD6"
+		(shape input)
+		(at 115.57 298.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78c9f9ec-bf4d-45e1-97ee-76b11449bab4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.1233 298.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21888,6 +21888,28 @@
 		(uuid "8bb6e9fe-7480-4394-99f0-7cc0cb6f1265")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at -31.3653 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MA0"
+		(shape input)
+		(at 35.56 226.06 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d98eff5-b428-4f40-8a8a-46e827749bad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.56 219.3253 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22007,28 +22029,6 @@
 			)
 		)
 	)
-	(global_label "MA0"
-		(shape input)
-		(at 35.56 226.06 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8d98eff5-b428-4f40-8a8a-46e827749bad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.56 219.3253 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MA3"
 		(shape input)
 		(at 43.18 226.06 90)
@@ -22042,6 +22042,28 @@
 		(uuid "8d98eff5-b428-4f40-8a8a-46e827749bad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 43.18 219.3253 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MA11"
+		(shape input)
+		(at 96.52 226.06 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d98eff5-b428-4f40-8a8a-46e827749bad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.52 218.1158 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22174,28 +22196,6 @@
 		(uuid "8d98eff5-b428-4f40-8a8a-46e827749bad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.44 219.3253 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MA11"
-		(shape input)
-		(at 96.52 226.06 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8d98eff5-b428-4f40-8a8a-46e827749bad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.52 218.1158 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22623,6 +22623,28 @@
 			)
 		)
 	)
+	(global_label "VD3"
+		(shape input)
+		(at -124.46 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7727117-7ffe-4a88-affd-1838495c43f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -117.9067 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VD6"
 		(shape input)
 		(at -124.46 157.48 0)
@@ -22702,28 +22724,6 @@
 		(uuid "e7727117-7ffe-4a88-affd-1838495c43f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at -117.9067 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VD3"
-		(shape input)
-		(at -124.46 165.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e7727117-7ffe-4a88-affd-1838495c43f5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -117.9067 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23016,6 +23016,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 347.98 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0497502c-990a-4da9-af91-0aa39e102b2e")
 		)
@@ -23179,6 +23188,24 @@
 		)
 		(property "Description" "8-bit Latch, 3-state outputs"
 			(at -11.43 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74VHC373MTCX"
+			(at -11.43 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at -11.43 238.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23448,6 +23475,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 421.64 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "73908cd5-4d89-4396-b019-499eaa4655b9")
 		)
@@ -23555,6 +23591,15 @@
 			)
 		)
 		(property "MPN" "MC74HC161ADTR2G"
+			(at 266.7 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 266.7 274.32 0)
 			(effects
 				(font
@@ -23683,6 +23728,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 99.06 421.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "009498b7-b47d-412d-9390-6604de820af1")
 		)
@@ -23790,6 +23844,15 @@
 			)
 		)
 		(property "MPN" "SN74HC151PWR"
+			(at 469.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 469.9 66.04 0)
 			(effects
 				(font
@@ -23983,6 +24046,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 723.9 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "de5dccce-89a4-4e60-9fb4-e8fad72e3bf9")
 		)
@@ -24126,6 +24198,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 6.35 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2818a0bf-8057-47f1-85e5-1577a3ffc1c2")
 		)
@@ -24232,6 +24313,15 @@
 			)
 		)
 		(property "MPN" "74HC04PW,118"
+			(at 297.18 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 297.18 287.02 0)
 			(effects
 				(font
@@ -24348,6 +24438,15 @@
 		)
 		(property "MPN" "SN74HC257PWR"
 			(at -381 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at -381 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24475,6 +24574,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 292.1 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f863462-a7cc-4f56-9afe-cbd2f73001af")
 		)
@@ -24581,6 +24689,15 @@
 			)
 		)
 		(property "MPN" "CD74HC08PWR"
+			(at 601.98 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 601.98 127 0)
 			(effects
 				(font
@@ -24703,6 +24820,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at -381 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "77b59e8f-3f98-4bd3-a087-185411537d10")
 		)
@@ -24800,6 +24926,15 @@
 			)
 		)
 		(property "MPN" "RC0805FR-071KL"
+			(at 721.36 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 721.36 55.88 0)
 			(effects
 				(font
@@ -25018,6 +25153,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 708.66 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a474457f-6b32-4b27-92ce-184383333439")
 		)
@@ -25132,6 +25276,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 452.12 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "507ee9c8-f316-4151-af79-1e22c336af42")
 		)
@@ -25238,6 +25391,15 @@
 			)
 		)
 		(property "MPN" "SN74HCS00PWR"
+			(at 375.92 480.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 375.92 480.06 0)
 			(effects
 				(font
@@ -25392,13 +25554,22 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "AS7C256A-10TIN"
+		(property "MPN" "AS7C256A-10TIN"
 			(at -128.27 944.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at -152.4 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -25624,6 +25795,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 266.7 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b794066c-0b67-4eb1-893c-13adb39a15e0")
 		)
@@ -25744,6 +25924,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 624.84 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c026755a-6c16-414f-86ab-a33113da55c5")
 		)
@@ -25814,6 +26003,15 @@
 			)
 		)
 		(property "MPN" "RC0805FR-071KL"
+			(at 647.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 647.7 109.22 0)
 			(effects
 				(font
@@ -25900,6 +26098,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 716.28 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6b404709-12fb-4b5c-b9d8-fb9c5946c468")
 		)
@@ -25970,6 +26177,15 @@
 			)
 		)
 		(property "MPN" "SN74HCS00PWR"
+			(at 414.02 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 414.02 411.48 0)
 			(effects
 				(font
@@ -26157,6 +26373,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 619.76 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "40bad498-34ff-420b-9e45-90e51d29cb11")
 		)
@@ -26335,6 +26560,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 843.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "+"
 			(uuid "bc80d319-1abd-4778-a8ea-62357861bd44")
 		)
@@ -26405,6 +26639,15 @@
 			)
 		)
 		(property "MPN" "SN74HCS00PWR"
+			(at 734.06 398.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 734.06 398.78 0)
 			(effects
 				(font
@@ -26658,6 +26901,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 171.45 490.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "027fc510-6004-4194-9fd5-c5a549f549af")
 		)
@@ -26764,6 +27016,15 @@
 			)
 		)
 		(property "MPN" "CD74HC08PWR"
+			(at 698.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 698.5 78.74 0)
 			(effects
 				(font
@@ -26951,6 +27212,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at -381 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "40bad498-34ff-420b-9e45-90e51d29cb12")
 		)
@@ -27057,6 +27327,15 @@
 			)
 		)
 		(property "MPN" "SN74HCS00PWR"
+			(at 444.5 436.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 444.5 436.88 0)
 			(effects
 				(font
@@ -27172,6 +27451,15 @@
 			)
 		)
 		(property "MPN" "SN74HC257PWR"
+			(at 419.1 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 419.1 149.86 0)
 			(effects
 				(font
@@ -27357,6 +27645,15 @@
 			)
 		)
 		(property "MPN" "74HC4040PW,118"
+			(at 116.84 490.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 116.84 490.22 0)
 			(effects
 				(font
@@ -27616,6 +27913,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 29.21 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "173d570a-b936-46f2-873a-34c03b9564d4")
 		)
@@ -27731,6 +28037,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at -381 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff961a1d-fb74-43fd-b3ce-164120a91d43")
 		)
@@ -27838,6 +28153,15 @@
 			)
 		)
 		(property "MPN" "SN74ACT564PWR"
+			(at 347.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 347.98 152.4 0)
 			(effects
 				(font
@@ -27961,6 +28285,24 @@
 		)
 		(property "Description" "8-bit Latch, 3-state outputs"
 			(at 48.26 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74VHC373MTCX"
+			(at 48.26 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 48.26 238.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28693,6 +29035,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at -381 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dfeefe05-b4a4-490d-9c1c-7eace0c8deb9")
 		)
@@ -28800,6 +29151,15 @@
 		)
 		(property "MPN" "CD74HC08PWR"
 			(at -381 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at -381 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28921,6 +29281,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 779.78 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cef62d97-780b-4c1d-89b2-e1c91c0b6cdd")
 		)
@@ -29027,6 +29396,15 @@
 			)
 		)
 		(property "MPN" "CD74HC08PWR"
+			(at 698.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 698.5 63.5 0)
 			(effects
 				(font
@@ -29281,6 +29659,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 419.1 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b609702-8bca-4b1f-90ad-61167067d379")
 		)
@@ -29466,6 +29853,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at -381 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57522a04-19f1-4428-b8e1-02c4c00bc76f")
 		)
@@ -29572,6 +29968,15 @@
 			)
 		)
 		(property "MPN" "CD74HC08PWR"
+			(at 617.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 617.22 127 0)
 			(effects
 				(font
@@ -29891,6 +30296,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 640.08 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cd88e46b-dfdd-480a-8255-5dadc590130f")
 		)
@@ -30006,6 +30420,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 48.26 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "eb4d3d20-3b70-48e6-82cb-d6a85d4d38b7")
 		)
@@ -30113,6 +30536,15 @@
 			)
 		)
 		(property "MPN" "74VHC74FT"
+			(at -86.36 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at -86.36 123.19 0)
 			(effects
 				(font
@@ -30432,6 +30864,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 632.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a1d985b-1438-43d4-a6c6-b4fcb79b2595")
 		)
@@ -30537,6 +30978,15 @@
 			)
 		)
 		(property "MPN" "74AC00MTCX"
+			(at 44.45 416.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 44.45 416.56 0)
 			(effects
 				(font
@@ -30658,6 +31108,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 779.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0df6244f-214d-401e-ad07-6c2ca65f4c1a")
 		)
@@ -30728,6 +31187,15 @@
 			)
 		)
 		(property "MPN" "74AHC30PW,118"
+			(at 307.34 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 307.34 459.74 0)
 			(effects
 				(font
@@ -30833,6 +31301,15 @@
 			)
 		)
 		(property "MPN" "SN74HCS00PWR"
+			(at 759.46 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 759.46 388.62 0)
 			(effects
 				(font
@@ -31085,6 +31562,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 44.45 431.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "173d570a-b936-46f2-873a-34c03b9564d4")
 		)
@@ -31191,6 +31677,15 @@
 			)
 		)
 		(property "MPN" "SN74HCS00PWR"
+			(at 779.78 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 779.78 350.52 0)
 			(effects
 				(font
@@ -31314,6 +31809,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 640.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e391a67e-9ff6-44c1-b8c5-d6a209f5f598")
 		)
@@ -31384,6 +31888,15 @@
 			)
 		)
 		(property "MPN" "F34G-1A7Q1-E8C40"
+			(at -29.21 382.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at -29.21 382.27 0)
 			(effects
 				(font
@@ -31715,6 +32228,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 332.74 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e684206d-6f0e-4094-8765-1a3c2d138590")
 		)
@@ -31887,6 +32409,15 @@
 			)
 		)
 		(property "MPN" "74AHCT74PW,118"
+			(at 393.7 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 393.7 462.28 0)
 			(effects
 				(font
@@ -32141,6 +32672,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 233.68 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "677fc8d1-3320-434a-8511-bb573a8b9473")
 		)
@@ -32261,6 +32801,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at -381 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c636af81-9c72-4bf4-b553-300edf9445e5")
 		)
@@ -32366,6 +32915,15 @@
 			)
 		)
 		(property "MPN" "RC0805FR-073K3L"
+			(at 723.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 723.9 88.9 0)
 			(effects
 				(font
@@ -32649,6 +33207,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 101.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "19"
 			(uuid "ca7153bb-9a61-4a7b-9ee6-0945e2d90f04")
 		)
@@ -32847,6 +33414,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at -381 248.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c66d330c-2a3a-4c67-a058-9e417e131d5b")
 		)
@@ -32953,6 +33529,15 @@
 			)
 		)
 		(property "MPN" "SN74HCS00PWR"
+			(at 281.94 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 281.94 320.04 0)
 			(effects
 				(font
@@ -33336,6 +33921,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 718.82 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85da7f8f-f70d-48cf-a028-9d5a9b3e01f5")
 		)
@@ -33405,6 +33999,15 @@
 			)
 		)
 		(property "MPN" "RC0805FR-07150RL"
+			(at 731.52 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 731.52 114.3 0)
 			(effects
 				(font
@@ -33483,6 +34086,15 @@
 			)
 		)
 		(property "MPN" "74HC4040PW,118"
+			(at 266.7 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 266.7 160.02 0)
 			(effects
 				(font
@@ -33677,6 +34289,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 152.4 490.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "173d570a-b936-46f2-873a-34c03b9564d4")
 		)
@@ -33792,6 +34413,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 624.84 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "205a6815-794f-4dee-a336-c50b82ac2510")
 		)
@@ -33864,6 +34494,15 @@
 		)
 		(property "MPN" "SN74ACT564PWR"
 			(at -381 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at -381 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34004,6 +34643,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at -381 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7282dd9c-18eb-4568-a053-72a7e5ddca06")
 		)
@@ -34107,6 +34755,24 @@
 		)
 		(property "Description" "8-bit Latch, 3-state outputs"
 			(at 99.06 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74VHC373MTCX"
+			(at 99.06 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 99.06 238.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34238,6 +34904,15 @@
 			)
 		)
 		(property "MPN" "RC0805FR-071KL"
+			(at 716.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 716.28 63.5 0)
 			(effects
 				(font
@@ -34455,6 +35130,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 632.46 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25a28489-1ec9-4cec-b69e-40f890fce410")
 		)
@@ -34533,6 +35217,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 721.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "903c2868-ef28-40a8-9408-a43124437459")
 		)
@@ -34603,6 +35296,15 @@
 			)
 		)
 		(property "MPN" "74HC4040PW,118"
+			(at 124.46 490.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 124.46 490.22 0)
 			(effects
 				(font
@@ -34723,6 +35425,15 @@
 			)
 		)
 		(property "MPN" "SN74HCS00PWR"
+			(at 414.02 436.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 414.02 436.88 0)
 			(effects
 				(font
@@ -34904,6 +35615,15 @@
 			)
 		)
 		(property "MPN" "MC74HC161ADTR2G"
+			(at -330.2 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at -330.2 168.91 0)
 			(effects
 				(font
@@ -35164,6 +35884,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 226.06 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f98034b-d8dd-4cc0-ae6f-153c453c7037")
 		)
@@ -35277,6 +36006,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at -381 217.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54321a00-c0d5-4a85-8c31-8761707ff09e")
 		)
@@ -35383,6 +36121,15 @@
 			)
 		)
 		(property "MPN" "THS7374IPWR"
+			(at 805.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 805.18 111.76 0)
 			(effects
 				(font
@@ -35505,6 +36252,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 629.92 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54321a00-c0d5-4a85-8c31-8761707ff09f")
 		)
@@ -35611,6 +36367,15 @@
 			)
 		)
 		(property "MPN" "SN74HCS00PWR"
+			(at 381 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 381 299.72 0)
 			(effects
 				(font
@@ -35732,6 +36497,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 718.82 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4277381c-ae1d-435a-93ee-cd68dfde44d8")
 		)
@@ -35804,6 +36578,15 @@
 		)
 		(property "MPN" "SN74HC257PWR"
 			(at -381 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at -381 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35931,6 +36714,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at -381 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f73a8a2b-a55c-4d7c-bca8-fb4137f42563")
 		)
@@ -36037,6 +36829,15 @@
 			)
 		)
 		(property "MPN" "74HC4040PW,118"
+			(at 132.08 490.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 132.08 490.22 0)
 			(effects
 				(font
@@ -36428,6 +37229,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 419.1 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "242c3d7b-0fa6-476d-a8d3-c3fe45abcb44")
 		)
@@ -36534,6 +37344,15 @@
 			)
 		)
 		(property "MPN" "CD74HC08PWR"
+			(at 647.7 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 647.7 127 0)
 			(effects
 				(font
@@ -36650,6 +37469,15 @@
 			)
 		)
 		(property "MPN" "MC74HC161ADTR2G"
+			(at -330.2 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at -330.2 161.29 0)
 			(effects
 				(font
@@ -36778,6 +37606,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at -381 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5aa952e3-f8da-478d-8fed-127019aa8cb8")
 		)
@@ -36892,6 +37729,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 640.08 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b94eb237-d804-41a3-80fe-2cbf4ca97b5a")
 		)
@@ -36962,6 +37808,15 @@
 			)
 		)
 		(property "MPN" "74AHCT74PW,118"
+			(at 365.76 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 365.76 337.82 0)
 			(effects
 				(font
@@ -37075,6 +37930,15 @@
 			)
 		)
 		(property "MPN" "74AC00MTCX"
+			(at 59.69 424.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 59.69 424.18 0)
 			(effects
 				(font
@@ -37197,6 +38061,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 388.62 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "31946ace-8a29-44c3-89b6-b10204ab8ad4")
 		)
@@ -37310,6 +38183,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 701.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41acb61d-8c51-4377-98a6-2307432bb1f8")
 		)
@@ -37380,6 +38262,15 @@
 			)
 		)
 		(property "MPN" "CD74HC08PWR"
+			(at 698.5 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 698.5 35.56 0)
 			(effects
 				(font
@@ -37501,6 +38392,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 855.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2f0d0a70-1323-420d-8dde-19752338733e")
 		)
@@ -37570,6 +38470,15 @@
 			)
 		)
 		(property "MPN" "RCJ-014"
+			(at 871.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 871.22 106.68 0)
 			(effects
 				(font
@@ -37654,6 +38563,15 @@
 			)
 		)
 		(property "MPN" "74HC4040PW,118"
+			(at 266.7 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 266.7 198.12 0)
 			(effects
 				(font
@@ -37847,6 +38765,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at -381 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad960327-b077-4a1f-9d3b-efcb73c2e72c")
 		)
@@ -38019,6 +38946,15 @@
 			)
 		)
 		(property "MPN" "74HC4040PW,118"
+			(at 233.68 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 233.68 462.28 0)
 			(effects
 				(font
@@ -38245,13 +39181,22 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "AS7C256A-10TIN"
+		(property "MPN" "AS7C256A-10TIN"
 			(at -41.91 947.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at -66.04 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -38412,6 +39357,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 101.6 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "19"
 			(uuid "ca7153bb-9a61-4a7b-9ee6-0945e2d90f04")
 		)
@@ -38536,6 +39490,15 @@
 			)
 		)
 		(property "MPN" "SN74HCS00PWR"
+			(at 307.34 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 307.34 320.04 0)
 			(effects
 				(font
@@ -38788,6 +39751,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 617.22 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "400c01aa-edc2-4f9d-b7d1-92b1f47e7caf")
 		)
@@ -38858,6 +39830,15 @@
 			)
 		)
 		(property "MPN" "RC0805FR-071KL"
+			(at 612.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 612.14 104.14 0)
 			(effects
 				(font
@@ -39207,6 +40188,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 698.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b798f351-d96e-46f0-b80a-3c72bb5799f3")
 		)
@@ -39313,6 +40303,15 @@
 			)
 		)
 		(property "MPN" "74HC4040PW,118"
+			(at 109.22 490.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 109.22 490.22 0)
 			(effects
 				(font

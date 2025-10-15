@@ -2394,6 +2394,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 129.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2bc1847f-ad9e-432e-97a3-67255b06b364")
 		)
@@ -2464,6 +2473,15 @@
 			)
 		)
 		(property "MPN" "CC0805KRX7R9BB104"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 160.02 106.68 0)
 			(effects
 				(font
@@ -2550,6 +2568,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af2a8dda-daab-4cc4-8df3-5c1cefd99ca7")
 		)
@@ -2620,6 +2647,15 @@
 			)
 		)
 		(property "MPN" "CC0805KRX7R9BB104"
+			(at 137.16 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 137.16 116.84 0)
 			(effects
 				(font
@@ -2706,6 +2742,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 165.1 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2dc3b999-510a-4dd2-80e0-6c1e07226628")
 		)
@@ -2784,6 +2829,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 167.64 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff195c6f-4dab-4d79-b4ba-7d82bcbaa4fe")
 		)
@@ -2854,6 +2908,15 @@
 			)
 		)
 		(property "MPN" "DNI"
+			(at 33.02 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 33.02 102.87 0)
 			(effects
 				(font
@@ -2994,6 +3057,15 @@
 			)
 		)
 		(property "MPN" "CC0805KRX7R9BB104"
+			(at 142.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 142.24 86.36 0)
 			(effects
 				(font
@@ -3145,6 +3217,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 33.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11d04dc1-9f89-4b13-9964-09901401336e")
 		)
@@ -3212,6 +3293,15 @@
 			)
 		)
 		(property "MPN" "CC0805KRX7R9BB104"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 157.48 86.36 0)
 			(effects
 				(font
@@ -3298,6 +3388,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 171.45 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f8796cdd-e89d-4d36-9c3b-ab4604078631")
 		)
@@ -3368,6 +3467,15 @@
 			)
 		)
 		(property "MPN" "CC0805KRX7R9BB104"
+			(at 175.26 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 175.26 127 0)
 			(effects
 				(font
@@ -3454,6 +3562,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 154.94 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2dc6fd3b-5b4c-47b6-a335-522f1f210827")
 		)
@@ -3524,6 +3641,15 @@
 			)
 		)
 		(property "MPN" "CC0805KRX7R9BB104"
+			(at 127 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 127 86.36 0)
 			(effects
 				(font
@@ -3610,6 +3736,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 129.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37aa164a-79ab-4178-92ba-d4f49bdde82b")
 		)
@@ -3680,6 +3815,15 @@
 			)
 		)
 		(property "MPN" "CC0805KRX7R9BB104"
+			(at 167.64 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 167.64 116.84 0)
 			(effects
 				(font
@@ -3766,6 +3910,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 160.02 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "327b6d4a-301f-4e87-9942-14afbbb45bf6")
 		)
@@ -3836,6 +3989,15 @@
 			)
 		)
 		(property "MPN" "CC0805KRX7R9BB104"
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 129.54 116.84 0)
 			(effects
 				(font
@@ -3922,6 +4084,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4676d795-a4f0-469a-827f-9ea06557ff8d")
 		)
@@ -3992,6 +4163,15 @@
 			)
 		)
 		(property "MPN" "CC0805KRX7R9BB104"
+			(at 160.02 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 160.02 137.16 0)
 			(effects
 				(font
@@ -4078,6 +4258,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 144.78 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2f115116-1554-4665-8d96-f5bcf943be7e")
 		)
@@ -4156,6 +4345,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 33.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "227aefe2-cffd-4c16-9210-68a068965800")
 		)
@@ -4223,6 +4421,15 @@
 			)
 		)
 		(property "MPN" "CC0805KRX7R9BB104"
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 152.4 106.68 0)
 			(effects
 				(font
@@ -4309,6 +4516,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 152.4 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "42203611-a6e0-4eaf-8d91-dfeca7ba232c")
 		)
@@ -4379,6 +4595,15 @@
 			)
 		)
 		(property "MPN" "DNI"
+			(at 95.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 95.25 96.52 0)
 			(effects
 				(font
@@ -4465,6 +4690,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e4389520-9acc-4185-946c-606d998d83c8")
 		)
@@ -4543,6 +4777,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 33.02 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eda3b253-889e-4cda-8530-6fa058326a76")
 		)
@@ -4609,6 +4852,15 @@
 			)
 		)
 		(property "MPN" "860020273009"
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 127 76.2 0)
 			(effects
 				(font
@@ -4695,6 +4947,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 144.78 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "06147a80-436b-4eaf-be29-92b990672ca9")
 		)
@@ -4765,6 +5026,15 @@
 			)
 		)
 		(property "MPN" "CC0805KRX7R9BB104"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 137.16 106.68 0)
 			(effects
 				(font
@@ -4916,6 +5186,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 163.83 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "054048cb-2bfe-46a0-9c93-88a67929e1a1")
 		)
@@ -4986,6 +5265,15 @@
 			)
 		)
 		(property "MPN" "CC0805KRX7R9BB104"
+			(at 167.64 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 167.64 127 0)
 			(effects
 				(font
@@ -5072,6 +5360,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 137.16 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "651cddfa-2d4d-4b06-b98a-a006ad0ef7d5")
 		)
@@ -5142,6 +5439,15 @@
 			)
 		)
 		(property "MPN" "CC0805KRX7R9BB104"
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 129.54 127 0)
 			(effects
 				(font
@@ -5228,6 +5534,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 152.4 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4bdadbe4-acfc-4516-8ee9-d10780e15ecd")
 		)
@@ -5298,6 +5613,15 @@
 			)
 		)
 		(property "MPN" "CC0805KRX7R9BB104"
+			(at 144.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 144.78 116.84 0)
 			(effects
 				(font
@@ -5449,6 +5773,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 121.92 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53dede34-2573-42d3-9431-cb31d642a862")
 		)
@@ -5519,6 +5852,15 @@
 			)
 		)
 		(property "MPN" "CC0805KRX7R9BB104"
+			(at 134.62 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 134.62 86.36 0)
 			(effects
 				(font
@@ -5605,6 +5947,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 121.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e7837bc-f6ab-465d-a3e9-3658d5338ccb")
 		)
@@ -5683,6 +6034,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "76e94ee6-8431-48f5-94cd-98771e0eb781")
 		)
@@ -5752,6 +6112,15 @@
 			)
 		)
 		(property "MPN" "860020273009"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 144.78 76.2 0)
 			(effects
 				(font
@@ -5903,6 +6272,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 175.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1739565a-94a2-42b8-a3d7-54e134dad003")
 		)
@@ -5981,6 +6359,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" ""
+			(at 144.78 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8616bdfa-715e-4170-b8c4-61eadd2b288a")
 		)
@@ -6051,6 +6438,15 @@
 			)
 		)
 		(property "MPN" "CC0805KRX7R9BB104"
+			(at 121.92 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
 			(at 121.92 127 0)
 			(effects
 				(font
