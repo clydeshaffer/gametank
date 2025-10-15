@@ -14883,6 +14883,16 @@
 		)
 		(uuid "34ec00c3-d506-4a42-8e80-83984c406433")
 	)
+	(text "header to vidgen board and frame buffer"
+		(exclude_from_sim no)
+		(at 884.936 527.558 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "36f28492-4b67-4a28-9d45-099685587689")
+	)
 	(text "width and height registers"
 		(exclude_from_sim no)
 		(at 355.6 932.18 90)
@@ -15088,6 +15098,16 @@
 			(justify left bottom)
 		)
 		(uuid "ac740683-ee4c-4b51-a222-a4813e7f339d")
+	)
+	(text "SPRITE RAM"
+		(exclude_from_sim no)
+		(at 881.126 589.788 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ae6a12f7-5e29-4370-b24e-4b5f8e7cecc6")
 	)
 	(text "34.9 ns cycles on CLK28"
 		(exclude_from_sim no)
