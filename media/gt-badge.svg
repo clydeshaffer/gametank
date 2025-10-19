@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 237.22048 45.220502"
+   width="237.22049"
+   height="45.220501"
+   version="1.1"
+   id="svg14"
+   sodipodi:docname="gt-badge.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.0449706"
+     inkscape:cx="77.514145"
+     inkscape:cy="109.57246"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g14" />
+  <desc
+     id="desc1">gt-badge.dxf - scale = 1.000000, origin = (0.000000, 0.000000), method = manual</desc>
+  <defs
+     id="defs4">
+    <marker
+       id="DistanceX"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 -3,3 M 0,-5 V 5"
+         style="stroke:#000000;stroke-width:0.5"
+         id="path1" />
+    </marker>
+    <pattern
+       id="Hatch"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path2" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path3" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path4" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE" />
+    <symbol
+       id="*PAPER_SPACE" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="0"
+     id="g14"
+     transform="translate(454.04332,-1294.4039)">
+    <path
+       d="m -444.09453,1308.4311 h 16.7717 v -13.5272 h -26.22049 v 44.2205 h 26.22049 v -26.9138 h -12.6142 v 0.5132 l 3.4016,4.6189 v 12.5094 h -7.5591 z"
+       style="fill:none;stroke:#000000"
+       id="path5" />
+    <path
+       d="m -406.65353,1304.7946 v 7.5212 h -7.55909 v -7.5212 z"
+       style="fill:none;stroke:#000000"
+       id="path6" />
+    <path
+       d="m -406.65353,1317.386 v 21.7384 h 9.3307 v -44.2205 h -26.22049 v 44.2205 h 9.3307 v -21.7384 z"
+       style="fill:none;stroke:#000000"
+       id="path7" />
+    <path
+       d="m -374.76383,1309.6122 v 29.5122 h 7.441 v -44.2205 h -26.22049 v 44.2205 h 7.4409 v -29.5122 l 5.6693,11.4773 z"
+       style="fill:none;stroke:#000000"
+       id="path8" />
+    <path
+       d="m -337.32283,1313.5578 h -15.56739 v -7.559 h 15.56739 v -11.0949 h -26.22049 v 44.2205 h 26.22049 v -10.4485 h -15.56739 v -7.559 h 15.56739 z"
+       style="fill:none;stroke:#000000"
+       id="path9" />
+    <path
+       d="m -314.88193,1339.1244 v -29.1024 h 7.5591 v -15.1181 h -26.22049 v 15.1181 h 7.559 v 29.1024 z"
+       style="fill:none;stroke:#000000"
+       id="path10" />
+    <path
+       d="m -286.65353,1304.7946 v 7.5212 h -7.55909 v -7.5212 z"
+       style="fill:none;stroke:#000000"
+       id="path11" />
+    <path
+       d="m -286.65353,1317.386 v 21.7384 h 9.3307 v -44.2205 h -26.22049 v 44.2205 h 9.3307 v -21.7384 z"
+       style="fill:none;stroke:#000000"
+       id="path12" />
+    <path
+       d="m -266.10243,1317.0142 11.3386,22.1102 h 7.441 v -44.2205 h -7.441 v 22.1103 l -11.3386,-22.1103 h -7.4409 v 44.2205 h 7.4409 z"
+       style="fill:none;stroke:#000000"
+       id="path13" />
+    <path
+       d="m -223.82273,1294.9039 -11.3386,13.3845 v -13.3845 h -8.382 v 44.2205 h 8.382 v -13.3845 l 11.3386,13.3845 h 6.4999 v -7.7453 l -12.1692,-14.3649 12.1692,-14.365 v -7.7453 z"
+       style="fill:none;stroke:#000000"
+       id="path14" />
+  </g>
+</svg>
