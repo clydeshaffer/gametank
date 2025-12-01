@@ -908,6 +908,12 @@
 		(uuid "5a310e1a-c025-4833-b699-5fa2f671f90b")
 	)
 	(junction
+		(at 121.92 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61076e19-c248-4b76-8862-7793374ba5a0")
+	)
+	(junction
 		(at 182.88 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -924,6 +930,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6bc9e0d7-53dd-4680-9948-ade9180c098f")
+	)
+	(junction
+		(at 127 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dfb7619-0b73-4e9f-a966-1e0584532e78")
 	)
 	(junction
 		(at 182.88 91.44)
@@ -954,6 +966,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7700b430-b491-48fb-8816-832842d72e6e")
+	)
+	(junction
+		(at 127 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "793b210f-b6d4-441c-bb19-76909ead0252")
 	)
 	(junction
 		(at 152.4 104.14)
@@ -1563,6 +1581,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 71.12) (xy 137.16 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3701abfd-c9de-44f2-9320-d3d7c5bb7c7a")
+	)
+	(wire
+		(pts
 			(xy 129.54 101.6) (xy 182.88 101.6)
 		)
 		(stroke
@@ -1623,7 +1651,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 71.12) (xy 137.16 71.12)
+			(xy 121.92 71.12) (xy 127 71.12)
 		)
 		(stroke
 			(width 0.1524)
@@ -1933,6 +1961,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 63.5) (xy 127 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8c748d8b-1c5e-48c5-bf30-bb85a85f73f1")
+	)
+	(wire
+		(pts
 			(xy 137.16 104.14) (xy 144.78 104.14)
 		)
 		(stroke
@@ -1960,6 +1998,16 @@
 			(type solid)
 		)
 		(uuid "91b83ad8-3916-4d45-a906-38bab100b285")
+	)
+	(wire
+		(pts
+			(xy 127 63.5) (xy 137.16 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "942d38a5-39bb-4316-beb8-2870fd2b32af")
 	)
 	(wire
 		(pts
@@ -2093,7 +2141,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 63.5) (xy 137.16 63.5)
+			(xy 114.3 63.5) (xy 121.92 63.5)
 		)
 		(stroke
 			(width 0.1524)
@@ -2413,6 +2461,93 @@
 			(project "avboard_smt"
 				(path "/ecfc5df0-38b0-48e8-a960-6f082396f7df/bf117f46-6f85-406e-afeb-ad4fbf911792"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "signals-eagle-import:C-US025-024X044")
+		(at 121.92 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07407122-c88d-4ea8-b6e8-f3bf7dc46402")
+		(property "Reference" "C46"
+			(at 122.936 65.405 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 122.936 70.231 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 121.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 121.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 121.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18cf1595-42b1-4b5e-85b6-044058c14c5d")
+		)
+		(pin "2"
+			(uuid "d0c649e6-a40c-4614-ba45-cd68bf3982ac")
+		)
+		(instances
+			(project "avboard_smt"
+				(path "/ecfc5df0-38b0-48e8-a960-6f082396f7df/bf117f46-6f85-406e-afeb-ad4fbf911792"
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -5466,6 +5601,93 @@
 			(project "avboard_smt"
 				(path "/ecfc5df0-38b0-48e8-a960-6f082396f7df/bf117f46-6f85-406e-afeb-ad4fbf911792"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "signals-eagle-import:C-US025-024X044")
+		(at 127 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4b3a5ee-e92b-45bd-a147-abd33b1932f3")
+		(property "Reference" "C45"
+			(at 128.016 65.405 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 128.016 70.231 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0805KRX7R9BB104"
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 127 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0df4a945-58cc-4e32-891b-c7d67b571493")
+		)
+		(pin "2"
+			(uuid "c726eff5-05f3-45f9-b63d-487b99d7ec87")
+		)
+		(instances
+			(project "avboard_smt"
+				(path "/ecfc5df0-38b0-48e8-a960-6f082396f7df/bf117f46-6f85-406e-afeb-ad4fbf911792"
+					(reference "C45")
 					(unit 1)
 				)
 			)

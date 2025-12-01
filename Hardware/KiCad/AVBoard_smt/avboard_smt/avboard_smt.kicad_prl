@@ -17,13 +17,13 @@
     },
     "selection_filter": {
       "dimensions": false,
-      "footprints": false,
+      "footprints": true,
       "graphics": false,
       "keepouts": false,
       "lockedItems": true,
       "otherItems": false,
       "pads": false,
-      "text": false,
+      "text": true,
       "tracks": true,
       "vias": true,
       "zones": false
