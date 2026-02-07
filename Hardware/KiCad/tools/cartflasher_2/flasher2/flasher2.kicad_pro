@@ -493,7 +493,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "flasher2.step",
       "svg": "",
       "vrml": ""
     },

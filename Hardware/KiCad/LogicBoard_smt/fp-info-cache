@@ -1,4 +1,4 @@
-26684077105327933
+26691119087000557
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97117,6 +97117,34 @@ Integrated Circuit
 0
 8
 8
+SamacSys_Parts
+SOP50P810X120-48N
+DGG (R-PDSO-G**) PLASTIC SMALL-OUTLINE PACKAG
+Integrated Circuit
+0
+48
+48
+SamacSys_Parts
+SOP55P1340X120-28N
+28-Pin TSOP
+Integrated Circuit
+0
+28
+28
+SamacSys_Parts
+SOP64P1035X279-48N
+DL (R-PDSO-G48)
+Integrated Circuit
+0
+48
+48
+SamacSys_Parts
+SOP65P640X120-16N
+74VHC157FT-1
+Integrated Circuit
+0
+16
+16
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf

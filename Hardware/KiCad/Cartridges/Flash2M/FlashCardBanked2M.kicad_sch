@@ -3562,6 +3562,26 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 170.18) (xy 208.28 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bfbf8ab-2308-4a68-b00e-f041fdbf95c9")
+	)
+	(wire
+		(pts
+			(xy 217.17 165.1) (xy 208.28 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c194c2e-d708-498b-af0c-8598d8569a8a")
+	)
+	(wire
+		(pts
 			(xy 177.8 86.36) (xy 172.72 86.36)
 		)
 		(stroke
@@ -3582,16 +3602,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 165.1) (xy 215.9 165.1)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "214ca2a2-d1a7-4882-981b-ec23ed290b41")
-	)
-	(wire
-		(pts
 			(xy 66.04 53.34) (xy 60.96 53.34)
 		)
 		(stroke
@@ -3599,6 +3609,16 @@
 			(type solid)
 		)
 		(uuid "23ab9c00-7c24-465a-a532-a7879da40d5d")
+	)
+	(wire
+		(pts
+			(xy 217.17 172.72) (xy 208.28 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26c5818f-88b0-4e79-9854-5d8d77a0d77e")
 	)
 	(wire
 		(pts
@@ -3732,16 +3752,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 167.64) (xy 215.9 167.64)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4d7ee082-49b5-4c98-9c31-f5397761515c")
-	)
-	(wire
-		(pts
 			(xy 177.8 114.3) (xy 177.8 121.92)
 		)
 		(stroke
@@ -3812,16 +3822,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 177.8) (xy 215.9 177.8)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5e7837a6-a267-445e-b266-aedd50b21f3a")
-	)
-	(wire
-		(pts
 			(xy 66.04 35.56) (xy 60.96 35.56)
 		)
 		(stroke
@@ -3869,6 +3869,16 @@
 			(type solid)
 		)
 		(uuid "6d84dffa-d87f-4a0a-bbf3-d541ae25ec24")
+	)
+	(wire
+		(pts
+			(xy 217.17 175.26) (xy 208.28 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df3e510-b007-4c05-969e-ecb9f9d1bedd")
 	)
 	(wire
 		(pts
@@ -4029,16 +4039,6 @@
 			(type solid)
 		)
 		(uuid "8b1cbf2c-93ce-4ee8-9803-f4314007b1d7")
-	)
-	(wire
-		(pts
-			(xy 208.28 170.18) (xy 215.9 170.18)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8cadae47-bf56-472d-856e-9659cfb4f431")
 	)
 	(wire
 		(pts
@@ -4492,6 +4492,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 162.56) (xy 208.28 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d44d17c7-f857-4814-be97-93edc5baefff")
+	)
+	(wire
+		(pts
 			(xy 66.04 55.88) (xy 60.96 55.88)
 		)
 		(stroke
@@ -4672,16 +4682,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 172.72) (xy 215.9 172.72)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e6cb7756-f98c-44df-b58e-caa65a315b5a")
-	)
-	(wire
-		(pts
 			(xy 185.42 106.68) (xy 177.8 106.68)
 		)
 		(stroke
@@ -4702,23 +4702,23 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 175.26) (xy 215.9 175.26)
+			(xy 217.17 167.64) (xy 208.28 167.64)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "f3bceab0-bb08-4148-83eb-e3d3732c6c79")
+		(uuid "f2d17466-4577-4064-9b51-b3dbd4b58243")
 	)
 	(wire
 		(pts
-			(xy 208.28 162.56) (xy 215.9 162.56)
+			(xy 217.17 177.8) (xy 208.28 177.8)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "f545366a-1d64-440a-948a-63208396adbc")
+		(uuid "fc184456-ea28-4284-b728-c7b290f5cd96")
 	)
 	(wire
 		(pts
@@ -4741,7 +4741,7 @@
 		(uuid "009e2f49-0566-4138-a33b-a65d23e9813f")
 	)
 	(label "A16"
-		(at 215.9 170.18 0)
+		(at 217.17 170.18 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -4911,7 +4911,7 @@
 		(uuid "360636cd-806f-4d01-addd-8884275602a3")
 	)
 	(label "A18"
-		(at 215.9 165.1 0)
+		(at 217.17 175.26 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5091,7 +5091,7 @@
 		(uuid "6c1106dd-c7ed-4b5f-bb04-57a83db54912")
 	)
 	(label "A14"
-		(at 215.9 175.26 0)
+		(at 217.17 165.1 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5181,7 +5181,7 @@
 		(uuid "7fcd85ed-d17e-40ad-902a-da36f2e9afac")
 	)
 	(label "A15"
-		(at 215.9 172.72 0)
+		(at 217.17 167.64 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5201,7 +5201,7 @@
 		(uuid "87e5db2e-0872-448e-9fe8-0c5608ed765b")
 	)
 	(label "A17"
-		(at 215.9 167.64 0)
+		(at 217.17 172.72 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5341,7 +5341,7 @@
 		(uuid "c02d10e5-6450-40d2-9a8b-98f05576c584")
 	)
 	(label "A13"
-		(at 215.9 177.8 0)
+		(at 217.17 162.56 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -5391,7 +5391,7 @@
 		(uuid "cbe0b93d-8332-4d29-8efe-ca97d08cbce5")
 	)
 	(label "A19"
-		(at 215.9 162.56 0)
+		(at 217.17 177.8 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)

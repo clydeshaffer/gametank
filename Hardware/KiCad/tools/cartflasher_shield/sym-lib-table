@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "MegaProgrammer-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/MegaProgrammer-eagle-import.kicad_sym")(options "")(descr ""))
+)

@@ -8347,7 +8347,7 @@
 	)
 	(text "op amp power pins"
 		(exclude_from_sim no)
-		(at 441.96 96.52 0)
+		(at -110.49 85.09 0)
 		(effects
 			(font
 				(size 1.778 1.5113)
@@ -11587,6 +11587,16 @@
 		)
 		(uuid "5cf66fc8-f41a-4081-99a9-3c443b1d4a53")
 	)
+	(label "SysD0"
+		(at 139.7 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d47b66f-b9a8-40cd-bfba-9c5e6e856ff1")
+	)
 	(label "AA4"
 		(at 182.88 142.24 0)
 		(effects
@@ -11627,6 +11637,16 @@
 		)
 		(uuid "6b4d7c38-645d-4d5f-9c67-3da2b72aa4bf")
 	)
+	(label ""
+		(at 127 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f9f8130-d83e-460f-a8bd-4f5f1246f820")
+	)
 	(label "AUD_REG2"
 		(at 63.5 66.04 270)
 		(effects
@@ -11636,6 +11656,76 @@
 			(justify right bottom)
 		)
 		(uuid "6fb5e96e-7287-466f-aee9-fe12bae33d89")
+	)
+	(label "SysD3"
+		(at 139.7 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "710134ed-b995-44d8-936c-92bf0cc9a5d0")
+	)
+	(label "SysD4"
+		(at 139.7 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "710134ed-b995-44d8-936c-92bf0cc9a5d1")
+	)
+	(label "SysD5"
+		(at 139.7 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "710134ed-b995-44d8-936c-92bf0cc9a5d2")
+	)
+	(label "SysD6"
+		(at 139.7 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "710134ed-b995-44d8-936c-92bf0cc9a5d3")
+	)
+	(label "SysD7"
+		(at 139.7 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "710134ed-b995-44d8-936c-92bf0cc9a5d4")
+	)
+	(label "SysD2"
+		(at 139.7 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "710134ed-b995-44d8-936c-92bf0cc9a5d5")
+	)
+	(label "SysD1"
+		(at 139.7 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "710134ed-b995-44d8-936c-92bf0cc9a5d6")
 	)
 	(label "AR/~{W}B"
 		(at 229.235 187.96 180)
@@ -11876,6 +11966,126 @@
 			(justify left bottom)
 		)
 		(uuid "f351f1f7-4e74-4f8d-8da7-035947a73492")
+	)
+	(label "SysA0"
+		(at 139.7 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7d687ba-9540-4747-b64b-418f869bb223")
+	)
+	(label "SysA1"
+		(at 139.7 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7d687ba-9540-4747-b64b-418f869bb224")
+	)
+	(label "SysA4"
+		(at 139.7 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7d687ba-9540-4747-b64b-418f869bb225")
+	)
+	(label "SysA2"
+		(at 139.7 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7d687ba-9540-4747-b64b-418f869bb226")
+	)
+	(label "SysA3"
+		(at 139.7 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7d687ba-9540-4747-b64b-418f869bb227")
+	)
+	(label "SysA9"
+		(at 139.7 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7d687ba-9540-4747-b64b-418f869bb228")
+	)
+	(label "SysA5"
+		(at 139.7 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7d687ba-9540-4747-b64b-418f869bb229")
+	)
+	(label "SysA6"
+		(at 139.7 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7d687ba-9540-4747-b64b-418f869bb22a")
+	)
+	(label "SysA7"
+		(at 139.7 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7d687ba-9540-4747-b64b-418f869bb22b")
+	)
+	(label "SysA8"
+		(at 139.7 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7d687ba-9540-4747-b64b-418f869bb22c")
+	)
+	(label "SysA11"
+		(at 139.7 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7d687ba-9540-4747-b64b-418f869bb22d")
+	)
+	(label "SysA10"
+		(at 139.7 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7d687ba-9540-4747-b64b-418f869bb22e")
 	)
 	(label "AUD_REG0"
 		(at 68.58 66.04 270)
@@ -13271,7 +13481,7 @@
 	)
 	(symbol
 		(lib_id "signals-eagle-import:GND")
-		(at 436.88 104.14 0)
+		(at -115.57 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13279,7 +13489,7 @@
 		(dnp no)
 		(uuid "3d6f8514-be54-4296-bec6-0a1c8ab013f2")
 		(property "Reference" "#GND023"
-			(at 436.88 104.14 0)
+			(at -115.57 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13288,7 +13498,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 434.34 106.68 0)
+			(at -118.11 95.25 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13297,7 +13507,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 436.88 104.14 0)
+			(at -115.57 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13306,7 +13516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 436.88 104.14 0)
+			(at -115.57 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13315,7 +13525,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 436.88 104.14 0)
+			(at -115.57 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13380,7 +13590,7 @@
 			)
 		)
 		(property "Description" "4K Dual Port SRAM - Clydeware LLC will provide this part"
-			(at 165.1 165.1 0)
+			(at 166.116 121.666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14099,7 +14309,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RCJ-014"
+		(property "Value" "RCJ-012"
 			(at 530.863 36.8223 0)
 			(effects
 				(font
@@ -14134,7 +14344,7 @@
 				)
 			)
 		)
-		(property "MPN" "RCJ-013"
+		(property "MPN" "RCJ-012"
 			(at 528.32 43.18 0)
 			(effects
 				(font
@@ -15368,7 +15578,7 @@
 	)
 	(symbol
 		(lib_id "signals-eagle-import:VCC")
-		(at 436.88 83.82 0)
+		(at -115.57 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15376,7 +15586,7 @@
 		(dnp no)
 		(uuid "90eec764-8bf0-4caa-986e-ab4a41f2cf5f")
 		(property "Reference" "#P+013"
-			(at 436.88 83.82 0)
+			(at -115.57 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15385,7 +15595,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 434.34 86.36 90)
+			(at -118.11 74.93 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15394,7 +15604,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 436.88 83.82 0)
+			(at -115.57 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15403,7 +15613,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 436.88 83.82 0)
+			(at -115.57 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15412,7 +15622,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 436.88 83.82 0)
+			(at -115.57 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16460,7 +16670,7 @@
 	)
 	(symbol
 		(lib_id "signals-eagle-import:LM358N")
-		(at 436.88 93.98 0)
+		(at -115.57 82.55 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16468,7 +16678,7 @@
 		(dnp no)
 		(uuid "bc3a7edd-dd2c-4de1-bef2-f38583db31f4")
 		(property "Reference" "IC7_AUD0"
-			(at 439.42 90.805 0)
+			(at -113.03 79.375 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16478,7 +16688,7 @@
 			)
 		)
 		(property "Value" "LM358N"
-			(at 439.42 99.06 0)
+			(at -113.03 87.63 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16488,7 +16698,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
-			(at 436.88 93.98 0)
+			(at -115.57 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16497,7 +16707,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 436.88 93.98 0)
+			(at -115.57 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16506,7 +16716,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 436.88 93.98 0)
+			(at -115.57 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16514,7 +16724,7 @@
 			)
 		)
 		(property "MPN" "LM358APWR"
-			(at 436.88 93.98 0)
+			(at -115.57 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)

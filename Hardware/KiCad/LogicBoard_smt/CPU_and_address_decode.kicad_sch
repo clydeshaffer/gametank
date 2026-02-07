@@ -14503,7 +14503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 170.18 309.88 0)
 			(effects
 				(font
@@ -14529,7 +14529,7 @@
 				)
 			)
 		)
-		(property "MPN" "TSM-102-01-L-SV-TR"
+		(property "MPN" "G800WC306018EU "
 			(at 170.18 309.88 0)
 			(effects
 				(font
