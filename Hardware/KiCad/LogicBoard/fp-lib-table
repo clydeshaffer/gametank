@@ -1,4 +1,3 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "cpu-blitter-inputs")(type "KiCad")(uri "$(KIPRJMOD)/cpu-blitter-inputs.pretty")(options "")(descr ""))
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:495075411d8f43c91ae3e3db4031c70a1c4f389b4e59e872221188fabe42f8e8
+size 151

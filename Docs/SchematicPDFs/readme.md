@@ -1,12 +1,3 @@
-## Main System Schematics
-- cpu-blitter-inputs.pdf
-- signals.pdf
-- powermodule-lm2575.pdf
-
-## Controller
-- gpad1.pdf
-
-## Cartridges
-- FlashCardBanked2M.pdf (bigger capacity)
-- EEPROM32card.pdf (can be entirely through-hole)
-- MegaProgrammer.pdf - Arduino-based USB flasher tool
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b19f22e30c8dbc4c007ebd29ab24e96ae37fcf3c51bc7e7ecaaa39c09a6b1c9
+size 290

@@ -1,10 +1,3 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid a73a139d-79d8-4f65-a8ae-c4bf69faf596)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:96e916bca997e5524b0fe8c2ab6ab44405a2de2f9b3ad1f8f1703cf59f0744e8
+size 147

@@ -1,4 +1,3 @@
-(version 1)
-(rule "class 0:0"
-  (condition "A.NetClass == 'default' && B.NetClass == 'Default'")
-  (constraint clearance (min 0.150mm)))
+version https://git-lfs.github.com/spec/v1
+oid sha256:124a80399396a472fdda674c6d6635cbc753c4a7ee269205b77817e55a04036b
+size 137
