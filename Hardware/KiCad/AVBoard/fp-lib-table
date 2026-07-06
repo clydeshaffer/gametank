@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:db21b9d66a47f5443283b715cd0828b49020d61feca01fab7d5c4d4de6d4d0bd
-size 129
+(fp_lib_table
+  (version 7)
+  (lib (name "signals")(type "KiCad")(uri "$(KIPRJMOD)/signals.pretty")(options "")(descr ""))
+)
