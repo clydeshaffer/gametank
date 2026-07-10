@@ -3332,7 +3332,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LS32"
+		(property "Value" "74HC32"
 			(at 97.79 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3888,22 +3888,22 @@
 			(uuid "c63bdc2b-7b90-41c1-b28b-094c3c1a6703")
 		)
 		(pin "12"
-			(uuid "85d97924-a750-4664-b839-24b5b31cc7bb")
+			(uuid "85d97924-a750-4664-b839-24b5b31cc7bc")
 		)
 		(pin "7"
 			(uuid "9ecc59c1-e669-48c6-a34a-3701bed8321c")
 		)
 		(pin "6"
-			(uuid "be8edd3b-fea2-49dd-840c-73527c85f66d")
+			(uuid "be8edd3b-fea2-49dd-840c-73527c85f66e")
 		)
 		(pin "1"
-			(uuid "9e92ac20-8b0a-47c9-b496-d178120836dd")
+			(uuid "9e92ac20-8b0a-47c9-b496-d178120836de")
 		)
 		(pin "4"
 			(uuid "b55389c4-b80e-4d01-9408-4cf7a9fef1d0")
 		)
 		(pin "5"
-			(uuid "7c7f5baf-1998-4817-b74d-849c50855ac7")
+			(uuid "7c7f5baf-1998-4817-b74d-849c50855ac8")
 		)
 		(pin "3"
 			(uuid "b82aa544-c944-49c6-9238-3d3781d9ac7a")
@@ -3912,16 +3912,16 @@
 			(uuid "373da605-d44f-4435-b8c0-87b0d40e8638")
 		)
 		(pin "10"
-			(uuid "ee2dca75-0050-419a-b5bd-84ab2dfcdbe6")
+			(uuid "ee2dca75-0050-419a-b5bd-84ab2dfcdbe7")
 		)
 		(pin "2"
-			(uuid "34396055-19c4-4b27-81dd-4d5232c75d29")
+			(uuid "34396055-19c4-4b27-81dd-4d5232c75d2a")
 		)
 		(pin "11"
-			(uuid "ddf41326-f56b-46a1-ab91-5a2131a28c5e")
+			(uuid "ddf41326-f56b-46a1-ab91-5a2131a28c5f")
 		)
 		(pin "13"
-			(uuid "507459f8-67b7-4064-9ec9-c6343c109cc7")
+			(uuid "507459f8-67b7-4064-9ec9-c6343c109cc8")
 		)
 		(pin "14"
 			(uuid "36a101bf-21c5-49c7-a937-cd6206fbedd8")
