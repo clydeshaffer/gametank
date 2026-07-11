@@ -15752,7 +15752,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RCJ-012"
+		(property "Value" "RCJ-013"
 			(at 530.863 36.8223 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15795,7 +15795,7 @@
 				)
 			)
 		)
-		(property "MPN" "RCJ-012"
+		(property "MPN" "RCJ-013"
 			(at 528.32 43.18 0)
 			(hide yes)
 			(show_name no)

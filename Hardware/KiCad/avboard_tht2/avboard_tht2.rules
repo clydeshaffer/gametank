@@ -1,0 +1,151 @@
+
+(rules PCB avboard_smt
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1750)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 3.0)
+    )
+    (layer_rule In1.Cu
+      (active off)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.9)
+    )
+    (layer_rule In2.Cu
+      (active off)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.2)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 2.7)
+    )
+  )
+  (rule
+    (width 200.0)
+    (clearance 152.6)
+    (clearance 100.0 (type smd_to_turn_gap))
+    (clearance 152.6 (type smd))
+    (clearance 152.6 (type "kicad_default"))
+    (clearance 152.6 (type Power))
+    (clearance 152.6 (type kicad))
+  )
+  (padstack "Via[0-3]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_600:300_um" "Via[0-3]_600:300_um" default
+  )
+  (via 
+    "Via[0-3]_600:300_um-kicad_default" "Via[0-3]_600:300_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_600:300_um-Power" "Via[0-3]_600:300_um" Power
+  )
+  (via_rule
+    default "Via[0-3]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_600:300_um-kicad_default"
+  )
+  (via_rule
+    Power "Via[0-3]_600:300_um-Power"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(AUDIO-DAC-BUF0A-1D)" "Net-(AUDIO-DAC-BUF0A-2D)" "Net-(AUDIO-DAC-BUF0A-3D)" "Net-(AUDIO-DAC-BUF0A-4D)" "Net-(AUDIO-DAC-BUF0A-5D)" "Net-(AUDIO-DAC-BUF0A-6D)" "Net-(AUDIO-DAC-BUF0A-7D)" "Net-(AUDIO-DAC-BUF0A-8D)"
+    "/signals_4/DAC_SELECT" "Net-(AUDIO-DAC-BUF0A-8Q)" "Net-(AUDIO-DAC-BUF0A-7Q)" "Net-(AUDIO-DAC-BUF0A-6Q)" "Net-(AUDIO-DAC-BUF0A-5Q)" "Net-(AUDIO-DAC-BUF0A-4Q)" "Net-(AUDIO-DAC-BUF0A-3Q)" "Net-(AUDIO-DAC-BUF0A-2Q)"
+    "Net-(AUDIO-DAC-BUF0A-1Q)" "/signals_4/~{AUDIO_IRQ}" "Net-(AUDIO-DAC0-VREF)" "unconnected-(AUDIO-DAC0-RFB-Pad16)" "Net-(AUD_FLAGS0A-1D)" "Net-(AUD_FLAGS0A-2D)" "Net-(AUD_FLAGS0A-3D)" "Net-(AUD_FLAGS0A-4D)"
+    "Net-(AUD_FLAGS0A-5D)" "Net-(AUD_FLAGS0A-6D)" "Net-(AUD_FLAGS0A-7D)" "Net-(AUD_FLAGS0A-8D)" "/signals_4/AUD_REG6" "/signals_4/AUDIO_RDY" "Net-(AUD_FLAGS0A-7Q)" "Net-(AUD_FLAGS0A-6Q)"
+    "Net-(AUD_FLAGS0A-5Q)" "Net-(AUD_FLAGS0A-4Q)" "Net-(AUD_FLAGS0A-3Q)" "Net-(AUD_FLAGS0A-2Q)" "Net-(AUD_FLAGS0A-1Q)" "/signals_4/CLK3_5_AUD" "/signals_4/~{AUDIO_RESET}" "Net-(U2-CH1_IN)"
+    "Net-(U2-CH1_OUT)" "Net-(C2-Pad1)" "Net-(C3-Pad-)" "unconnected-(U2-CH2_IN-Pad2)" "Net-(C11-Pad2)" "Net-(IC7_AUD0A-+IN)" "Net-(C14-Pad1)" "Net-(IC7_AUD0A--IN)"
+    "Net-(CHROMADAC0A-I0)" "/Composite Video Generator/SAT1" "Net-(CHROMADAC0A-O)" "/Composite Video Generator/SAT0" "Net-(CHROMADAC0B-O)" "unconnected-(CHROMADAC0C-O-Pad8)" "unconnected-(CHROMADAC0D-O-Pad11)" "unconnected-(COL_CTR0A-Q12-Pad1)"
+    "Net-(COL_CTR0A-Q6)" "Net-(COL_CTR0A-Q5)" "Net-(COL_CTR0A-Q7)" "Net-(COL_CTR0A-Q4)" "Net-(COL_CTR0A-Q3)" "Net-(COL_CTR0A-Q2)" "Net-(COL_CTR0A-Q1)" "/Composite Video Generator/XCLK"
+    "/Composite Video Generator/XRESET" "Net-(COL_CTR0A-Q9)" "Net-(COL_CTR0A-Q8)" "unconnected-(COL_CTR0A-Q10-Pad14)" "unconnected-(COL_CTR0A-Q11-Pad15)" "Net-(HBLANK_LATCH0A-D)" "/Composite Video Generator/CLK7" "/Composite Video Generator/~{HRESET}"
+    "/Composite Video Generator/HRESET" "/Composite Video Generator/~{HBLANK}" "/Composite Video Generator/HBLANK" "Net-(HBLANK_LATCH0B-CLR)" "/signals_4/~{WAV_SEL}" "/signals_4/~{WE2}" "Net-(IC2_AUD0A-O)" "/signals_4/~{RE2}"
+    "Net-(IC2_AUD0B-O)" "Net-(IC2_AUD0C-O)" "Net-(IC2_AUD0C-I0)" "/signals_4/AR{slash}~{W}B" "unconnected-(IC2_AUD0D-O-Pad11)" "unconnected-(IC2_AUD0D-I0-Pad12)" "unconnected-(IC2_AUD0D-I1-Pad13)" "/signals_4/AA15"
+    "/signals_4/CLK14_AUD" "/signals_4/AUD_REG0" "Net-(IC4_AUD0D-O)" "unconnected-(IC6_AUD0A-D-Pad2)" "unconnected-(IC6_AUD0A-Q-Pad5)" "Net-(IC6_AUD0A-~{Q})" "Net-(IC7_AUD0B--IN)" "unconnected-(IC36A-Q12-Pad1)"
+    "/Composite Video Generator/64H" "/Composite Video Generator/32H" "/Composite Video Generator/128H" "/Composite Video Generator/16H" "unconnected-(IC36A-Q3-Pad6)" "/Composite Video Generator/4H" "/Composite Video Generator/2H" "/Composite Video Generator/CLK3_5"
+    "unconnected-(IC36A-Q9-Pad12)" "/Composite Video Generator/256H" "unconnected-(IC36A-Q10-Pad14)" "unconnected-(IC36A-Q11-Pad15)" "Net-(IC39B-O)" "/Composite Video Generator/~{HSYNC}" "Net-(IC39D-O)" "unconnected-(IC40A-Q12-Pad1)"
+    "unconnected-(IC40A-Q6-Pad2)" "/Composite Video Generator/16V" "unconnected-(IC40A-Q7-Pad4)" "/Composite Video Generator/8V" "/Composite Video Generator/4V" "unconnected-(IC40A-Q2-Pad7)" "/Composite Video Generator/1V" "/Composite Video Generator/VRESET"
+    "/Composite Video Generator/256V" "unconnected-(IC40A-Q8-Pad13)" "unconnected-(IC40A-Q10-Pad14)" "unconnected-(IC40A-Q11-Pad15)" "Net-(IC41A-I0)" "Net-(IC41A-O)" "Net-(IC41C-O)" "Net-(IC41D-O)"
+    "/Composite Video Generator/~{8V}" "/Composite Video Generator/VBLANK" "Net-(IC43B-O)" "Net-(IC43C-O)" "/Composite Video Generator/~{VSYNC}" "Net-(IC44A-O)" "Net-(IC44B-I0)" "/Composite Video Generator/BURST"
+    "/Composite Video Generator/PICTURE-ENABLE" "/Composite Video Generator/CSYNC" "/Composite Video Generator/~{VBLANK}" "Net-(IC46A-1A)" "Net-(IC46A-2A)" "/Composite Video Generator/LUM2" "/Composite Video Generator/LUM1" "Net-(IC46A-3A)"
+    "/Composite Video Generator/LUM0" "Net-(IC46A-4A)" "Net-(IC47A-1A)" "/Composite Video Generator/HUE2" "Net-(IC47A-2A)" "/Composite Video Generator/HUE1" "/Composite Video Generator/HUE0" "Net-(IC47A-3A)"
+    "Net-(IC47A-4A)" "/Composite Video Generator/P7" "/Composite Video Generator/P6" "/Composite Video Generator/P5" "/Composite Video Generator/P4" "/Composite Video Generator/P3" "/Composite Video Generator/P2" "/Composite Video Generator/P1"
+    "/Composite Video Generator/P0" "Net-(IC53A-I)" "Net-(IC53B-O)" "Net-(IC53C-I)" "/Composite Video Generator/~{PICTURE-ENABLE}" "/Composite Video Generator/CLK28" "/Composite Video Generator/CLK14" "unconnected-(J2-Pad7)"
+    "unconnected-(J2-Pad8)" "unconnected-(J2-Pad9)" "/Composite Video Generator/~{VRESET}" "unconnected-(J2-Pad11)" "/Composite Video Generator/~{VWE}" "/Composite Video Generator/~{VOE}" "unconnected-(J2-Pad14)" "unconnected-(J2-Pad15)"
+    "unconnected-(J2-Pad16)" "/Composite Video Generator/VIDPAGE" "/Composite Video Generator/VA14" "/Composite Video Generator/VA13" "/Composite Video Generator/VA12" "/Composite Video Generator/VA11" "/Composite Video Generator/VA10" "/Composite Video Generator/VA9"
+    "/Composite Video Generator/VA8" "/Composite Video Generator/VA7" "/Composite Video Generator/VA6" "/Composite Video Generator/VA5" "/Composite Video Generator/VA4" "/Composite Video Generator/VA3" "/Composite Video Generator/VA2" "/Composite Video Generator/VA1"
+    "/Composite Video Generator/VA0" "/Composite Video Generator/VD7" "/Composite Video Generator/VD6" "/Composite Video Generator/VD5" "/Composite Video Generator/VD4" "/Composite Video Generator/VD3" "/Composite Video Generator/VD2" "/Composite Video Generator/VD1"
+    "/Composite Video Generator/VD0" "unconnected-(LUMADAC0A-O-Pad3)" "Net-(LUMADAC0B-O)" "Net-(LUMADAC0C-O)" "Net-(LUMADAC0D-O)" "/signals_4/CLK28_AUD" "/signals_4/CLK7_AUD" "unconnected-(MOTHERBOARD0-Pad8)"
+    "/signals_4/AUD_REG4" "/signals_4/~{NMI}" "/signals_4/~{IRQ}" "/signals_4/AUD_REG3" "/signals_4/AUD_REG2" "/signals_4/~{AUDIO_NMI}" "unconnected-(MOTHERBOARD0-Pad19)" "unconnected-(MOTHERBOARD0-Pad20)"
+    "Net-(U$2B-AL11)" "Net-(U$2B-AL10)" "Net-(U$2B-AL9)" "Net-(U$2B-AL8)" "Net-(U$2B-AL7)" "Net-(U$2B-AL6)" "Net-(U$2B-AL5)" "Net-(U$2B-AL4)"
+    "Net-(U$2B-AL3)" "Net-(U$2B-AL2)" "Net-(U$2B-AL1)" "Net-(U$2B-AL0)" "Net-(PHASE_GEN0A-QA)" "Net-(PHASE_GEN0A-QB)" "Net-(PHASE_GEN0A-QC)" "Net-(PHASE_GEN0A-QD)"
+    "Net-(PHASE_GEN0A-QE)" "Net-(PHASE_GEN0A-QF)" "Net-(PHASE_GEN0A-QG)" "Net-(PHASE_GEN0A-QH)" "unconnected-(PHASE_SEL0A-W-Pad6)" "Net-(R1-Pad2)" "Net-(R2-Pad2)" "/Composite Video Generator/LUMA"
+    "Net-(R11-Pad2)" "/Composite Video Generator/CHROMACARRIER" "Net-(R19-Pad1)" "Net-(U1-RDY)" "Net-(U1-BE)" "unconnected-(ROW_CTR0A-Q12-Pad1)" "Net-(ROW_CTR0A-Q6)" "Net-(ROW_CTR0A-Q5)"
+    "Net-(ROW_CTR0A-Q7)" "Net-(ROW_CTR0A-Q4)" "Net-(ROW_CTR0A-Q3)" "Net-(ROW_CTR0A-Q2)" "Net-(ROW_CTR0A-Q1)" "unconnected-(ROW_CTR0A-Q9-Pad12)" "unconnected-(ROW_CTR0A-Q8-Pad13)" "unconnected-(ROW_CTR0A-Q10-Pad14)"
+    "unconnected-(ROW_CTR0A-Q11-Pad15)" "unconnected-(SCAN_DELAY0A-QD-Pad11)" "unconnected-(SCAN_DELAY0A-QC-Pad12)" "unconnected-(SCAN_DELAY0A-QB-Pad13)" "unconnected-(SCAN_DELAY0A-QA-Pad14)" "unconnected-(U$2B-_SEML-Pad3)" "/signals_4/AA9" "Net-(U$2B-AR8)"
+    "Net-(U$2B-AR7)" "Net-(U$2B-AR6)" "Net-(U$2B-AR5)" "Net-(U$2B-AR4)" "Net-(U$2B-AR3)" "Net-(U$2B-AR2)" "Net-(U$2B-AR1)" "Net-(U$2B-AR0)"
+    "Net-(U$2B-AR10)" "Net-(U$2B-AR11)" "unconnected-(U$2B-_SEMR-Pad49)" "unconnected-(U1-VPB-Pad1)" "unconnected-(U1-PHI1-Pad3)" "unconnected-(U1-MLB-Pad5)" "unconnected-(U1-SYNC-Pad7)" "unconnected-(U1-A12-Pad22)"
+    "unconnected-(U1-A13-Pad23)" "unconnected-(U1-A14-Pad24)" "unconnected-(U1-NC-Pad35)" "unconnected-(U1-PHI2-Pad39)" "unconnected-(V.RAM.0B-INT-Pad49)" "unconnected-(V.RAM.0A-INT-Pad54)" "unconnected-(X_SCALER0A-QD-Pad11)" "unconnected-(X_SCALER0A-QC-Pad12)"
+    "unconnected-(X_SCALER0A-QB-Pad13)" "unconnected-(X_SCALER0A-QA-Pad14)" "unconnected-(U2-CH3_IN-Pad3)" "unconnected-(U2-CH4_IN-Pad4)" "unconnected-(U2-NC-Pad7)" "unconnected-(U2-NC-Pad8)" "unconnected-(U2-CH4_OUT-Pad11)" "unconnected-(U2-CH3_OUT-Pad12)"
+    "unconnected-(U2-CH2_OUT-Pad13)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class Power
+    VCC GND
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+)
