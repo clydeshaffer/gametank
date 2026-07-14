@@ -1,0 +1,5 @@
+(version 1)
+(rule "class 0:0"
+	(constraint clearance (min 0.1mm))
+	(condition "A.hasNetclass('default') && B.hasNetclass('Default')")
+)
