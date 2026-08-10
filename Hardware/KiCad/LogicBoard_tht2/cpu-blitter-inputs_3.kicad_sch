@@ -3445,6 +3445,39 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 147.32 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 147.32 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
+			(at 147.32 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "009db145-7882-452c-9564-09883e7b4332")
 		)
@@ -3526,6 +3559,39 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 198.12 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 198.12 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
+			(at 198.12 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d5efdd43-6ce5-4eb3-a9cd-56da7fe8c7a3")
 		)
@@ -3563,7 +3629,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 166.116 70.231 0)
 			(hide yes)
 			(show_name no)
@@ -3598,6 +3664,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 165.1 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 165.1 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 165.1 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 165.1 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3689,6 +3788,39 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 210.82 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 210.82 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
+			(at 210.82 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "afd27d52-04e2-4998-8e61-e6bd32ee161b")
 		)
@@ -3726,7 +3858,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 196.596 110.871 0)
 			(hide yes)
 			(show_name no)
@@ -3761,6 +3893,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 195.58 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 195.58 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 195.58 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 195.58 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3852,6 +4017,39 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 132.08 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 132.08 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
+			(at 132.08 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "99024a22-0ced-4d25-9f4b-27475221cb23")
 		)
@@ -3889,7 +4087,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 166.116 47.371 0)
 			(hide yes)
 			(show_name no)
@@ -3924,6 +4122,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 165.1 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 165.1 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 165.1 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 165.1 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -3971,7 +4202,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 143.256 90.551 0)
 			(hide yes)
 			(show_name no)
@@ -4006,6 +4237,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 142.24 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 142.24 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 142.24 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 142.24 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4130,6 +4394,39 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 41.91 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 41.91 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
+			(at 41.91 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1890d89e-8e4f-40bd-85e1-453403eaf64e")
 		)
@@ -4199,6 +4496,50 @@
 			)
 		)
 		(property "Description" ""
+			(at 73.66 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "DNI"
+			(at 73.66 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 73.66 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 73.66 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 73.66 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -4321,7 +4662,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 158.496 90.551 0)
 			(hide yes)
 			(show_name no)
@@ -4356,6 +4697,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 157.48 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 157.48 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 157.48 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 157.48 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4481,7 +4855,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 196.596 100.711 0)
 			(hide yes)
 			(show_name no)
@@ -4516,6 +4890,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 195.58 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 195.58 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 195.58 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 195.58 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4607,6 +5014,50 @@
 				)
 			)
 		)
+		(property "MPN" "CF14JT150R"
+			(at 124.46 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "CF14JT150RCT-ND"
+			(at 124.46 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 124.46 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
+			(at 124.46 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "062c0edc-5656-44e5-8ef7-1bf9a6cc5c41")
 		)
@@ -4644,7 +5095,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 196.596 90.551 0)
 			(hide yes)
 			(show_name no)
@@ -4679,6 +5130,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 195.58 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 195.58 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 195.58 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 195.58 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -4726,7 +5210,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 158.496 47.371 0)
 			(hide yes)
 			(show_name no)
@@ -4761,6 +5245,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 157.48 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 157.48 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 157.48 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 157.48 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4808,7 +5325,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 150.876 70.231 0)
 			(hide yes)
 			(show_name no)
@@ -4843,6 +5360,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 149.86 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 149.86 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 149.86 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 149.86 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4890,7 +5440,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 148.336 47.371 0)
 			(hide yes)
 			(show_name no)
@@ -4925,6 +5475,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 147.32 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 147.32 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 147.32 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 147.32 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4972,7 +5555,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 143.256 100.711 0)
 			(hide yes)
 			(show_name no)
@@ -5007,6 +5590,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 142.24 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 142.24 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 142.24 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 142.24 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5054,7 +5670,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 150.876 80.391 0)
 			(hide yes)
 			(show_name no)
@@ -5089,6 +5705,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 149.86 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 149.86 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 149.86 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 149.86 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5136,7 +5785,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 181.356 80.391 0)
 			(hide yes)
 			(show_name no)
@@ -5171,6 +5820,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 180.34 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 180.34 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 180.34 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 180.34 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5218,7 +5900,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 196.596 80.391 0)
 			(hide yes)
 			(show_name no)
@@ -5253,6 +5935,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 195.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 195.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 195.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 195.58 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5378,7 +6093,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 188.976 90.551 0)
 			(hide yes)
 			(show_name no)
@@ -5413,6 +6128,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 187.96 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 187.96 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 187.96 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 187.96 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5460,7 +6208,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 166.116 80.391 0)
 			(hide yes)
 			(show_name no)
@@ -5495,6 +6243,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 165.1 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 165.1 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 165.1 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 165.1 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5542,7 +6323,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 181.356 100.711 0)
 			(hide yes)
 			(show_name no)
@@ -5577,6 +6358,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 180.34 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 180.34 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 180.34 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 180.34 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5624,7 +6438,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 158.496 80.391 0)
 			(hide yes)
 			(show_name no)
@@ -5659,6 +6473,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 157.48 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 157.48 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 157.48 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 157.48 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5750,6 +6597,39 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 139.7 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 139.7 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
+			(at 139.7 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "092bc12d-a2df-42c6-a5d2-52624b1386bc")
 		)
@@ -5821,6 +6701,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 185.42 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 185.42 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 185.42 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 185.42 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5946,7 +6859,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 173.736 90.551 0)
 			(hide yes)
 			(show_name no)
@@ -5981,6 +6894,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 172.72 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 172.72 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 172.72 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 172.72 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6072,6 +7018,39 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 124.46 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 124.46 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
+			(at 124.46 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6485118e-e525-4db8-b952-666040bf6992")
 		)
@@ -6109,7 +7088,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 166.116 110.871 0)
 			(hide yes)
 			(show_name no)
@@ -6144,6 +7123,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 165.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 165.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 165.1 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 165.1 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6235,6 +7247,39 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 162.56 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 162.56 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
+			(at 162.56 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "45d3ff8e-2681-4b46-b181-a16e9ee1caf7")
 		)
@@ -6272,7 +7317,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 188.976 70.231 0)
 			(hide yes)
 			(show_name no)
@@ -6307,6 +7352,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 187.96 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 187.96 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 187.96 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 187.96 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6354,7 +7432,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 173.736 80.391 0)
 			(hide yes)
 			(show_name no)
@@ -6389,6 +7467,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 172.72 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 172.72 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 172.72 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 172.72 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6481,6 +7592,50 @@
 				)
 			)
 		)
+		(property "MPN" "DNI"
+			(at 134.62 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 134.62 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 134.62 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
+			(at 134.62 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A"
 			(uuid "24885dd9-9631-429c-8f26-00da660121fd")
 		)
@@ -6562,6 +7717,39 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 223.52 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 223.52 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
+			(at 223.52 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0177ff13-b9e2-4cbd-b5c9-42848d2e4955")
 		)
@@ -6599,7 +7787,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 143.256 110.871 0)
 			(hide yes)
 			(show_name no)
@@ -6634,6 +7822,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 142.24 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 142.24 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 142.24 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 142.24 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6726,6 +7947,50 @@
 				)
 			)
 		)
+		(property "MPN" "DNI"
+			(at 66.04 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 66.04 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 66.04 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
+			(at 66.04 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "23b7d485-4500-4dd1-802c-dca745bbe17c")
 		)
@@ -6760,7 +8025,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 150.876 100.711 0)
 			(hide yes)
 			(show_name no)
@@ -6795,6 +8060,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 149.86 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 149.86 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 149.86 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 149.86 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6842,7 +8140,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 188.976 110.871 0)
 			(hide yes)
 			(show_name no)
@@ -6877,6 +8175,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 187.96 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 187.96 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 187.96 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 187.96 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7124,6 +8455,39 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 154.94 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 154.94 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
+			(at 154.94 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f486723f-c705-4508-b74c-2810b1e71386")
 		)
@@ -7205,6 +8569,39 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 93.98 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 93.98 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
+			(at 93.98 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0308db93-ff48-423d-9aac-2427b810e608")
 		)
@@ -7276,6 +8673,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 172.72 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 172.72 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 172.72 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 172.72 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -7401,7 +8831,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 181.356 90.551 0)
 			(hide yes)
 			(show_name no)
@@ -7436,6 +8866,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 180.34 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 180.34 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 180.34 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 180.34 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -7483,7 +8946,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 166.116 90.551 0)
 			(hide yes)
 			(show_name no)
@@ -7518,6 +8981,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 165.1 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 165.1 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 165.1 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 165.1 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -7565,7 +9061,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 158.496 110.871 0)
 			(hide yes)
 			(show_name no)
@@ -7600,6 +9096,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 157.48 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 157.48 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 157.48 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 157.48 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7724,7 +9253,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 166.116 100.711 0)
 			(hide yes)
 			(show_name no)
@@ -7759,6 +9288,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 165.1 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 165.1 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 165.1 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 165.1 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -7806,7 +9368,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 148.336 60.071 0)
 			(hide yes)
 			(show_name no)
@@ -7841,6 +9403,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 147.32 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 147.32 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 147.32 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 147.32 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7888,7 +9483,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 188.976 80.391 0)
 			(hide yes)
 			(show_name no)
@@ -7923,6 +9518,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 187.96 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 187.96 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 187.96 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 187.96 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7970,7 +9598,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 181.356 110.871 0)
 			(hide yes)
 			(show_name no)
@@ -8005,6 +9633,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 180.34 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 180.34 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 180.34 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 180.34 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8174,6 +9835,39 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 116.84 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 116.84 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
+			(at 116.84 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f06d4cfc-9450-4e0b-8240-5142d6d31218")
 		)
@@ -8211,7 +9905,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 150.876 110.871 0)
 			(hide yes)
 			(show_name no)
@@ -8246,6 +9940,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 149.86 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 149.86 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 149.86 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 149.86 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8293,7 +10020,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 143.256 70.231 0)
 			(hide yes)
 			(show_name no)
@@ -8328,6 +10055,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 142.24 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 142.24 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 142.24 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 142.24 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8453,7 +10213,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 173.736 47.371 0)
 			(hide yes)
 			(show_name no)
@@ -8488,6 +10248,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 172.72 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 172.72 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 172.72 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 172.72 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8535,7 +10328,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 158.496 70.231 0)
 			(hide yes)
 			(show_name no)
@@ -8570,6 +10363,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 157.48 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 157.48 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 157.48 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 157.48 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8773,7 +10599,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 173.736 100.711 0)
 			(hide yes)
 			(show_name no)
@@ -8808,6 +10634,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 172.72 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 172.72 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 172.72 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 172.72 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8855,7 +10714,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 196.596 70.231 0)
 			(hide yes)
 			(show_name no)
@@ -8890,6 +10749,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 195.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 195.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 195.58 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 195.58 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -9014,6 +10906,39 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 41.91 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 41.91 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
+			(at 41.91 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4b76957f-045f-4009-bebb-7a89423384d7")
 		)
@@ -9048,7 +10973,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 69.469 161.036 0)
 			(hide yes)
 			(show_name no)
@@ -9083,6 +11008,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 73.66 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 73.66 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 73.66 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 73.66 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -9207,6 +11165,39 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 67.31 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 67.31 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
+			(at 67.31 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cc5164bf-b79d-4b65-9f58-a387c2c6c0e2")
 		)
@@ -9241,7 +11232,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 150.876 90.551 0)
 			(hide yes)
 			(show_name no)
@@ -9276,6 +11267,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 149.86 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 149.86 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 149.86 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 149.86 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9323,7 +11347,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 173.736 110.871 0)
 			(hide yes)
 			(show_name no)
@@ -9358,6 +11382,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 172.72 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 172.72 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 172.72 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 172.72 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9405,7 +11462,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 173.736 60.071 0)
 			(hide yes)
 			(show_name no)
@@ -9440,6 +11497,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 172.72 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 172.72 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 172.72 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 172.72 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9487,7 +11577,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 166.116 60.071 0)
 			(hide yes)
 			(show_name no)
@@ -9522,6 +11612,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 165.1 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 165.1 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 165.1 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 165.1 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -9569,7 +11692,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 143.256 80.391 0)
 			(hide yes)
 			(show_name no)
@@ -9604,6 +11727,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 142.24 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 142.24 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 142.24 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 142.24 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -9686,6 +11842,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 83.82 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 83.82 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 83.82 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 83.82 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -9800,6 +11989,39 @@
 			)
 		)
 		(property "Alt MPN Confirmed?" ""
+			(at 67.31 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 67.31 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 67.31 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 67.31 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9966,6 +12188,39 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 109.22 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 109.22 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
+			(at 109.22 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d962fb63-bbd9-4219-9d80-077eee098946")
 		)
@@ -10003,7 +12258,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 158.496 100.711 0)
 			(hide yes)
 			(show_name no)
@@ -10038,6 +12293,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 157.48 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 157.48 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 157.48 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 157.48 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10085,7 +12373,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "C-US025-024X044"
+		(property "Value" "0.1uF"
 			(at 188.976 100.711 0)
 			(hide yes)
 			(show_name no)
@@ -10120,6 +12408,39 @@
 			)
 		)
 		(property "Description" ""
+			(at 187.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" ""
+			(at 187.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" ""
+			(at 187.96 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sourcing" ""
 			(at 187.96 96.52 0)
 			(hide yes)
 			(show_name no)
