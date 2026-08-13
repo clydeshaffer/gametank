@@ -1,0 +1,155 @@
+
+(rules PCB LogicBoard_smt
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 3.0)
+    )
+    (layer_rule In1.Cu
+      (active off)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.9)
+    )
+    (layer_rule In2.Cu
+      (active off)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.2)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.8)
+      (against_preferred_direction_trace_costs 2.7)
+    )
+  )
+  (rule
+    (width 152.4)
+    (clearance 152.6)
+    (clearance 76.2 (type smd_to_turn_gap))
+    (clearance 38.2 (type smd))
+    (clearance 152.6 (type "kicad_default"))
+    (clearance 152.6 (type Power))
+  )
+  (padstack "Via[0-3]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle In2.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-3]_600:300_um" "Via[0-3]_600:300_um" default
+  )
+  (via 
+    "Via[0-3]_600:300_um-kicad_default" "Via[0-3]_600:300_um" "kicad_default"
+  )
+  (via 
+    "Via[0-3]_600:300_um-Power" "Via[0-3]_600:300_um" Power
+  )
+  (via_rule
+    default "Via[0-3]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-3]_600:300_um-kicad_default"
+  )
+  (via_rule
+    Power "Via[0-3]_600:300_um-Power"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 152.4)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "/DMA Controller/V{slash}_G" "/DMA Controller/VG_WE" "Net-(BANKMUX0A-1Y)" "/DMA Controller/VG_OE" "Net-(BANKMUX0A-2Y)" "Net-(BANKMUX0A-3Y)" "Net-(BANKMUX0A-4Y)" "/DMA Controller/DD0"
+    "/DMA Controller/DD1" "/DMA Controller/DD2" "/DMA Controller/DD3" "/DMA Controller/DD4" "/DMA Controller/DD5" "/DMA Controller/DD6" "/DMA Controller/DD7" "Net-(BLIT_BUS_SWITCH0C-~{G})"
+    "/DMA Controller/DMAMODE" "Net-(BLIT_REG_SELECTOR0B-Y7)" "/DMA Controller/TRIGGER-SELECT" "Net-(BLIT_REG_SELECTOR0B-Y5)" "Net-(BLIT_REG_SELECTOR0B-Y4)" "Net-(BLIT_REG_SELECTOR0B-Y3)" "Net-(BLIT_REG_SELECTOR0B-Y2)" "Net-(BLIT_REG_SELECTOR0B-Y1)"
+    "Net-(BLIT_REG_SELECTOR0B-Y0)" "/CPU and address decode/~{RESET}" "/DMA Controller/SEQGEN_LOW" "/DMA Controller/SEQGEN_HIGH" "/DMA Controller/P3" "/DMA Controller/~{SEQGEN_HIGH}" "/DMA Controller/P2" "/DMA Controller/P1"
+    "/DMA Controller/~{SEQGEN_LOW}" "/DMA Controller/P0" "/DMA Controller/~{ROWCOMPLETE}" "Net-(CTR.H0A-P0)" "Net-(CTR.H0A-P1)" "Net-(CTR.H0A-P2)" "Net-(CTR.H0A-P3)" "Net-(CTR.H0A-P4)"
+    "Net-(CTR.H0A-P5)" "Net-(CTR.H0A-P6)" "/DMA Controller/~{COPYDONE}" "/DMA Controller/~{INIT}" "/DMA Controller/~{RUNNING}" "Net-(CTR.W0A-P0)" "Net-(CTR.W0A-P1)" "Net-(CTR.W0A-P2)"
+    "Net-(CTR.W0A-P3)" "Net-(CTR.W0A-PL)" "Net-(CTR.W0A-P4)" "Net-(CTR.W0A-P5)" "Net-(CTR.W0A-P6)" "Net-(PAD1REG0A-2D)" "Net-(PAD2REG0A-2D)" "Net-(GAMEPAD_SELECTOR0A-D)"
+    "Net-(GAMEPAD_SELECTOR0A-Q)" "Net-(GAMEPAD_SELECTOR0B-D)" "Net-(GAMEPAD_SELECTOR0B-Q)" "/DMA Controller/~{DMAMODE}" "Net-(GMUX0A-1A)" "Net-(GMUX0A-1Y)" "Net-(GMUX0A-2A)" "Net-(GMUX0A-2Y)"
+    "Net-(GMUX0A-3Y)" "Net-(GMUX0A-3A)" "Net-(GMUX0A-4Y)" "Net-(GMUX0A-4A)" "Net-(GMUX1A-1A)" "Net-(GMUX1A-1Y)" "Net-(GMUX1A-2A)" D0
+    D1 D2 D3 D4 D5 D6 D7 A0
+    A1 A2 A3 A4 A5 A6 A7 A8
+    A9 A10 A11 A12 A13 "Net-(GMUX1A-2Y)" "Net-(GMUX1A-3Y)" "Net-(GMUX1A-3A)"
+    "Net-(GMUX1A-4Y)" "Net-(GMUX2A-1A)" "Net-(GMUX2A-1Y)" "Net-(GMUX2A-2A)" "Net-(GMUX2A-2Y)" "Net-(GMUX2A-3Y)" "Net-(GMUX2A-3A)" "Net-(GMUX2A-4Y)"
+    "Net-(GMUX2A-4A)" "Net-(GMUX3A-1A)" "Net-(GMUX3A-1Y)" "Net-(GMUX3A-2A)" "Net-(GMUX3A-2Y)" "Net-(GMUX3A-3Y)" "Net-(GMUX3A-3A)" "Net-(GMUX3A-4Y)"
+    "/DMA Controller/COLORFILL" "Net-(GXH0A-Q3)" "Net-(GXH0A-Q2)" "Net-(GXH0A-Q1)" "Net-(GXH0A-Q0)" "Net-(GXL0A-Q3)" "Net-(GXL0A-Q2)" "Net-(GXL0A-Q1)"
+    "Net-(GXL0A-Q0)" "Net-(GYH0A-Q3)" "/DMA Controller/GA14" "Net-(GXH0A-P0)" "Net-(GXH0A-P1)" "Net-(GXH0A-P2)" "Net-(GXH0A-P3)" "/DMA Controller/RUNNING"
+    "/DMA Controller/~{XRELOAD}" "/DMA Controller/GX-CARRY" "unconnected-(GXH0A-RCO-Pad15)" "Net-(GXL0A-P0)" "Net-(GXL0A-P1)" "Net-(GXL0A-P2)" "Net-(GXL0A-P3)" CLK14
+    "/DMA Controller/GX-CARRY?" "Net-(GYH0A-Q2)" "Net-(GYH0A-Q1)" "Net-(GYH0A-Q0)" "Net-(GYL0A-Q3)" "Net-(GYL0A-Q2)" "Net-(GYL0A-Q1)" "~{VID_SEL}"
+    ~{WE2} "Net-(GYL0A-Q0)" "unconnected-(TO_FRAMEBUFFER1-Pad7)" "unconnected-(TO_FRAMEBUFFER1-Pad8)" "/DMA Controller/GA15" "Net-(GYH0A-P0)" "Net-(GYH0A-P1)" "Net-(GYH0A-P2)"
+    "Net-(GYH0A-P3)" "/DMA Controller/GY-CARRY" "unconnected-(GYH0A-RCO-Pad15)" "Net-(GYL0A-P0)" "Net-(GYL0A-P1)" "Net-(GYL0A-P2)" "Net-(GYL0A-P3)" "/DMA Controller/ROWCOMPLETE"
+    VIDFLAGS "/DMA Controller/GY-CARRY?" "/DMA Controller/~{TILEMODE}" "Net-(IC1C-O)" "/DMA Controller/~{WRAP_Y}" "/DMA Controller/~{WRAP_X}" "/DMA Controller/VRAMBANK" "/DMA Controller/GA18"
+    "/DMA Controller/GA17" "/DMA Controller/GA16" "Net-(IC4A-I)" "/CPU and address decode/_CARTSEL" "/CPU and address decode/R{slash}~{W}" "/CPU and address decode/W{slash}~{R}" CLK28 ~{NMI}
+    ~{IRQ} CLK7 "CLK3_5" "Net-(IC4D-I)" "Net-(IC12D-I1)" "Net-(IC32D-O)" "Net-(IC4F-I)" "Net-(IC5B-O)"
+    "Net-(IC5C-O)" "Net-(IC7A-I0)" "Net-(IC7A-I1)" "/CPU and address decode/N$38_2" "/CPU and address decode/N$37_2" "Net-(IC12A-O)" "/DMA Controller/IRQ" "unconnected-(IC9B-~{Q}-Pad8)"
+    "Net-(IC31C-O)" "Net-(IC12B-I0)" "Net-(IC12B-I1)" "Net-(IC12B-O)" "Net-(IC12C-O)" "/cpu-blitter-inputs_6/~{CLK28}" "/DMA Controller/VNMI" "Net-(IC18A-I1)"
+    "Net-(IC18A-O)" "/DMA Controller/~{DIRECT-SELECT}" "Net-(IC18D-O)" "Net-(IC18D-I0)" "Net-(IC18D-I1)" "Net-(IC20A-O)" "/DMA Controller/OFFSCR_X" "Net-(IC21A-O)"
+    "/DMA Controller/OFFSCR_Y" "Net-(IC21B-O)" "/DMA Controller/~{IRQ-OUT}" "/DMA Controller/IRQ-ENABLE" "Net-(IC31A-I0)" "Net-(IC31C-I1)" "Net-(IC31D-O)" "/CPU and address decode/~{REGSSEL}"
+    "/DMA Controller/~{TRANSEN}" "/DMA Controller/XDIR" "/DMA Controller/YDIR" "/DMA Controller/VNMI_ENABLE" "unconnected-(TO_FRAMEBUFFER1-Pad9)" "unconnected-(TO_FRAMEBUFFER1-Pad11)" "unconnected-(TO_FRAMEBUFFER1-Pad14)" "unconnected-(TO_FRAMEBUFFER1-Pad15)"
+    "/DMA Controller/~{VWE}" "/DMA Controller/~{VOE}" "unconnected-(TO_FRAMEBUFFER1-Pad16)" "unconnected-(TO_AUDIO_PROCESSOR1-Pad8)" "/DMA Controller/VID_OUT_PAGE" "/DMA Controller/VA13" "/DMA Controller/VA12" "/DMA Controller/VA11"
+    "/DMA Controller/VA10" "/DMA Controller/VA9" "AUD_SQ2_N" "AUD_SQ2_X" "AUD_LFSR_X" "GRAM_PAGE_SEL" ~{GAMEPAD1R} ~{GAMEPAD2R}
+    "~{WAV_SEL}" "/DMA Controller/VA8" "/DMA Controller/VA7" "/DMA Controller/VA6" "/DMA Controller/VA5" "/DMA Controller/VA4" "/DMA Controller/VA3" "/DMA Controller/VA2"
+    ~{RE2} ~{CLK7} "/DMA Controller/VA1" "/DMA Controller/VA0" "Net-(PAD1REG0A-3D)" "Net-(PAD1REG0A-4D)" "Net-(PAD1REG0A-5D)" "Net-(PAD1REG0A-6D)"
+    "Net-(PAD1REG0A-7D)" "Net-(PAD1REG0A-8D)" "Net-(PAD2REG0A-3D)" "Net-(PAD2REG0A-4D)" "Net-(PAD2REG0A-5D)" "Net-(PAD2REG0A-6D)" "Net-(PAD2REG0A-7D)" "Net-(PAD2REG0A-8D)"
+    "/CPU and address decode/READY" "Net-(U1-BE)" "Net-(REG.VX0A-8Q)" "Net-(REG.VX0A-7Q)" "Net-(REG.VX0A-6Q)" "Net-(REG.VX0A-5Q)" "Net-(REG.VX0A-4Q)" "Net-(REG.VX0A-3Q)"
+    "Net-(REG.VX0A-2Q)" "Net-(REG.VX0A-1Q)" "Net-(REG.VY0A-8Q)" "Net-(REG.VY0A-7Q)" "Net-(REG.VY0A-6Q)" "Net-(REG.VY0A-5Q)" "Net-(REG.VY0A-4Q)" "Net-(REG.VY0A-3Q)"
+    "Net-(REG.VY0A-2Q)" "AUD_RESET" "~{AUD_NMI}" "AUD_SAMP_RATE_SEL" "Net-(REG.VY0A-1Q)" "/CPU and address decode/A14" "/CPU and address decode/~{RAMSEL}" "/CPU and address decode/N$39_2"
+    "/CPU and address decode/~{VIASEL}" "Net-(TRIGGER.INIT0A-Q)" "unconnected-(TRIGGER.INIT0A-~{Q}-Pad6)" "/CPU and address decode/~{SPI_CS}" "/CPU and address decode/SPI_MISO" "RAM_PG_0" "RAM_PG_1" "/CPU and address decode/SPI_MOSI"
+    "/CPU and address decode/SPI_CLK" "unconnected-(U$6A-Q3-Pad11)" "unconnected-(U$6A-RCO-Pad15)" "unconnected-(U1-VPB-Pad1)" "unconnected-(U1-PHI1-Pad3)" "unconnected-(U1-MLB-Pad5)" "unconnected-(U1-SYNC-Pad7)" "unconnected-(U1-NC-Pad35)"
+    "unconnected-(U1-PHI2-Pad39)" "Net-(U2-PA3)" "Net-(U2-PA4)" "Net-(U2-PA5)" "Net-(U2-PA6)" "Net-(U2-PB0)" "Net-(U2-PB1)" "Net-(U2-PB2)"
+    "Net-(U2-PB3)" "Net-(U2-PB4)" "Net-(U2-PB5)" "Net-(U2-PB6)" "Net-(U2-PB7)" "unconnected-(U2-CB1-Pad18)" "unconnected-(U2-CB2-Pad19)" "unconnected-(U2-CA2-Pad39)"
+    "unconnected-(U2-CA1-Pad40)" "Net-(VMUX0A-1A)" "Net-(VMUX0A-2A)" "Net-(VMUX0A-3A)" "Net-(VMUX0A-4A)" "Net-(VMUX1A-1A)" "Net-(VMUX1A-2A)" "Net-(VMUX1A-3A)"
+    "Net-(VMUX2A-1A)" "Net-(VMUX2A-2A)" "Net-(VMUX2A-3A)" "Net-(VMUX2A-4A)" "Net-(VMUX3A-1A)" "Net-(VMUX3A-2A)" "Net-(VMUX3A-3A)" "Net-(VXH0A-ENT)"
+    "unconnected-(VXH0A-RCO-Pad15)" "Net-(VYH0A-ENT)" "unconnected-(VYH0A-RCO-Pad15)" "unconnected-(U$2-NC-Pad1)" "Net-(LED1-A)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 152.4)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+  (class Power
+    VCC GND
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 254.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu In2.Cu B.Cu)
+    )
+  )
+)
