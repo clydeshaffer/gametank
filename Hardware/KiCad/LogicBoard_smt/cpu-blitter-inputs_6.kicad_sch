@@ -3492,7 +3492,7 @@
 				)
 			)
 		)
-		(property "MPN" "CD74AC163M96"
+		(property "MPN" "CD74AC161M96"
 			(at 160.02 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4531,7 +4531,7 @@
 				)
 			)
 		)
-		(property "MPN" "CD74AC163M96"
+		(property "MPN" "CD74AC161M96"
 			(at 196.85 153.67 0)
 			(hide yes)
 			(show_name no)

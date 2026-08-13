@@ -20583,16 +20583,6 @@
 	)
 	(wire
 		(pts
-			(xy 480.06 228.6) (xy 480.06 209.55)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "593bf420-fe07-4efe-a867-4af9c789acd4")
-	)
-	(wire
-		(pts
 			(xy 533.4 398.78) (xy 533.4 360.68)
 		)
 		(stroke
@@ -21410,6 +21400,16 @@
 			(type solid)
 		)
 		(uuid "6725dcaf-033d-423b-939f-2b1db8afdc73")
+	)
+	(wire
+		(pts
+			(xy 480.06 166.37) (xy 480.06 228.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "675c439f-3967-428a-aecb-b158eccf4e0c")
 	)
 	(wire
 		(pts
@@ -27861,16 +27861,6 @@
 		)
 		(uuid "e5325255-2887-4c29-8f15-9a3b10aadd42")
 	)
-	(wire
-		(pts
-			(xy 480.06 181.61) (xy 480.06 166.37)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e536e3f4-da74-4e92-89c2-1e32e9bd2ca0")
-	)
 	(polyline
 		(pts
 			(xy 1173.48 553.72) (xy 1173.48 568.96)
@@ -33726,7 +33716,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74HC573APWR"
+		(property "MPN" "SN74AHC573PWR"
 			(at -450.85 586.74 0)
 			(hide yes)
 			(show_name no)
@@ -34200,7 +34190,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74HC573APWR"
+		(property "MPN" "SN74AHC573PWR"
 			(at -436.88 586.74 0)
 			(hide yes)
 			(show_name no)
@@ -34671,7 +34661,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74HC573APWR"
+		(property "MPN" "SN74AHC573PWR"
 			(at 449.58 431.8 0)
 			(hide yes)
 			(show_name no)
@@ -36269,7 +36259,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74HC573APWR"
+		(property "MPN" "SN74AHC573PWR"
 			(at -299.72 635 0)
 			(hide yes)
 			(show_name no)
@@ -38971,7 +38961,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74HC573APWR"
+		(property "MPN" "SN74AHC573PWR"
 			(at -382.27 635 0)
 			(hide yes)
 			(show_name no)
@@ -39217,7 +39207,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74HC573APWR"
+		(property "MPN" "SN74AHC573PWR"
 			(at 411.48 881.38 0)
 			(hide yes)
 			(show_name no)
@@ -40470,7 +40460,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74HC573APWR"
+		(property "MPN" "SN74AHC573PWR"
 			(at 449.58 1117.6 0)
 			(hide yes)
 			(show_name no)
@@ -41098,7 +41088,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74HC573APWR"
+		(property "MPN" "SN74AHC573PWR"
 			(at 449.58 355.6 0)
 			(hide yes)
 			(show_name no)
@@ -42278,7 +42268,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74HC573APWR"
+		(property "MPN" "SN74AHC573PWR"
 			(at -422.91 586.74 0)
 			(hide yes)
 			(show_name no)
@@ -42572,7 +42562,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74HC573APWR"
+		(property "MPN" "SN74AHC573PWR"
 			(at 408.94 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -43122,7 +43112,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74HC573APWR"
+		(property "MPN" "SN74AHC573PWR"
 			(at 449.58 660.4 0)
 			(hide yes)
 			(show_name no)
@@ -46810,7 +46800,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74HC573APWR"
+		(property "MPN" "SN74AHC573PWR"
 			(at -280.67 635 0)
 			(hide yes)
 			(show_name no)
@@ -47306,7 +47296,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74HC573APWR"
+		(property "MPN" "SN74AHC573PWR"
 			(at -267.97 635 0)
 			(hide yes)
 			(show_name no)
@@ -47787,7 +47777,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74HC573APWR"
+		(property "MPN" "SN74AHC573PWR"
 			(at 416.56 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -50632,132 +50622,6 @@
 				(path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa/1a1afecc-27a9-4052-a1f1-ea8e6f71b57b"
 					(reference "TRIGGER.INIT0")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xGxx:74LVC2G07")
-		(at 480.06 194.31 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc931a50-694c-4005-97da-78534a02dbd3")
-		(property "Reference" "U7"
-			(at 487.68 194.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "74LVC2G07"
-			(at 487.68 196.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 480.06 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 480.06 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 480.06 194.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "74LVC2G07GW,125"
-			(at 480.06 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alt MPN" ""
-			(at 480.06 194.31 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alt MPN Confirmed?" ""
-			(at 480.06 194.31 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "13244816-31f3-48a4-9c23-74d48c84ed10")
-		)
-		(pin "6"
-			(uuid "3b39690d-480b-44fe-8b3c-b44abff38d0c")
-		)
-		(pin "3"
-			(uuid "959c23eb-8519-4e18-bd3c-b1cae46dcaf2")
-		)
-		(pin "4"
-			(uuid "f789b60d-619e-443c-8723-f2bada4dcd46")
-		)
-		(pin "2"
-			(uuid "2f13b21d-68ee-4ba0-be91-948132660900")
-		)
-		(pin "5"
-			(uuid "87f8f614-7629-4951-a1ee-f164433350d7")
-		)
-		(instances
-			(project "LogicBoard_smt"
-				(path "/28034957-81b4-48a5-b869-6f4cb8f0c2fa/1a1afecc-27a9-4052-a1f1-ea8e6f71b57b"
-					(reference "U7")
-					(unit 1)
 				)
 			)
 		)
@@ -54069,7 +53933,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74HC573APWR"
+		(property "MPN" "SN74AHC573PWR"
 			(at 411.48 924.56 0)
 			(hide yes)
 			(show_name no)
@@ -54238,7 +54102,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74HC573APWR"
+		(property "MPN" "SN74AHC573PWR"
 			(at -459.74 586.74 0)
 			(hide yes)
 			(show_name no)
@@ -55306,7 +55170,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74HC573APWR"
+		(property "MPN" "SN74AHC573PWR"
 			(at -311.15 635 0)
 			(hide yes)
 			(show_name no)
@@ -57768,7 +57632,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74HC573APWR"
+		(property "MPN" "SN74AHC573PWR"
 			(at 449.58 736.6 0)
 			(hide yes)
 			(show_name no)

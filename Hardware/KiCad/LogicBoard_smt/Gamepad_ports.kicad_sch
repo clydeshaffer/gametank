@@ -5202,7 +5202,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74HC573APWR"
+		(property "MPN" "SN74AHC573PWR"
 			(at 137.16 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -5447,7 +5447,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74HC573APWR"
+		(property "MPN" "SN74AHC573PWR"
 			(at 59.69 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -5804,7 +5804,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74HC573APWR"
+		(property "MPN" "SN74AHC573PWR"
 			(at 137.16 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5972,7 +5972,7 @@
 				)
 			)
 		)
-		(property "MPN" "SN74HC573APWR"
+		(property "MPN" "SN74AHC573PWR"
 			(at 43.18 181.61 0)
 			(hide yes)
 			(show_name no)
