@@ -2818,40 +2818,49 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Analog_Switch:ADG417BN"
 			(pin_names
-				(offset 1.016)
-				(hide yes)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
-			(in_bom no)
+			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 6.35 0)
+			(property "Reference" "U"
+				(at -3.175 5.334 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
+			(property "Value" "ADG417BN"
+				(at -3.175 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG417.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2862,7 +2871,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Description" "Single SPST Monolithic LC²MOS Analog Switch, normally OFF, 25Ohm Ron, DIP-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2873,7 +2882,7 @@
 					)
 				)
 			)
-			(property "Description" "Mounting Hole with connection"
+			(property "ki_keywords" "CMOS Analog Switch"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2884,7 +2893,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "mounting hole"
+			(property "ki_fp_filters" "DIP*W7.62mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2895,35 +2904,164 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "ADG417BN_1_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.794 0)
 					)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
 					(stroke
-						(width 1.27)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
+				(rectangle
+					(start -3.81 2.54)
+					(end 3.81 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.762) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.254) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "1"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2936,6 +3074,148 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ADG417BN_2_0"
+				(pin no_connect line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 12.7 270)
+					(length 2.54)
+					(name "VL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -12.7 90)
+					(length 2.54)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ADG417BN_2_1"
+				(rectangle
+					(start -3.81 10.16)
+					(end 6.35 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -3167,6 +3447,12 @@
 		)
 	)
 	(junction
+		(at 207.01 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "099e6461-dba9-4a53-bacb-a427bd74901b")
+	)
+	(junction
 		(at 115.57 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3197,12 +3483,6 @@
 		(uuid "4e0c0c63-9830-4848-b1dd-3db0929ea3a8")
 	)
 	(junction
-		(at 95.25 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64ccd729-e0bd-4141-95ca-803e28d9085b")
-	)
-	(junction
 		(at 162.56 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3213,12 +3493,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8c115fd-b082-4e4e-861a-1301c0ca03e1")
-	)
-	(junction
-		(at 138.43 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6376fd4-2bae-4165-ab14-585786a4d3c7")
 	)
 	(junction
 		(at 68.58 58.42)
@@ -3248,17 +3522,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 58.42) (xy 138.43 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17be316f-5125-494e-bafb-c00eceb7cb01")
-	)
-	(wire
-		(pts
-			(xy 95.25 58.42) (xy 115.57 58.42)
+			(xy 68.58 58.42) (xy 115.57 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3278,17 +3542,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 58.42) (xy 95.25 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34005361-3192-408e-a247-797b6c09086b")
-	)
-	(wire
-		(pts
-			(xy 138.43 58.42) (xy 162.56 58.42)
+			(xy 115.57 58.42) (xy 162.56 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3308,7 +3562,17 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 33.02) (xy 176.53 33.02)
+			(xy 207.01 58.42) (xy 209.55 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "608388e0-fa99-4f8d-b157-5d6874cbe9a7")
+	)
+	(wire
+		(pts
+			(xy 162.56 33.02) (xy 207.01 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3328,13 +3592,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 58.42) (xy 176.53 58.42)
+			(xy 162.56 58.42) (xy 207.01 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2b2d889-07de-4327-ab6e-f65a7ed2ebc9")
+		(uuid "ca4188ae-9a32-4ee3-a8f0-189bf94e5b7a")
 	)
 	(wire
 		(pts
@@ -3345,6 +3609,117 @@
 			(type default)
 		)
 		(uuid "dcccdfe6-6af7-4b54-bc70-c9196ef7dd6a")
+	)
+	(symbol
+		(lib_id "Analog_Switch:ADG417BN")
+		(at 207.01 45.72 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15357c3d-27b8-4d0c-8432-aac0261d465d")
+		(property "Reference" "U8"
+			(at 214.63 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TS12A4515P"
+			(at 214.63 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 207.01 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG417.pdf"
+			(at 207.01 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single SPST Monolithic LC²MOS Analog Switch, normally OFF, 25Ohm Ron, DIP-8"
+			(at 207.01 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TS12A4515P"
+			(at 207.01 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "f90ea8f0-4d1b-4d5c-87e0-b6a4ed82b234")
+		)
+		(pin "8"
+			(uuid "c0c130c6-2708-4523-b54c-59da66181a12")
+		)
+		(pin "1"
+			(uuid "062f4fce-5aff-4ca2-9457-09defc65e6b0")
+		)
+		(pin "6"
+			(uuid "91b2ad9c-3dab-46b4-971f-c92c204859aa")
+		)
+		(pin "2"
+			(uuid "68010486-a497-44c8-b20e-93366661945d")
+		)
+		(pin "3"
+			(uuid "42fbf44a-79ed-49de-a57b-1471fade5059")
+		)
+		(pin "5"
+			(uuid "542d0772-7a5f-4f59-b975-3bcf95e0055e")
+		)
+		(pin "4"
+			(uuid "e17dd392-6824-4372-ba2d-d88fbd54988f")
+		)
+		(instances
+			(project "ps2mkb"
+				(path "/92be1bbe-e560-4fbc-acee-8a9ca90f688b"
+					(reference "U8")
+					(unit 2)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "74xx:74LS74")
@@ -3471,96 +3846,6 @@
 				(path "/92be1bbe-e560-4fbc-acee-8a9ca90f688b"
 					(reference "U9")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 95.25 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44731746-ca90-4f09-9e96-fdfefaeade54")
-		(property "Reference" "H1"
-			(at 97.79 53.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 97.79 55.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 95.25 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 95.25 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "DNI"
-			(at 95.25 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "19d14073-3fb8-4c5e-b5c5-327a365ad5ec")
-		)
-		(instances
-			(project "ps2mkb"
-				(path "/92be1bbe-e560-4fbc-acee-8a9ca90f688b"
-					(reference "H1")
-					(unit 1)
 				)
 			)
 		)
@@ -4031,96 +4316,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 176.53 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba08bf27-ea72-489f-9e63-e4dde1e506d5")
-		(property "Reference" "H3"
-			(at 179.07 53.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 179.07 55.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 176.53 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 176.53 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "DNI"
-			(at 176.53 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c985574d-dbcc-47fa-a2f4-1ed80820a75c")
-		)
-		(instances
-			(project "ps2mkb"
-				(path "/92be1bbe-e560-4fbc-acee-8a9ca90f688b"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "switched-lm2575-eagle-import:GND")
 		(at 48.26 60.96 0)
 		(unit 1)
@@ -4193,96 +4388,6 @@
 			(project "ps2mkb"
 				(path "/92be1bbe-e560-4fbc-acee-8a9ca90f688b"
 					(reference "#GND07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 138.43 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb63300a-70d3-413b-95ed-669578c797c4")
-		(property "Reference" "H2"
-			(at 140.97 53.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 140.97 55.8799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 138.43 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 138.43 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "DNI"
-			(at 138.43 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "19d14073-3fb8-4c5e-b5c5-327a365ad5ed")
-		)
-		(instances
-			(project "ps2mkb"
-				(path "/92be1bbe-e560-4fbc-acee-8a9ca90f688b"
-					(reference "H2")
 					(unit 1)
 				)
 			)
