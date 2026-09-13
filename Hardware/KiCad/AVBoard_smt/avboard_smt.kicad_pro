@@ -585,7 +585,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "..\\..\\..\\Docs\\BOMs\\avboard_smt.csv",
+    "bom_export_filename": "..\\..\\..\\..\\..\\Docs\\BOMs\\flasher2.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
