@@ -12570,7 +12570,7 @@
 		)
 		(uuid "40645c95-0c6d-49a6-91e7-73486e923123")
 	)
-	(label "SysD6"
+	(label "SysD7"
 		(at 118.11 29.21 270)
 		(effects
 			(font
@@ -15917,7 +15917,7 @@
 	(symbol
 		(lib_id "signals-eagle-import:7432N")
 		(at 322.58 121.92 90)
-		(unit 3)
+		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16048,7 +16048,7 @@
 			(project "avboard_tht2"
 				(path "/ecfc5df0-38b0-48e8-a960-6f082396f7df/37ec6fca-c60e-4524-9a8e-c3db557ac388"
 					(reference "IC2_AUD0")
-					(unit 3)
+					(unit 4)
 				)
 			)
 		)
@@ -16401,7 +16401,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TLC7524CDR"
+		(property "Value" "TLC7524CN"
 			(at 396.24 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18821,7 +18821,7 @@
 	)
 	(symbol
 		(lib_id "signals-eagle-import:R-US_0207/10")
-		(at 231.14 198.12 0)
+		(at 231.14 198.12 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18831,7 +18831,7 @@
 		(dnp no)
 		(uuid "fd9ee6a1-4bcf-446e-9c20-bfbed97e8f3b")
 		(property "Reference" "R21"
-			(at 227.33 196.6214 0)
+			(at 234.95 194.818 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18842,7 +18842,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 227.33 201.422 0)
+			(at 234.95 199.6186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

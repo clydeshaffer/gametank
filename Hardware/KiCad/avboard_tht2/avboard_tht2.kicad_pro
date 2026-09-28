@@ -60,9 +60,9 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 1e-06,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
-          "min_thickness": 0.2024,
+          "min_thickness": 0.0762,
           "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.2024,
@@ -76,7 +76,56 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "annular_width|10337800|46355000|d935fe3a-0136-4f10-9046-8d599819f200|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|10337800|80645000|4aee9e2f-b1b8-49a9-b344-df8bce05dada|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|167462200|46355000|3a2d30d9-0e80-43bf-9abb-a4cfb0a2d548|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|167462200|80645000|c466e688-4542-4804-964f-111b1fe4140a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|10337800|46355000|d935fe3a-0136-4f10-9046-8d599819f200|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|10337800|80645000|4aee9e2f-b1b8-49a9-b344-df8bce05dada|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|167462200|46355000|3a2d30d9-0e80-43bf-9abb-a4cfb0a2d548|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|167462200|80645000|c466e688-4542-4804-964f-111b1fe4140a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|140231100|2852|1858f9ae-b89b-4d18-8100-748938af1427|2310f14b-3341-4fc5-8b2f-4b88b358786c",
+          ""
+        ],
+        [
+          "silk_edge_clearance|148531100|3021|1858f9ae-b89b-4d18-8100-748938af1427|22b28fc7-4245-49c6-b427-4b428b55f0fd",
+          ""
+        ],
+        [
+          "silk_edge_clearance|158011100|3214|1858f9ae-b89b-4d18-8100-748938af1427|e6e946b1-cc4c-43ee-a90a-bcb5bdb0eb7e",
+          ""
+        ],
+        [
+          "silk_edge_clearance|166311100|3383|1858f9ae-b89b-4d18-8100-748938af1427|9fb2b42d-0699-4713-9dc9-e3262d93a8aa",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -124,7 +173,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -523,7 +572,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1524,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -531,9 +580,8 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.1524,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -542,7 +590,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -585,7 +633,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "..\\..\\..\\Docs\\BOMs\\avboard_smt.csv",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -759,7 +807,7 @@
         "uuid": "ecfc5df0-38b0-48e8-a960-6f082396f7df"
       }
     ],
-    "used_designators": "FID1-4,PHASE_GEN1,COL_CTR1,#GND35,#GND51,#GND56-59,#GND62-63,#GND101-102,H1-8,#P+50,#P+101-102,CHROMADAC1,HBLANK_LATCH1,LUMADAC1,PHASE_SEL1,ROW_CTR1,SCAN_DELAY1,VBLANK_LATCH1,X_SCALER1,J5-7",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
