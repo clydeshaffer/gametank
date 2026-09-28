@@ -16401,7 +16401,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "TLC7524CDR"
+		(property "Value" "TLC7524CN"
 			(at 396.24 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
