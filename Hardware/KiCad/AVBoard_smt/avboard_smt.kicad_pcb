@@ -3637,7 +3637,7 @@
 		(descr "62684-502100ALF-1")
 		(tags "Connector")
 		(property "Reference" "J3"
-			(at 0 -0.3 270)
+			(at 0 -0.3 90)
 			(layer "F.SilkS")
 			(uuid "b70afafb-6f3d-4f5b-8fc4-544c4dab71df")
 			(effects
@@ -3648,7 +3648,7 @@
 			)
 		)
 		(property "Value" "62684-502100ALF"
-			(at 0 -0.3 270)
+			(at 0 -0.3 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7d1c6320-6906-43b4-98ea-d881518aa8e7")
@@ -3660,7 +3660,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/62684.pdf"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e908f361-4972-4480-8362-9b3d3763b0ca")
@@ -3672,7 +3672,7 @@
 			)
 		)
 		(property "Description" "FFC & FPC Connectors 0.50mm Flex Connector, OPU Series, 50 Position , Side Entry, Upper Side Contact, Surface Mount, ZIF"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dd7fd897-179d-4ebe-bef0-9a11c19dc5fa")
@@ -3774,7 +3774,7 @@
 				)
 			)
 		)
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -14.65 2.65)
@@ -3990,7 +3990,7 @@
 			(uuid "5fe882db-1632-4cb8-856b-96a9e4db9571")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -0.3 270)
+			(at 0 -0.3 90)
 			(layer "F.Fab")
 			(uuid "53755a17-8c64-49c7-8ffd-cfb221d80db9")
 			(effects
@@ -36299,7 +36299,7 @@
 				)
 			)
 		)
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -12.25 -3.8)

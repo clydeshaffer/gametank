@@ -12430,6 +12430,16 @@
 		)
 		(uuid "0f195cf8-40a5-443c-a4d1-6cd6d6f356bc")
 	)
+	(label "SysD7"
+		(at 118.11 29.21 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1203c837-8881-4065-a785-881bb2b212dc")
+	)
 	(label "AA5"
 		(at 182.88 144.78 0)
 		(effects
@@ -12569,16 +12579,6 @@
 			(justify right bottom)
 		)
 		(uuid "40645c95-0c6d-49a6-91e7-73486e923123")
-	)
-	(label "SysD6"
-		(at 118.11 29.21 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "415260e9-aa09-489a-a25e-8c46a41e2a35")
 	)
 	(label "CLK7_AUD"
 		(at 46.99 29.21 270)

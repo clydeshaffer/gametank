@@ -8436,6 +8436,16 @@
 		)
 		(uuid "686684ab-af1d-43d2-9197-1de0f9e5301f")
 	)
+	(text "Open collector NANDs"
+		(exclude_from_sim no)
+		(at 376.936 113.792 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "836a0253-a9bb-4c3c-9a90-492c19f4e1ac")
+	)
 	(text "data"
 		(exclude_from_sim no)
 		(at 407.67 118.872 0)
