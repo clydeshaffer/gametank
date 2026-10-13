@@ -570,7 +570,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../Production/Drawings/",
       "pos_files": "",
       "specctra_dsn": "avboard_smt.dsn",
       "step": "avboard_smt.step",

@@ -119,8 +119,8 @@
 		(capping no)
 		(filling no)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_5755f5ff)
-			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(layerselection 0x00000000_00000000_55555555_55555520)
+			(plot_on_all_layers_selection 0x00000000_00000000_0000000a_220000a0)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
@@ -145,14 +145,14 @@
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
-			(sketchdnponfab yes)
-			(crossoutdnponfab yes)
+			(sketchdnponfab no)
+			(crossoutdnponfab no)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 4)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../../../Production/Drawings/")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
@@ -2438,7 +2438,7 @@
 			(uuid "8c28fd66-2e67-44e3-a420-0e83c0b9a07b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0.4536 0 270)
 			(layer "F.Fab")
 			(uuid "63817586-36b7-4c3c-bd63-dcab185bac14")
 			(effects
@@ -6232,7 +6232,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.16 180)
+			(at -3.0011 0.7564 180)
 			(layer "F.Fab")
 			(uuid "ed8e041d-08ac-4045-814f-7e2de49026bf")
 			(effects
@@ -7279,7 +7279,7 @@
 			(uuid "1a728273-963f-477e-820b-3c8cc134e2ee")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at -0.3464 0 270)
 			(layer "F.Fab")
 			(uuid "5314ecaf-be64-4716-a04b-48ffe9134e72")
 			(effects

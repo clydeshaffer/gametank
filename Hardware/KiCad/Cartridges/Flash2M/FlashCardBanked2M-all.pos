@@ -1,0 +1,15 @@
+### Footprint positions - created on 2026-08-23T13:22:52 ###
+### Printed by KiCad version 10.0.4
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val               Package                  PosX       PosY       Rot  Side
+C1        C-USC0805         C0805                166.5859  -111.1758    0.0000  top
+C2        C-USC0805         C0805                149.9489   -87.0458    0.0000  top
+C3        C-USC0805         C0805                156.7500   -94.7500    0.0000  top
+C4        C-USC0805         C0805                132.1689  -116.2558  -90.0000  top
+IC1       AS29CF160B-55TIN  SOP50P2000X120-48N   153.7589  -111.1758    0.0000  top
+IC2       74595D            SO16                 134.7089  -108.6358   90.0000  top
+IC3       74244DW           SO20W                143.5989   -94.6658  -90.0000  top
+IC4       74HC1G04GW        TSSOP5               156.2500   -92.1258  180.0000  top
+U$1       GT_CART3GT_CARD   CARD36               124.5489  -128.9558    0.0000  top
+## End
