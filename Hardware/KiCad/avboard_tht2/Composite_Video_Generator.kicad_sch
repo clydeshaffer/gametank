@@ -12640,12 +12640,6 @@
 		(uuid "591f3929-a69b-440a-9c40-f178be9c0736")
 	)
 	(junction
-		(at 721.36 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a24952c-d75c-4fef-bb13-5cbc8eeb5f3e")
-	)
-	(junction
 		(at 619.76 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12680,6 +12674,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6908610b-1268-4da6-be56-41a8c5e85f8d")
+	)
+	(junction
+		(at 617.22 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69528144-b781-4272-98c1-61b22b359778")
 	)
 	(junction
 		(at 71.12 294.64)
@@ -12910,6 +12910,12 @@
 		(uuid "d9928eda-6f9a-4f5c-8d07-931085cb870d")
 	)
 	(junction
+		(at 721.36 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9b47b9c-1c52-4ace-bb56-441a4809cec2")
+	)
+	(junction
 		(at 685.8 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12944,12 +12950,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7f09cbd-8e6e-4abe-8609-37056dc5fc73")
-	)
-	(junction
-		(at 617.22 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea0657df-7774-426f-b86c-bf716a50fc6d")
 	)
 	(junction
 		(at 552.45 337.82)
@@ -14207,7 +14207,7 @@
 	)
 	(wire
 		(pts
-			(xy 721.36 63.5) (xy 721.36 66.04)
+			(xy 721.36 60.96) (xy 721.36 63.5)
 		)
 		(stroke
 			(width 0.1524)
@@ -15187,6 +15187,16 @@
 	)
 	(wire
 		(pts
+			(xy 721.36 63.5) (xy 721.36 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6f22ddd1-4641-4a16-b992-506bd010359f")
+	)
+	(wire
+		(pts
 			(xy 640.08 309.88) (xy 652.78 309.88)
 		)
 		(stroke
@@ -15614,16 +15624,6 @@
 			(type solid)
 		)
 		(uuid "884b0fbd-abb5-4f69-a30b-3410a78b5382")
-	)
-	(wire
-		(pts
-			(xy 721.36 63.5) (xy 721.36 60.96)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8875d024-f901-4b17-9397-2d9b7b66df33")
 	)
 	(wire
 		(pts
@@ -23132,7 +23132,7 @@
 	)
 	(symbol
 		(lib_id "signals-eagle-import:R-US_0207/2V")
-		(at 723.9 71.12 90)
+		(at 716.28 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23142,7 +23142,7 @@
 		(dnp no)
 		(uuid "126fa30d-91e2-495d-9635-2a6980a685ac")
 		(property "Reference" "R12"
-			(at 725.17 69.6214 90)
+			(at 716.28 59.944 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23153,7 +23153,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 727.202 74.93 0)
+			(at 712.47 66.802 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23165,7 +23165,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 723.9 71.12 0)
+			(at 716.28 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23176,7 +23176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 723.9 71.12 0)
+			(at 716.28 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23187,7 +23187,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 723.9 71.12 0)
+			(at 716.28 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23197,7 +23197,7 @@
 			)
 		)
 		(property "MPN" "tbd"
-			(at 723.9 71.12 0)
+			(at 716.28 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23208,7 +23208,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 723.9 71.12 90)
+			(at 716.28 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23219,7 +23219,7 @@
 			)
 		)
 		(property "THT" "yes"
-			(at 723.9 71.12 90)
+			(at 716.28 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25876,7 +25876,7 @@
 	)
 	(symbol
 		(lib_id "signals-eagle-import:R-US_0207/2V")
-		(at 716.28 78.74 180)
+		(at 716.28 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25886,7 +25886,7 @@
 		(dnp no)
 		(uuid "32e0a559-5f29-47e4-810d-a1d2092ee287")
 		(property "Reference" "R10"
-			(at 720.09 80.2386 0)
+			(at 712.47 77.2414 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25897,7 +25897,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 720.09 75.438 0)
+			(at 712.47 82.042 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31965,7 +31965,7 @@
 	)
 	(symbol
 		(lib_id "signals-eagle-import:R-US_0204/7")
-		(at 723.9 88.9 90)
+		(at 718.82 88.9 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31975,7 +31975,7 @@
 		(dnp no)
 		(uuid "8fe567ed-4f7f-41b0-b401-5ade8c817300")
 		(property "Reference" "R18"
-			(at 730.0214 92.71 0)
+			(at 712.6986 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31986,7 +31986,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 727.202 92.71 0)
+			(at 715.518 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31997,7 +31997,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 723.9 88.9 0)
+			(at 718.82 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32008,7 +32008,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 723.9 88.9 0)
+			(at 718.82 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32019,7 +32019,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 723.9 88.9 0)
+			(at 718.82 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32029,7 +32029,7 @@
 			)
 		)
 		(property "MPN" "tbd"
-			(at 723.9 88.9 0)
+			(at 718.82 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32040,7 +32040,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 723.9 88.9 0)
+			(at 718.82 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32051,7 +32051,7 @@
 			)
 		)
 		(property "THT" "yes"
-			(at 723.9 88.9 0)
+			(at 718.82 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33176,7 +33176,7 @@
 	)
 	(symbol
 		(lib_id "signals-eagle-import:R-US_0204/7")
-		(at 731.52 114.3 90)
+		(at 731.52 114.3 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33186,7 +33186,7 @@
 		(dnp no)
 		(uuid "9ff0bfa2-49a9-4321-a0c4-d399a1ab6bae")
 		(property "Reference" "R16"
-			(at 730.0214 118.11 0)
+			(at 728.218 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33197,7 +33197,7 @@
 			)
 		)
 		(property "Value" "150"
-			(at 734.822 118.11 0)
+			(at 733.0186 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33804,7 +33804,7 @@
 	)
 	(symbol
 		(lib_id "signals-eagle-import:R-US_0207/2V")
-		(at 716.28 63.5 180)
+		(at 723.9 71.12 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33814,7 +33814,7 @@
 		(dnp no)
 		(uuid "ac5842dd-ae9b-48b7-8789-c8a0c34d191c")
 		(property "Reference" "R9"
-			(at 720.09 64.9986 0)
+			(at 722.4014 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33825,7 +33825,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 720.09 60.198 0)
+			(at 727.202 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33837,7 +33837,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 716.28 63.5 0)
+			(at 723.9 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33848,7 +33848,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 716.28 63.5 0)
+			(at 723.9 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33859,7 +33859,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 716.28 63.5 0)
+			(at 723.9 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33869,7 +33869,7 @@
 			)
 		)
 		(property "MPN" "tbd"
-			(at 716.28 63.5 0)
+			(at 723.9 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33880,7 +33880,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 716.28 63.5 0)
+			(at 723.9 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33891,7 +33891,7 @@
 			)
 		)
 		(property "THT" "yes"
-			(at 716.28 63.5 0)
+			(at 723.9 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35285,7 +35285,7 @@
 	)
 	(symbol
 		(lib_id "signals-eagle-import:R-US_0204/7")
-		(at 718.82 88.9 90)
+		(at 723.9 88.9 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35295,7 +35295,7 @@
 		(dnp no)
 		(uuid "bb106cc5-9cee-4056-827c-9ce1f25c4dd1")
 		(property "Reference" "R17"
-			(at 717.3214 92.71 0)
+			(at 725.3986 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35306,7 +35306,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 714.502 92.71 0)
+			(at 728.218 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35317,7 +35317,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 718.82 88.9 0)
+			(at 723.9 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35328,7 +35328,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 718.82 88.9 0)
+			(at 723.9 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35339,7 +35339,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 718.82 88.9 0)
+			(at 723.9 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35349,7 +35349,7 @@
 			)
 		)
 		(property "MPN" "tbd"
-			(at 718.82 88.9 0)
+			(at 723.9 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35360,7 +35360,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 718.82 88.9 0)
+			(at 723.9 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35371,7 +35371,7 @@
 			)
 		)
 		(property "THT" "yes"
-			(at 718.82 88.9 0)
+			(at 723.9 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36688,7 +36688,7 @@
 	)
 	(symbol
 		(lib_id "signals-eagle-import:R-US_0204/7")
-		(at 836.93 104.14 180)
+		(at 836.93 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36698,7 +36698,7 @@
 		(dnp no)
 		(uuid "dcd103a4-b780-4629-8314-00ca09f8c4fa")
 		(property "Reference" "R19"
-			(at 835.66 100.5586 0)
+			(at 832.866 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36709,7 +36709,7 @@
 			)
 		)
 		(property "Value" "75"
-			(at 840.74 100.838 0)
+			(at 838.454 102.616 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38372,7 +38372,7 @@
 	)
 	(symbol
 		(lib_id "signals-eagle-import:R-US_0207/2V")
-		(at 612.14 104.14 0)
+		(at 612.14 104.14 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38382,7 +38382,7 @@
 		(dnp no)
 		(uuid "f4035d96-37c8-4d04-9b8e-308e08d1dcbf")
 		(property "Reference" "R4"
-			(at 608.33 102.6414 0)
+			(at 610.87 100.838 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38393,7 +38393,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 608.33 107.442 0)
+			(at 615.95 100.838 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
